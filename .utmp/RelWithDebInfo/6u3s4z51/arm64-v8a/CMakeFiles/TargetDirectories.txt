@@ -1,0 +1,5 @@
+C:/GitHub/UnityArchive/.utmp/RelWithDebInfo/6u3s4z51/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/GitHub/UnityArchive/.utmp/RelWithDebInfo/6u3s4z51/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/GitHub/UnityArchive/.utmp/RelWithDebInfo/6u3s4z51/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/GitHub/UnityArchive/.utmp/RelWithDebInfo/6u3s4z51/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/GitHub/UnityArchive/.utmp/RelWithDebInfo/6u3s4z51/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

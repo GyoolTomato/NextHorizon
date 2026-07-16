@@ -1,0 +1,77 @@
+[{"key":9020001,"korean":"[공지] 알려진 문제 안내","english":"[Notice] Known Issues","japanese":"【お知らせ】確認中の不具合について"},{"key":9020002,"korean":"안녕하세요. 용사님.
+
+현재 아래 현상에 대해 확인 중입니다.
+
+■ 확인 중인 현상
+
+일부 기기에서 전투 종료 후 간헐적으로 화면이 멈추는 현상
+길드 채팅 알림이 중복 표시되는 현상
+특정 스테이지에서 배경음이 재생되지 않는 현상
+
+현재 원인 파악 및 수정 작업을 진행하고 있으며,
+문제가 해결되는 즉시 추가 안내드리겠습니다.
+
+이용에 불편을 드려 죄송합니다.","english":"Hello, Heroes.
+
+We are currently investigating the following issues.
+
+■ Known Issues
+
+Occasional screen freeze after battle completion on some devices
+Duplicate guild chat notifications
+Missing background music on certain stages
+
+We are working to resolve these issues and will provide updates as soon as possible.
+
+We apologize for the inconvenience.","japanese":"勇者の皆さま、こんにちは。
+
+現在、以下の不具合を確認しております。
+
+■ 確認中の不具合
+
+一部端末で戦闘終了後に画面が停止する場合がある
+ギルドチャット通知が重複表示される
+特定ステージでBGMが再生されない
+
+現在原因を調査しており、
+修正完了後に改めてご案内いたします。
+
+ご不便をおかけし申し訳ございません。"},{"key":9020003,"korean":"[공지] 일부 콘텐츠 이용 관련 안내","english":"[Notice] Information Regarding Content Usage","japanese":"【お知らせ】一部コンテンツ利用に関するご案内"},{"key":9020004,"korean":"안녕하세요. 용사님.
+
+최근 일부 콘텐츠 이용 과정에서 다양한 의견이 확인되고 있어 관련 내용을 검토하고 있습니다.
+
+■ 참고 사항
+
+특정 상황에서 의도된 흐름과 유사한 경험이 발생할 수 있습니다.
+일부 환경에서는 일반적인 범위 내의 차이가 확인될 수 있습니다.
+콘텐츠 이용 시점에 따라 체감되는 결과가 다르게 나타날 수 있습니다.
+현재 제공 중인 요소들은 정상 범위 내에서 동작하고 있습니다.
+
+보다 안정적인 서비스 제공을 위해 지속적으로 확인을 진행하고 있으며,
+필요 시 추가 안내를 통해 상세 내용을 전달드릴 예정입니다.
+
+감사합니다.","english":"Hello, Heroes.
+
+We are currently reviewing various feedback related to the use of certain content.
+
+■ Notes
+
+Under specific circumstances, players may experience behavior similar to the intended flow.
+Minor differences may be observed depending on the environment.
+Results may feel different depending on when the content is accessed.
+All currently available features are operating within normal parameters.
+
+We will continue our review and provide additional information if necessary.","japanese":"勇者の皆さま、こんにちは。
+
+現在、一部コンテンツの利用に関してさまざまなご意見を確認しており、内容の確認を行っております。
+
+■ ご案内
+
+特定の状況において、想定された流れに近い体験が発生する場合があります。
+ご利用環境によって一般的な範囲内の差異が確認される場合があります。
+コンテンツ利用のタイミングによって体感が異なる場合があります。
+現在提供中の要素は正常範囲内で動作しております。
+
+今後も継続して確認を行い、必要に応じて追加のご案内をいたします。
+
+よろしくお願いいたします。"}]

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "693264845451",
+    "project_id": "nexthorizon-65eae",
+    "storage_bucket": "nexthorizon-65eae.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693264845451:android:0f299403e5517160b3228e",
+        "android_client_info": {
+          "package_name": "com.gyooltomato.nexthorizon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbybNlK0keLlbugPrwdO7ilYh4v96HooI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

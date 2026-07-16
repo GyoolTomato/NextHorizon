@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: UI
+  m_GUID: fd73bd029e621564281e84bcc71f77f1
+  m_SerializeEntries:
+  - m_GUID: 1bdeced24ce21c44597f02b784e789a1
+    m_Address: Panel_CharacterInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1edd17abe092189468180203a8996a72
+    m_Address: Panel_Missions
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b75a9019b3c8de4baafba708e9e4f09
+    m_Address: Panel_Gacha
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61bd91827e23965459e6d63180837507
+    m_Address: Panel_PopUpInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62dd35eb9f74740769eb59a3f8ae45a4
+    m_Address: Panel_Main
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 892bbe96e29673b4fab495f278e31560
+    m_Address: Panel_PlayerInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c7b9ecaf3556bb4c9cfba0c1c916e59
+    m_Address: Panel_Notice
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 932c78842813aad4ea3679382e0a963f
+    m_Address: Panel_Shop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc1bae9f74eb64ee692672482b6832bd
+    m_Address: Panel_Characters
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c27d6d6cf648ee14ebd04e929a998b87
+    m_Address: Panel_LobbyCharacter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c94498272f019d146a73fee9a17db185
+    m_Address: Panel_Mail
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6fcd3e211bd5c64fbf07b91ee8d1e2f
+    m_Address: Panel_Formation
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4c94cea6f8231340a3615b7c60479b2
+    m_Address: Panel_Works
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 107a2c70c8682da4ab40a3c5998ef713, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4356abe09870ff64cbbac34acd3cc986, type: 2}
+    - {fileID: 11400000, guid: f7f3da2d3886f2444b6fcf35be8a7d2d, type: 2}

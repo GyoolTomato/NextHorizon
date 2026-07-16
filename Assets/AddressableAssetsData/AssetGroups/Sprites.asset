@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprites
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Sprites
+  m_GUID: feade279a66e0c542bd29582f138b6fa
+  m_SerializeEntries:
+  - m_GUID: a8c01a1c68b25e744beca67fe0bfb8f3
+    m_Address: Assets/Sprites
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - Sprites
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 107a2c70c8682da4ab40a3c5998ef713, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5e7b145213c3a53499d023b02150241e, type: 2}
+    - {fileID: 11400000, guid: ef20fd242be45804eb513c297d4e1bab, type: 2}
