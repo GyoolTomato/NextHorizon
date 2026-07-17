@@ -1,5 +1,0 @@
-C:/GitHub/UnityPortfolioProject/.utmp/RelWithDebInfo/4s4d3b1a/armeabi-v7a/CMakeFiles/edit_cache.dir
-C:/GitHub/UnityPortfolioProject/.utmp/RelWithDebInfo/4s4d3b1a/armeabi-v7a/CMakeFiles/rebuild_cache.dir
-C:/GitHub/UnityPortfolioProject/.utmp/RelWithDebInfo/4s4d3b1a/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
-C:/GitHub/UnityPortfolioProject/.utmp/RelWithDebInfo/4s4d3b1a/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
-C:/GitHub/UnityPortfolioProject/.utmp/RelWithDebInfo/4s4d3b1a/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

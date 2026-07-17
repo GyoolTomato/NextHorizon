@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Tables
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: Tables
-  m_GUID: 9e080db1865face45939f039c92c1057
+  m_GUID: d0fc4b12b0c03834cb01c3abba70d8b7
   m_SerializeEntries:
-  - m_GUID: 91725a3f9788d094c91382561927d331
+  - m_GUID: 06ea7d0ce4e456a4ca6f98a67412fbea
     m_Address: Assets/Tables
     m_ReadOnly: 0
     m_SerializedLabels:
@@ -23,8 +23,8 @@ MonoBehaviour:
     - Tables
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: 107a2c70c8682da4ab40a3c5998ef713, type: 2}
+  m_Settings: {fileID: 11400000, guid: 98d89834d6d677a49bd422bce76838d9, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 521fe499a845aa749815b04e5fb3747e, type: 2}
-    - {fileID: 11400000, guid: 6233c8771a6aaaf4cac91690c61ba9da, type: 2}
+    - {fileID: 11400000, guid: a4db290542f3b20479c251655e0b1858, type: 2}
+    - {fileID: 11400000, guid: 4ca80a6bd9119fa48a56d466283af086, type: 2}

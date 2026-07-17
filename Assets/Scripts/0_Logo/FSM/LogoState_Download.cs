@@ -4,7 +4,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.AddressableAssets;
 using MEC;
-using Cysharp.Threading.Tasks;
 using System.Threading.Tasks;
 using UnityEngine.ResourceManagement.AsyncOperations;
 

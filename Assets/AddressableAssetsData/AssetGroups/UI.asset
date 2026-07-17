@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: UI
   m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
   m_GroupName: UI
-  m_GUID: fd73bd029e621564281e84bcc71f77f1
+  m_GUID: 041e4d9b2f2007a4bbc43704f90c3ebb
   m_SerializeEntries:
   - m_GUID: 1bdeced24ce21c44597f02b784e789a1
     m_Address: Panel_CharacterInfo
@@ -31,13 +31,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2b75a9019b3c8de4baafba708e9e4f09
     m_Address: Panel_Gacha
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - Download
-    - UI
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 61bd91827e23965459e6d63180837507
-    m_Address: Panel_PopUpInfo
     m_ReadOnly: 0
     m_SerializedLabels:
     - Download
@@ -107,8 +100,8 @@ MonoBehaviour:
     - UI
     FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
-  m_Settings: {fileID: 11400000, guid: 107a2c70c8682da4ab40a3c5998ef713, type: 2}
+  m_Settings: {fileID: 11400000, guid: 98d89834d6d677a49bd422bce76838d9, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 4356abe09870ff64cbbac34acd3cc986, type: 2}
-    - {fileID: 11400000, guid: f7f3da2d3886f2444b6fcf35be8a7d2d, type: 2}
+    - {fileID: 11400000, guid: 6c423c32ea7cb924aba269edc37bb175, type: 2}
+    - {fileID: 11400000, guid: d2e26af316591c34ead8a9e4b00d6e6e, type: 2}
