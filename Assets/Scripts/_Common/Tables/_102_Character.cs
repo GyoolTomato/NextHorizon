@@ -10,7 +10,7 @@ public class _102_Character
         public int key { private set; get; }
         public int name { private set; get; }
         public string model { private set; get; }
-        public int rarity { private set; get; }
+        public EGrade grade { private set; get; }
         public double hp { private set; get; }
         public double hp_level { private set; get; }
         public double atk { private set; get; }
@@ -33,12 +33,12 @@ public class _102_Character
         public int passiveSkill_1 { private set; get; }
 
         [JsonConstructor]
-        public Values(int key,int name,string model,int rarity,double hp,double hp_level,double atk,double atk_level,double def,double def_level,double avoid,double avoid_level,double focus,double focus_level,double atkspd,double atkspd_level,double speed,double crirate,double crirate_level,double cridmg,double cridmg_level,int activeSkill,int passiveSkill_0,int passiveSkill_1)
+        public Values(int key,int name,string model,EGrade grade,double hp,double hp_level,double atk,double atk_level,double def,double def_level,double avoid,double avoid_level,double focus,double focus_level,double atkspd,double atkspd_level,double speed,double crirate,double crirate_level,double cridmg,double cridmg_level,int activeSkill,int passiveSkill_0,int passiveSkill_1)
         {
             this.key = key;
             this.name = name;
             this.model = model;
-            this.rarity = rarity;
+            this.grade = grade;
             this.hp = hp;
             this.hp_level = hp_level;
             this.atk = atk;

@@ -364,6 +364,30 @@ public class Manager_UI : Singleton<Manager_UI>
     /// <summary>
     /// 
     /// </summary>
+    /// <param name="tableInfo"></param>
+    /// <returns></returns>
+    public string GetSkillDesc(_103_CharacterSkills.Values tableInfo)
+    {
+        //
+        var desc = GetTextSkill(tableInfo.description);
+        desc = desc.Replace("$param0$", tableInfo.parameter0.ToString());
+        desc = desc.Replace("$param1$", tableInfo.parameter1.ToString());
+        desc = desc.Replace("$param2$", tableInfo.parameter2.ToString());
+        desc = desc.Replace("$param3$", tableInfo.parameter3.ToString());
+        desc = desc.Replace("$param4$", tableInfo.parameter4.ToString());
+        desc = desc.Replace("$param5$", tableInfo.parameter5.ToString());
+        desc = desc.Replace("$param6$", tableInfo.parameter6.ToString());
+        desc = desc.Replace("$param7$", tableInfo.parameter7.ToString());
+        desc = desc.Replace("$param8$", tableInfo.parameter8.ToString());
+        desc = desc.Replace("$param9$", tableInfo.parameter9.ToString());
+
+        //
+        return desc;
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
     /// <param name="messageKey"></param>
     /// <param name="type"></param>
     /// <param name="onConfirm"></param>

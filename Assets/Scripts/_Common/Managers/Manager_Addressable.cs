@@ -43,9 +43,9 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         Debug.Log("Addressables Init Start");
 
 #if UNITY_ANDROID
-        var catalogHandle = Addressables.LoadContentCatalogAsync("http://gyooltomato.iptime.org:50080/addressables/NextHorizon/Android/catalog_0.1.bin");
+        var catalogHandle = Addressables.LoadContentCatalogAsync("http://gyooltomato.iptime.org:50080/addressables/NextHorizon/Android/catalog_0.1.0.bin");
 #else
-        var catalogHandle = Addressables.LoadContentCatalogAsync("http://gyooltomato.iptime.org:50080/addressables/NextHorizon/PC/catalog_0.1.bin");
+        var catalogHandle = Addressables.LoadContentCatalogAsync("http://gyooltomato.iptime.org:50080/addressables/NextHorizon/PC/catalog_0.1.0.bin");
 #endif
         while (catalogHandle.IsDone == false)
         {

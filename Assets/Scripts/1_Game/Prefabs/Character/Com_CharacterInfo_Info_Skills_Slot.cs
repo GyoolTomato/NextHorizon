@@ -47,7 +47,7 @@ public class Com_CharacterInfo_Info_Skills_Slot : Com_Base
                 colorCode = "#4169E1";
                 break;
         }
-        var desc = header + " " + Manager_UI.Instance.GetTextSkill(_tableInfo.description);
+        var desc = header + " " + Manager_UI.Instance.GetSkillDesc(_tableInfo);
 
         var panel = Manager_UI.Instance.ShowPanel(EPanelType.PopUpInfo) as Panel_PopUpInfo;
         panel.Init(transform.position, Manager_UI.Instance.GetTextSkill(_tableInfo.title), desc, colorCode);

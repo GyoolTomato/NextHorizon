@@ -9,14 +9,16 @@ public class _101_Items
     {
         public int key { private set; get; }
         public EItemType type { private set; get; }
+        public EGrade grade { private set; get; }
         public int name { private set; get; }
         public int desc { private set; get; }
 
         [JsonConstructor]
-        public Values(int key,EItemType type,int name,int desc)
+        public Values(int key,EItemType type,EGrade grade,int name,int desc)
         {
             this.key = key;
             this.type = type;
+            this.grade = grade;
             this.name = name;
             this.desc = desc;
         }

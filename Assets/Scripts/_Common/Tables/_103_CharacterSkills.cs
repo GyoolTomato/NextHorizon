@@ -21,10 +21,9 @@ public class _103_CharacterSkills
         public double parameter7 { private set; get; }
         public double parameter8 { private set; get; }
         public double parameter9 { private set; get; }
-        public double parameter10 { private set; get; }
 
         [JsonConstructor]
-        public Values(int key,int title,int description,ESkillType type,double parameter0,double parameter1,double parameter2,double parameter3,double parameter4,double parameter5,double parameter6,double parameter7,double parameter8,double parameter9,double parameter10)
+        public Values(int key,int title,int description,ESkillType type,double parameter0,double parameter1,double parameter2,double parameter3,double parameter4,double parameter5,double parameter6,double parameter7,double parameter8,double parameter9)
         {
             this.key = key;
             this.title = title;
@@ -40,7 +39,6 @@ public class _103_CharacterSkills
             this.parameter7 = parameter7;
             this.parameter8 = parameter8;
             this.parameter9 = parameter9;
-            this.parameter10 = parameter10;
         }
     }
 
