@@ -36,6 +36,13 @@ MonoBehaviour:
     - Download
     - UI
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61bd91827e23965459e6d63180837507
+    m_Address: Panel_PopUpInfo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Download
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 62dd35eb9f74740769eb59a3f8ae45a4
     m_Address: Panel_Main
     m_ReadOnly: 0
