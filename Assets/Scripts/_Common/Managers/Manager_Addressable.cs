@@ -79,12 +79,16 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         }
         if (handleCheck.IsValid() == false)
         {
+            Addressables.Release(handleCheck);
+
             Debug.LogError("Addressables Check Catalogs Valid Failed");
 
             yield break;
         }
         if (handleCheck.Status != AsyncOperationStatus.Succeeded)
         {
+            Addressables.Release(handleCheck);
+
             Debug.LogError("Addressables Check Catalogs Failed");
 
             yield break;
@@ -100,17 +104,23 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
             }
             if (handleUpdate.IsValid() == false)
             {
+                Addressables.Release(handleCheck);
+
                 Debug.LogError("Addressables Update Catalogs Valid Failed");
 
                 yield break;
             }
             if (handleUpdate.Status != AsyncOperationStatus.Succeeded)
             {
+                Addressables.Release(handleCheck);
+
                 Debug.LogError("Addressables Update Catalogs Failed");
 
                 yield break;
             }
-        }        
+        }
+
+        Addressables.Release(handleCheck);
 
         //
         var handleLoc = Addressables.LoadResourceLocationsAsync("Download");
@@ -131,7 +141,7 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
             yield break;
         }
 
-        foreach (UnityEngine.ResourceManagement.ResourceLocations.IResourceLocation loc in handleLoc.Result)
+        foreach (var loc in handleLoc.Result)
         {
             Debug.Log($"Key: {loc.PrimaryKey}, Type: {loc.ResourceType}, InternalId: {loc.InternalId}");
         }
@@ -213,9 +223,13 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
             }
         }
 
-        yield return Timing.WaitUntilDone(Timing.RunCoroutine(LoadAssets_Panel()));
-        yield return Timing.WaitUntilDone(Timing.RunCoroutine(LoadAssets_Tables()));
-        yield return Timing.WaitUntilDone(Timing.RunCoroutine(LoadAssets_Sprites()));
+        var panelHandle = Timing.RunCoroutine(LoadAssets_Panel());
+        var tableHandle = Timing.RunCoroutine(LoadAssets_Tables());
+        var spriteHandle = Timing.RunCoroutine(LoadAssets_Sprites());
+
+        yield return Timing.WaitUntilDone(panelHandle);
+        yield return Timing.WaitUntilDone(tableHandle);
+        yield return Timing.WaitUntilDone(spriteHandle);
 
         pIsInit = true;
     }
@@ -230,6 +244,7 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         _dicPanels.Clear();
 
         //
+        var loadList = new List<(EPanelType type, string key, AsyncOperationHandle<GameObject> handle)>();
         for (EPanelType i = EPanelType.None + 1; i < EPanelType.End; i++)
         {
             //
@@ -240,28 +255,62 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
 
             //
             var key = $"Panel_{i}";
-            var handle = Addressables.LoadAssetAsync<GameObject>(key);
-            while (handle.IsDone == false)
+            loadList.Add((i, key, Addressables.LoadAssetAsync<GameObject>(key)));
+        }
+
+        //
+        while(true)
+        {
+            bool isAllDone = true;
+
+            foreach (var item in loadList)
             {
-                yield return Timing.WaitForOneFrame;
+                if (item.handle.IsDone == false)
+                {
+                    isAllDone = false;
+                    break;
+                }
             }
-            if (handle.IsValid() == false)
+
+            if (isAllDone)
             {
-                Debug.LogError("Addressables Load Resource_Panel Valid Failed. Key : " + key);
+                break;
+            }
+
+            yield return Timing.WaitForOneFrame;
+        }
+
+        //
+        foreach (var item in loadList)
+        {
+            //
+            if (item.handle.Status != AsyncOperationStatus.Succeeded)
+            {
+                Debug.LogError($"Addressables Load Resource_Panel Failed. Key : {item.key}");
+
+                //
+                foreach (var item2 in loadList)
+                {
+                    if (item2.handle.IsValid())
+                    {
+                        Addressables.Release(item2.handle);
+                    }
+                }
 
                 yield break;
             }
-            if (handle.Status != AsyncOperationStatus.Succeeded)
-            {
-                Debug.LogError("Addressables Load Resource_Panel Failed. Key : " + key);
+        }
 
-                yield break;
+        //
+        foreach (var item in loadList)
+        {
+            if (_dicPanels.ContainsKey(item.type))
+            {
+                Debug.LogError($"Exist '_dicPanels' Type : {item.type}");
+                continue;
             }
 
-            if (handle.Status == AsyncOperationStatus.Succeeded)
-            {
-                _dicPanels.Add(i, handle.Result);
-            }
+            _dicPanels.Add(item.type, item.handle.Result);
         }
     }
 
@@ -276,41 +325,101 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         _dicTables.Clear();
 
         //
-        var handle = Addressables.LoadResourceLocationsAsync("Tables");
+        var handle = Addressables.LoadResourceLocationsAsync("Tables", typeof(TextAsset));
         while (handle.IsDone == false)
         {
             yield return Timing.WaitForOneFrame;
         }
-        if (handle.IsValid() == false)
-        {
-            Debug.LogError("Addressables Load Resource_Table Valid Failed");
 
-            yield break;
-        }
-        if (handle.Status != AsyncOperationStatus.Succeeded)
+        //
+        switch (handle.Status)
         {
-            Debug.LogError("Addressables Load Resource_Table Failed");
-
-            yield break;
-        }
-
-        if (handle.Status == AsyncOperationStatus.Succeeded)
-        {
-            foreach (var item in handle.Result)
-            {
-                var handleLoadAsset = Addressables.LoadAssetAsync<TextAsset>(item.PrimaryKey);
-                while (handleLoadAsset.IsDone == false)
+            case AsyncOperationStatus.Succeeded:
                 {
-                    yield return Timing.WaitForOneFrame;
-                }
+                    //
+                    var loadList = new List<(string key, AsyncOperationHandle<TextAsset> handle)>();
+                    foreach (var item in handle.Result)
+                    {
+                        //
+                        if (item.Dependencies.Count == 0)
+                        {
+                            continue;
+                        }
 
-                if (handleLoadAsset.Status == AsyncOperationStatus.Succeeded)
-                {
-                    if (_dicTables.ContainsKey(item.PrimaryKey) == false)
-                        _dicTables.Add(item.PrimaryKey, handleLoadAsset.Result);
+                        //
+                        loadList.Add((item.PrimaryKey, Addressables.LoadAssetAsync<TextAsset>(item.PrimaryKey)));
+                    }
+
+                    //
+                    while (true)
+                    {
+                        bool isAllDone = true;
+
+                        foreach (var item in loadList)
+                        {
+                            if (item.handle.IsDone == false)
+                            {
+                                isAllDone = false;
+                                break;
+                            }
+                        }
+
+                        if (isAllDone == true)
+                        {
+                            break;
+                        }
+
+                        yield return Timing.WaitForOneFrame;
+                    }
+
+                    //
+                    foreach (var item in loadList)
+                    {
+                        //
+                        if (item.handle.Status != AsyncOperationStatus.Succeeded)
+                        {
+                            Debug.LogError($"Addressables Load Resource_Table Failed. Key : {item.key}");
+
+                            //
+                            foreach (var item2 in loadList)
+                            {
+                                if (item2.handle.IsValid())
+                                {
+                                    Addressables.Release(item2.handle);
+                                }
+                            }
+
+                            Addressables.Release(handle);
+
+                            yield break;
+                        }
+                    }
+
+                    //
+                    foreach (var item in loadList)
+                    {
+                        if (_dicTables.ContainsKey(item.key))
+                        {
+                            Debug.LogError($"Exist '_dicTables' Type : {item.key}");
+                            continue;
+                        }
+
+                        _dicTables.Add(item.key, item.handle.Result);
+                    }
                 }
-            }
+                break;
+            default:
+                {
+                    Addressables.Release(handle);
+
+                    Debug.LogError("Addressables Load Resource_Table Failed");
+
+                    yield break;
+                }
         }
+
+        //
+        Addressables.Release(handle);
     }
 
     /// <summary>
@@ -324,45 +433,103 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         _dicSprites.Clear();
 
         //
-        var handle = Addressables.LoadResourceLocationsAsync("Sprites");
+        var handle = Addressables.LoadResourceLocationsAsync("Sprites", typeof(Sprite));
         while (handle.IsDone == false)
         {
             yield return Timing.WaitForOneFrame;
         }
-        if (handle.IsValid() == false)
-        {
-            Debug.LogError("Addressables Load Resource_Sprites Valid Failed");
 
-            yield break;
-        }
-        if (handle.Status != AsyncOperationStatus.Succeeded)
+        //
+        switch (handle.Status)
         {
-            Debug.LogError("Addressables Load Resource_Sprites Failed");
-
-            yield break;
-        }
-
-        if (handle.Status == AsyncOperationStatus.Succeeded)
-        {
-            foreach (var item in handle.Result)
-            {
-                var handleLoadAsset = Addressables.LoadAssetAsync<Sprite>(item.PrimaryKey);
-                while (handleLoadAsset.IsDone == false)
+            case AsyncOperationStatus.Succeeded:
                 {
-                    yield return Timing.WaitForOneFrame;
-                }
+                    //
+                    var loadList = new List<(string key, AsyncOperationHandle<Sprite> handle)>();
+                    foreach (var item in handle.Result)
+                    {
+                        //
+                        if (item.Dependencies.Count == 0)
+                        {
+                            continue;
+                        }
 
-                if (handleLoadAsset.Status == AsyncOperationStatus.Succeeded)
+                        //
+                        var name = Path.GetFileNameWithoutExtension(item.PrimaryKey);
+
+                        loadList.Add((name, Addressables.LoadAssetAsync<Sprite>(item.PrimaryKey)));
+                    }
+
+                    //
+                    while (true)
+                    {
+                        var isAllDone = true;
+
+                        foreach (var item in loadList)
+                        {
+                            if (item.handle.IsDone == false)
+                            {
+                                isAllDone = false;
+                                break;
+                            }
+                        }
+
+                        if (isAllDone == true)
+                        {
+                            break;
+                        }
+
+                        yield return Timing.WaitForOneFrame;
+                    }
+
+                    //
+                    foreach (var item in loadList)
+                    {
+                        //
+                        if (item.handle.Status != AsyncOperationStatus.Succeeded)
+                        {
+                            Debug.LogError($"Addressables Load Resource_Sprite Failed. Key : {item.key}");
+
+                            //
+                            foreach (var item2 in loadList)
+                            {
+                                if (item2.handle.IsValid())
+                                {
+                                    Addressables.Release(item2.handle);
+                                }
+                            }
+
+                            Addressables.Release(handle);
+
+                            yield break;
+                        }
+                    }
+
+                    //
+                    foreach (var item in loadList)
+                    {
+                        if (_dicSprites.ContainsKey(item.key))
+                        {
+                            Debug.LogError($"Exist '_dicSprites' Type : {item.key}");
+                            continue;
+                        }
+
+                        _dicSprites.Add(item.key, item.handle.Result);
+                    }
+                }
+                break;
+            default:
                 {
-                    var name = Path.GetFileName(item.PrimaryKey);
-                    var extensionDot = name.IndexOf(".");
-                    name = name.Substring(0, extensionDot);
+                    Addressables.Release(handle);
 
-                    if (_dicSprites.ContainsKey(name) == false)
-                        _dicSprites.Add(name, handleLoadAsset.Result);
+                    Debug.LogError("Addressables Load Resource_Sprites Failed");
+                    
+                    yield break;
                 }
-            }
         }
+
+        //
+        Addressables.Release(handle);
     }
 
     /// <summary>
