@@ -37,8 +37,9 @@ public class Panel_MessageBox : Panel_Base
     /// <summary>
     /// 
     /// </summary>
-    public void Init(string message, EType type, Action onConfirm, Action onCancel)
+    public void Init(string title, string message, EType type, Action onConfirm, Action onCancel)
     {
+        _title.text = title;
         _message.text = message;
 
         _btnConfirm.gameObject.SetActive(type == EType.ConfirmCancel || type == EType.OK);

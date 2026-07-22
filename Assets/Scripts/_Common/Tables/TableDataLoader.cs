@@ -37,6 +37,8 @@ namespace Data
         public List<_904_TextItems.Values> _list_904_TextItems = new List<_904_TextItems.Values>();
         public Dictionary<int, _905_TextSkills.Values> _dic_905_TextSkills = new Dictionary<int, _905_TextSkills.Values>();
         public List<_905_TextSkills.Values> _list_905_TextSkills = new List<_905_TextSkills.Values>();
+        public Dictionary<int, _999_TextSystem.Values> _dic_999_TextSystem = new Dictionary<int, _999_TextSystem.Values>();
+        public List<_999_TextSystem.Values> _list_999_TextSystem = new List<_999_TextSystem.Values>();
 
 
         public void Init()

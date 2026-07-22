@@ -63,7 +63,6 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 4198b439ccf956d4fa52613754b7a2d6, type: 2}
   - {fileID: 11400000, guid: a6b70af9c45405e488a09773b0418fd1, type: 2}
-  - {fileID: 11400000, guid: d6c52d984f0598241a95c2e196e7ba4f, type: 2}
   - {fileID: 11400000, guid: be87d52841c58d44582968c31dd74c04, type: 2}
   - {fileID: 11400000, guid: 6b2ae7a1a42118b45b416236563b7529, type: 2}
   - {fileID: 11400000, guid: c63d7702c275e7e44a5cd62f6760cb00, type: 2}
@@ -77,11 +76,11 @@ MonoBehaviour:
       m_ProfileName: Default
       m_Values:
       - m_Id: 2aa0e48b311161243aa0773ca88d2f0d
-        m_Value: 'http://gyooltomato@iptime.org:50080/addressables/NextHorizon/[BuildTarget]'
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
       - m_Id: 2d3830d40045a2b478bd7c93fc27d318
-        m_Value: 'StreamingAssets/[BuildTarget]'
+        m_Value: 'http://gyooltomato.iptime.org:50080/addressables/NextHorizon/[BuildTarget]'
       - m_Id: 54ef53ab7f8538f448d1efa34f472e91
-        m_Value: 'ServerData/[BuildTarget]'
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
       - m_Id: 56aab66aca49ff845aa634678cfb15de
         m_Value: 'ServerData/[BuildTarget]'
       - m_Id: d729da480b6f8fc4da90ccf64db740c3

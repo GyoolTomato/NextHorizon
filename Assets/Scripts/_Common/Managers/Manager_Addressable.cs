@@ -42,34 +42,30 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         //
         Debug.Log("Addressables Init Start");
 
-#if UNITY_ANDROID
-        var catalogHandle = Addressables.LoadContentCatalogAsync("http://gyooltomato.iptime.org:50080/addressables/NextHorizon/Android/catalog_0.1.0.bin");
-#else
-        var catalogHandle = Addressables.LoadContentCatalogAsync("http://gyooltomato.iptime.org:50080/addressables/NextHorizon/PC/catalog_0.1.0.bin");
-#endif
-        while (catalogHandle.IsDone == false)
-        {
-            yield return Timing.WaitForOneFrame;
-        }
-
         //
-        var handle = Addressables.InitializeAsync();
-        while (handle.IsDone == false)
+        var handleInit = Addressables.InitializeAsync(false);
+        while (handleInit.IsDone == false)
         {
             yield return Timing.WaitForOneFrame;
         }
-        if (handle.IsValid() == false)
+        if (handleInit.IsValid() == false)
         {
+            Addressables.Release(handleInit);
+
             Debug.LogError("Addressables Init Valid Failed");
 
             yield break;
         }
-        if (handle.Status != AsyncOperationStatus.Succeeded)
+        if (handleInit.Status != AsyncOperationStatus.Succeeded)
         {
+            Addressables.Release(handleInit);
+
             Debug.LogError("Addressables Init Failed");
 
             yield break;
         }
+
+        Addressables.Release(handleInit);
 
         //
         var handleCheck = Addressables.CheckForCatalogUpdates(false);
@@ -97,13 +93,14 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         //
         if (handleCheck.Result.Count > 0)
         {
-            var handleUpdate = Addressables.UpdateCatalogs(handleCheck.Result);
+            var handleUpdate = Addressables.UpdateCatalogs(handleCheck.Result, false);
             while (handleUpdate.IsDone == false)
             {
                 yield return Timing.WaitForOneFrame;
             }
             if (handleUpdate.IsValid() == false)
             {
+                Addressables.Release(handleUpdate);
                 Addressables.Release(handleCheck);
 
                 Debug.LogError("Addressables Update Catalogs Valid Failed");
@@ -112,12 +109,15 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
             }
             if (handleUpdate.Status != AsyncOperationStatus.Succeeded)
             {
+                Addressables.Release(handleUpdate);
                 Addressables.Release(handleCheck);
 
                 Debug.LogError("Addressables Update Catalogs Failed");
 
                 yield break;
             }
+
+            Addressables.Release(handleUpdate);
         }
 
         Addressables.Release(handleCheck);
@@ -173,7 +173,10 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
         if (pDownloadedBytes > 0)
         {
             //
-            Manager_UI.Instance.ShowMessageBox($"{pDownloadedBytes}", Panel_MessageBox.EType.ConfirmCancel, () =>
+            Manager_UI.Instance.ShowMessageBox(
+                Manager_UI.Instance.GetTextSystem(9990003), 
+                string.Format(Manager_UI.Instance.GetTextSystem(9990004), Manager_UI.Instance.GetFileSize(pDownloadedBytes)), 
+                Panel_MessageBox.EType.ConfirmCancel, () =>
             {
                 isAcceptedDownload = true;
                 isConfirmMessage = true;
@@ -331,6 +334,26 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
             yield return Timing.WaitForOneFrame;
         }
 
+        foreach (var locator in Addressables.ResourceLocators)
+        {
+            if (locator.Locate("Tables", typeof(TextAsset), out var locations))
+            {
+                Debug.Log(
+                    $"Locator: {locator.LocatorId}, " +
+                    $"Location Count: {locations.Count}"
+                );
+
+                foreach (var location in locations)
+                {
+                    Debug.Log(
+                        $"PrimaryKey: {location.PrimaryKey}\n" +
+                        $"InternalId: {location.InternalId}\n" +
+                        $"ProviderId: {location.ProviderId}"
+                    );
+                }
+            }
+        }
+
         //
         switch (handle.Status)
         {
@@ -340,12 +363,6 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
                     var loadList = new List<(string key, AsyncOperationHandle<TextAsset> handle)>();
                     foreach (var item in handle.Result)
                     {
-                        //
-                        if (item.Dependencies.Count == 0)
-                        {
-                            continue;
-                        }
-
                         //
                         loadList.Add((item.PrimaryKey, Addressables.LoadAssetAsync<TextAsset>(item.PrimaryKey)));
                     }
@@ -448,12 +465,6 @@ public class Manager_Addressable : Singleton<Manager_Addressable>
                     var loadList = new List<(string key, AsyncOperationHandle<Sprite> handle)>();
                     foreach (var item in handle.Result)
                     {
-                        //
-                        if (item.Dependencies.Count == 0)
-                        {
-                            continue;
-                        }
-
                         //
                         var name = Path.GetFileNameWithoutExtension(item.PrimaryKey);
 

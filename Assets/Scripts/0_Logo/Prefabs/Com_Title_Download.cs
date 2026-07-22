@@ -21,7 +21,10 @@ public class Com_Title_Download : Com_Base
     /// </summary>
     public override void Tick()
     {
-        _progressValue.text = string.Format("({0}/{1}) {2}%", Manager_Addressable.Instance.pDownloadedBytes, Manager_Addressable.Instance.pTotalBytes, Manager_Addressable.Instance.pDownloadPercent * 100f);
+        _progressValue.text = string.Format("({0}/{1}) {2}%", 
+            Manager_UI.Instance.GetFileSize(Manager_Addressable.Instance.pDownloadedBytes), 
+            Manager_UI.Instance.GetFileSize(Manager_Addressable.Instance.pTotalBytes), 
+            Manager_Addressable.Instance.pDownloadPercent);
         _progressSlider.value = Manager_Addressable.Instance.pDownloadPercent;
     }
 }

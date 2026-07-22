@@ -1,0 +1,7944 @@
+﻿#include "pch-cpp.hpp"
+
+
+
+
+
+template <typename R>
+struct VirtualFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename R, typename T1, typename T2, typename T3>
+struct VirtualFuncInvoker3
+{
+	typedef R (*Func)(void*, T1, T2, T3, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeObject* obj, T1 p1, T2 p2, T3 p3)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_virtual_invoke_data(slot, obj);
+		return ((Func)invokeData.methodPtr)(obj, p1, p2, p3, invokeData.method);
+	}
+};
+struct InterfaceActionInvoker0
+{
+	typedef void (*Action)(void*, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+template <typename T1>
+struct InterfaceActionInvoker1
+{
+	typedef void (*Action)(void*, T1, const RuntimeMethod*);
+
+	static inline void Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj, T1 p1)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		((Action)invokeData.methodPtr)(obj, p1, invokeData.method);
+	}
+};
+template <typename R>
+struct InterfaceFuncInvoker0
+{
+	typedef R (*Func)(void*, const RuntimeMethod*);
+
+	static inline R Invoke (Il2CppMethodSlot slot, RuntimeClass* declaringInterface, RuntimeObject* obj)
+	{
+		const VirtualInvokeData& invokeData = il2cpp_codegen_get_interface_invoke_data(slot, obj, declaringInterface);
+		return ((Func)invokeData.methodPtr)(obj, invokeData.method);
+	}
+};
+
+struct Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87;
+struct Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54;
+struct Dictionary_2_t403063CE4960B4F46C688912237C6A27E550FF55;
+struct Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588;
+struct Func_1_tD59A12717D79BFB403BF973694B1BE5B85474BD1;
+struct FutureAPIImpl_1_t1DBB9AEFB8C58CA4AD9AFE5C32CA4C9CF3E58E8B;
+struct FutureAPIImpl_1_tB70B1803C3C8E7E6A30F4E5B318E1BCBA62575DA;
+struct Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B;
+struct Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF;
+struct IEnumerable_1_tF95C9E01A913DD50575531C8305932628663D9E9;
+struct IEnumerable_1_t349E66EC5F09B881A8E52EE40A1AB9EC60E08E44;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12;
+struct Predicate_1_t7F48518B008C1472339EEEBABA3DE203FE1F26ED;
+struct TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA;
+struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37;
+struct TaskFactory_1_t0A909711F892E19F8AD55137B4F3B65578635A0A;
+struct TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B;
+struct Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926;
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2;
+struct AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88;
+struct SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB;
+struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03;
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0;
+struct AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712;
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354;
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883;
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C;
+struct BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808;
+struct CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ContextCallback_tE8AFBDBFCC040FDA8DA8C1EEFE9BD66B16BDA007;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90;
+struct Delegate_t;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293;
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095;
+struct Exception_t;
+struct FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E;
+struct GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8;
+struct GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA;
+struct GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8;
+struct GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349;
+struct GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA;
+struct IAsyncResult_t7B9B5A0ECB35DCEC31B8A8122C37D687369253B5;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct IFormatterConverter_t726606DAC82C384B08C82471313C340968DDB609;
+struct IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56;
+struct IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE;
+struct ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B;
+struct IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594;
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB;
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76;
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF;
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37;
+struct SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B;
+struct SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8;
+struct SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868;
+struct SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5;
+struct StackGuard_tACE063A1B7374BDF4AD472DE4585D05AD8745352;
+struct String_t;
+struct TaskFactory_tF781BD37BE23917412AD83424D1497C7C1509DF0;
+struct TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E;
+struct ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct Type_t;
+struct UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC;
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E;
+struct UriParser_t920B0868286118827C08B08A15A9456AF6C19D81;
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3;
+struct OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5;
+struct SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A;
+struct U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509;
+struct U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08;
+struct U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170;
+struct ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540;
+struct UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09;
+
+IL2CPP_EXTERN_C RuntimeClass* AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Exception_t_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral04EC4F81AD07B2B6F76B2D7A56FC33E5558850A6;
+IL2CPP_EXTERN_C String_t* _stringLiteral0F660DC5B9C69D4A4082CBA7BCC2360B2E3958E6;
+IL2CPP_EXTERN_C String_t* _stringLiteral0FE2959F6EBB514FAE4E483E6BFA520D29AAACDC;
+IL2CPP_EXTERN_C String_t* _stringLiteral14F93B18F4A27E31C8383B5199FB110A2DEEB66F;
+IL2CPP_EXTERN_C String_t* _stringLiteral1B22F82E513C1BB368DFDBFDFB5FB8C1178CA305;
+IL2CPP_EXTERN_C String_t* _stringLiteral1BED2DC0EC7095284E4DD921DFE0B428EF30564B;
+IL2CPP_EXTERN_C String_t* _stringLiteral240C7FDF3C9B4066B07C1B58BCA1C949CB56ABEA;
+IL2CPP_EXTERN_C String_t* _stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A;
+IL2CPP_EXTERN_C String_t* _stringLiteral293542D9D93291B4BD2A5814172566525A7DDF57;
+IL2CPP_EXTERN_C String_t* _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890;
+IL2CPP_EXTERN_C String_t* _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078;
+IL2CPP_EXTERN_C String_t* _stringLiteral4EEB44230D18B63FD2EE917847EC8588A2354785;
+IL2CPP_EXTERN_C String_t* _stringLiteral4F8E7863AB6F059155307444D42AD47E889F06CA;
+IL2CPP_EXTERN_C String_t* _stringLiteral5379C25D8F9979AD371949D2F3201B2D326743A4;
+IL2CPP_EXTERN_C String_t* _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27;
+IL2CPP_EXTERN_C String_t* _stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32;
+IL2CPP_EXTERN_C String_t* _stringLiteral6142D87798990EB03763CFE5B4D7142F9FF6DB68;
+IL2CPP_EXTERN_C String_t* _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C;
+IL2CPP_EXTERN_C String_t* _stringLiteral7040FF69C8903BD258116DC869C58A972AF5E772;
+IL2CPP_EXTERN_C String_t* _stringLiteral7456FF61D92F368E7DB05C258B9683B2CA9DBE5D;
+IL2CPP_EXTERN_C String_t* _stringLiteral78AA7A8F563BCFC24BE1F0BD20224D7B92AC7DF3;
+IL2CPP_EXTERN_C String_t* _stringLiteral79098B9D29578596CA3BA3FCEDAFB6AF622D9AFD;
+IL2CPP_EXTERN_C String_t* _stringLiteral7A20AE6F53B8FA6C15C1E5AD4DB71F3CD355EA43;
+IL2CPP_EXTERN_C String_t* _stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E;
+IL2CPP_EXTERN_C String_t* _stringLiteral880BA69446D7C58BFFFA1A35EF2C5C9CE3C71FFE;
+IL2CPP_EXTERN_C String_t* _stringLiteralA64BE0D74BC765ED5A679FABB1292BC185358614;
+IL2CPP_EXTERN_C String_t* _stringLiteralAAC72435C50E2C88247E4FAE4A4F3CA3BE5418D4;
+IL2CPP_EXTERN_C String_t* _stringLiteralAE4B715AAAA58DCCE03CE0702B58CE77A631DE43;
+IL2CPP_EXTERN_C String_t* _stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A;
+IL2CPP_EXTERN_C String_t* _stringLiteralB0F3EFB34B5BB26A1D0A3D4032611129C4ECC85C;
+IL2CPP_EXTERN_C String_t* _stringLiteralBB61CD73B87847118A72F96FE50B72C6B8712F56;
+IL2CPP_EXTERN_C String_t* _stringLiteralC473046B41946A22C532AEFD1B4D486A028D183C;
+IL2CPP_EXTERN_C String_t* _stringLiteralCBE1BFAC0F726D90BC3D924DF6291922C3F5104A;
+IL2CPP_EXTERN_C String_t* _stringLiteralD400EB487C20E145E8637C4026A2356D9E546258;
+IL2CPP_EXTERN_C String_t* _stringLiteralD5C1D07A37A3563A0E4767C281E178889D4D677E;
+IL2CPP_EXTERN_C String_t* _stringLiteralD6AEB00E2908EDBFDB9EF7E0BC9A94A5D2742E6C;
+IL2CPP_EXTERN_C String_t* _stringLiteralDAFAF1BA7E22CC639E69C44B0308455A786E3D91;
+IL2CPP_EXTERN_C String_t* _stringLiteralE16EFE13C5C08096A869677E0912595D5D6C1C03;
+IL2CPP_EXTERN_C String_t* _stringLiteralE302AA9BECF9F1CB69CF2A3E5B33E0716BEA97F6;
+IL2CPP_EXTERN_C String_t* _stringLiteralE474B80F684635C9E8A2D82048BB64372275D715;
+IL2CPP_EXTERN_C String_t* _stringLiteralEA58F9BE54C16486B97A532CA51E3783D02B3F46;
+IL2CPP_EXTERN_C String_t* _stringLiteralEC58F4F43A8DB185B5638342E44A42F8EAB96B96;
+IL2CPP_EXTERN_C String_t* _stringLiteralF30125084BBDCC9569A0DA8872BAA0181599E988;
+IL2CPP_EXTERN_C String_t* _stringLiteralF45B00322DC340FDDE1F3579CC8A6649FD735907;
+IL2CPP_EXTERN_C String_t* _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9;
+IL2CPP_EXTERN_C String_t* _stringLiteralFBC1FBDF3F91C0637B6624C6C526B3718C7E46A2;
+IL2CPP_EXTERN_C const RuntimeMethod* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m53F08D94A1C92D126F2BB8F5EA749292FAE0EEE0_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisCapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_mC720996E0DB5E6A502714EF651E9251726CB636E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GoogleSignIn_set_Configuration_m0009916D90123692747FEC684C93862607011E85_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRandomChangeU3Ed__10_System_Collections_IEnumerator_Reset_m1A2C5EADB65139755FFE5B13EBDB3F2C08F44DEC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CRandomChangeU3Ed__11_System_Collections_IEnumerator_Reset_mCBE9395CC0FA570F5081D38EE9DE1F5F1C1D7304_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F;
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88;
+struct SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE  : public RuntimeObject
+{
+};
+struct Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B  : public RuntimeObject
+{
+	RuntimeObject* ___apiImpl;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA  : public RuntimeObject
+{
+	Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* ____task;
+};
+struct TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37  : public RuntimeObject
+{
+	Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* ____task;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA  : public RuntimeObject
+{
+};
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0  : public RuntimeObject
+{
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jobject;
+	GlobalJavaObjectRef_t20D8E5AAFC2EB2518FCABBF40465855E797FF0D8* ___m_jclass;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095  : public RuntimeObject
+{
+	int32_t ___m_codePage;
+	CodePageDataItem_t52460FA30AE37F4F26ACB81055E58002262F19F2* ___dataItem;
+	bool ___m_deserializedFromEverett;
+	bool ___m_isReadOnly;
+	EncoderFallback_tD2C40CE114AA9D8E1F7196608B2D088548015293* ___encoderFallback;
+	DecoderFallback_t7324102215E4ED41EC065C02EB501CB0BC23CD90* ___decoderFallback;
+};
+struct GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA  : public RuntimeObject
+{
+	RuntimeObject* ___impl;
+};
+struct GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8  : public RuntimeObject
+{
+	bool ___UseGameSignIn;
+	String_t* ___WebClientId;
+	bool ___RequestAuthCode;
+	bool ___ForceTokenRefresh;
+	bool ___RequestEmail;
+	bool ___RequestIdToken;
+	bool ___RequestProfile;
+	bool ___HidePopups;
+	String_t* ___AccountName;
+	RuntimeObject* ___AdditionalScopes;
+};
+struct GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA  : public RuntimeObject
+{
+	String_t* ___U3CAuthCodeU3Ek__BackingField;
+	String_t* ___U3CEmailU3Ek__BackingField;
+	String_t* ___U3CIdTokenU3Ek__BackingField;
+	String_t* ___U3CDisplayNameU3Ek__BackingField;
+	String_t* ___U3CGivenNameU3Ek__BackingField;
+	String_t* ___U3CFamilyNameU3Ek__BackingField;
+	Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___U3CImageUrlU3Ek__BackingField;
+	String_t* ___U3CUserIdU3Ek__BackingField;
+};
+struct SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___m_members;
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___m_data;
+	TypeU5BU5D_t97234E1129B564EB38B8D85CAC2AD8B5B9522FFB* ___m_types;
+	Dictionary_2_t5C8F46F5D57502270DD9E1DA8303B23C7FE85588* ___m_nameToIndex;
+	int32_t ___m_currMember;
+	RuntimeObject* ___m_converter;
+	String_t* ___m_fullTypeName;
+	String_t* ___m_assemName;
+	Type_t* ___objectType;
+	bool ___isFullTypeNameSetExplicit;
+	bool ___isAssemblyNameSetExplicit;
+	bool ___requireSameTokenInPartialTrust;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572  : public RuntimeObject
+{
+	int32_t ___m_taskId;
+	Delegate_t* ___m_action;
+	RuntimeObject* ___m_stateObject;
+	TaskScheduler_t3F0550EBEF7C41F74EC8C08FF4BED0D8CE66006E* ___m_taskScheduler;
+	Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572* ___m_parent;
+	int32_t ___m_stateFlags;
+	RuntimeObject* ___m_continuationObject;
+	ContingentProperties_t3FA59480914505CEA917B1002EC675F29D0CB540* ___m_contingentProperties;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* ___U3CU3E4__this;
+};
+struct U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* ___U3CU3E4__this;
+};
+struct Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* ___m_result;
+};
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2  : public Task_t751C4CC3ECD055BABA8A0B6A5DFBB4283DCA8572
+{
+	RuntimeObject* ___m_result;
+};
+struct AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03  : public AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0
+{
+};
+struct AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 
+{
+	int32_t ___m_Name;
+	int32_t ___m_Path;
+	int32_t ___m_FullPath;
+	float ___m_NormalizedTime;
+	float ___m_Length;
+	float ___m_Speed;
+	float ___m_SpeedMultiplier;
+	int32_t ___m_Tag;
+	int32_t ___m_Loop;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
+{
+	uint8_t ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 
+{
+	union
+	{
+		struct
+		{
+			int32_t ___m_Data;
+		};
+		uint8_t EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8__padding[4];
+	};
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct UInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B 
+{
+	uint32_t ___m_value;
+};
+struct UIntPtr_t 
+{
+	void* ____pointer;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	float ___m_Seconds;
+};
+struct WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	float ___m_Seconds;
+};
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D3097_t96EE855D9F671C7CB4E96975C6A9D709DB1161C6 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D3097_t96EE855D9F671C7CB4E96975C6A9D709DB1161C6__padding[3097];
+	};
+};
+#pragma pack(pop, tp)
+#pragma pack(push, tp, 1)
+struct __StaticArrayInitTypeSizeU3D6698_t0D3F47938117C9933B2284CC3E0B7B19A5D41D7A 
+{
+	union
+	{
+		struct
+		{
+			union
+			{
+			};
+		};
+		uint8_t __StaticArrayInitTypeSizeU3D6698_t0D3F47938117C9933B2284CC3E0B7B19A5D41D7A__padding[6698];
+	};
+};
+#pragma pack(pop, tp)
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354  : public RuntimeObject
+{
+	intptr_t ___m_Ptr;
+	bool ___m_RequiresNativeCleanup;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354_marshaled_com
+{
+	intptr_t ___m_Ptr;
+	int32_t ___m_RequiresNativeCleanup;
+};
+struct AvatarIKGoal_t85129D04ABC13A90A81A5FCF6C76DD178ACC27EE 
+{
+	int32_t ___value__;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct ForceMode_t603F3ECB085E4FDD30C91273A469047EA64F4459 
+{
+	int32_t ___value__;
+};
+struct GoogleSignInStatusCode_t3AEC2A455C7DB2C736F01D352EA10EFDCB011D7B 
+{
+	int32_t ___value__;
+};
+struct HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F 
+{
+	RuntimeObject* ____wrapper;
+	intptr_t ____handle;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	EntityId_t982FBD037EAC5CA077B1602A7EA40E3523AA0FC8 ___m_Collider;
+};
+struct StreamingContextStates_t5EE358E619B251608A9327618C7BFE8638FC33C1 
+{
+	int32_t ___value__;
+};
+struct UriIdnScope_t001CC97A6F977E9BB7DB855CC6BA415A7F47491F 
+{
+	int32_t ___value__;
+};
+struct Type_t94B090894A3B9A5C5AEBD91800DB10688CC00F4A 
+{
+	int32_t ___value__;
+};
+struct Flags_t47CF4DB4036A6A539AFA6EE39C75F772E865E897 
+{
+	uint64_t ___value__;
+};
+struct BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C  : public RuntimeObject
+{
+	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___selfHandleRef;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14  : public RuntimeObject
+{
+	int32_t ___type;
+	RuntimeObject* ___value;
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Motion_tBCD49FBF5608AD21FC03B63C8182FABCEF2707AC  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+	bool ___U3CisAnimatorMotionU3Ek__BackingField;
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 
+{
+	RuntimeObject* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_pinvoke
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct StreamingContext_t56760522A751890146EE45F82F866B55B7E33677_marshaled_com
+{
+	Il2CppIUnknown* ___m_additionalContext;
+	int32_t ___m_state;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E  : public RuntimeObject
+{
+	String_t* ___m_String;
+	String_t* ___m_originalUnicodeString;
+	UriParser_t920B0868286118827C08B08A15A9456AF6C19D81* ___m_Syntax;
+	String_t* ___m_DnsSafeHost;
+	uint64_t ___m_Flags;
+	UriInfo_t5F91F77A93545DDDA6BB24A609BAF5E232CC1A09* ___m_Info;
+	bool ___m_iriParsing;
+};
+struct SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A  : public Exception_t
+{
+	int32_t ___U3CStatusU3Ek__BackingField;
+};
+struct U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08  : public RuntimeObject
+{
+	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___userPtr;
+};
+struct AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712  : public Motion_tBCD49FBF5608AD21FC03B63C8182FABCEF2707AC
+{
+};
+struct AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349  : public BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C
+{
+};
+struct InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F  : public BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C
+{
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Rigidbody_t268697F5A994213ED97393309870968BC1C7393C  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5  : public MulticastDelegate_t
+{
+};
+struct Animator_t8A52E42AE54F76681838FE9E632683EF3952E883  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808  : public Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76
+{
+};
+struct MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE  : public Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF
+{
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* ___animations;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim;
+	float ___delayWeight;
+	bool ___isKeepFace;
+	bool ___isGUI;
+	float ___current;
+};
+struct IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___targetObj;
+	bool ___isIkActive;
+	float ___mixWeight;
+};
+struct IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___avator;
+	MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* ___target;
+	bool ___ikActive;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___lookAtObj;
+	float ___lookAtWeight;
+	float ___bodyWeight;
+	float ___headWeight;
+	float ___eyesWeight;
+	float ___clampWeight;
+	bool ___isGUI;
+};
+struct IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim;
+	AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 ___currentState;
+	AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 ___previousState;
+	bool ____random;
+	float ____threshold;
+	float ____interval;
+	bool ___isGUI;
+};
+struct RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* ___springBones;
+	bool ___isWindActive;
+	bool ___isMinus;
+	float ___threshold;
+	float ___interval;
+	float ___windPower;
+	float ___gravity;
+	bool ___isGUI;
+};
+struct SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+};
+struct SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___child;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___boneAxis;
+	float ___radius;
+	bool ___isUseEachBoneForceSettings;
+	float ___stiffnessForce;
+	float ___dragForce;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___springForce;
+	SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* ___colliders;
+	bool ___debug;
+	float ___threshold;
+	float ___springLength;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___localRotation;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___trs;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___currTipPos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prevTipPos;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___org;
+	SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* ___managerRef;
+};
+struct SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___radius;
+};
+struct SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___dynamicRatio;
+	float ___stiffnessForce;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___stiffnessCurve;
+	float ___dragForce;
+	AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___dragCurve;
+	SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* ___springBones;
+};
+struct ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___smooth;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___standardPos;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___frontPos;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___jumpPos;
+	bool ___bQuickSwitch;
+};
+struct UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	float ___animSpeed;
+	float ___lookSmoother;
+	bool ___useCurves;
+	float ___useCurvesHeight;
+	float ___forwardSpeed;
+	float ___backwardSpeed;
+	float ___rotateSpeed;
+	float ___jumpPower;
+	CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* ___col;
+	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___velocity;
+	float ___orgColHight;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___orgVectColCenter;
+	Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* ___anim;
+	AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 ___currentBaseState;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cameraObject;
+};
+struct EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___Value;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA_StaticFields
+{
+	__StaticArrayInitTypeSizeU3D3097_t96EE855D9F671C7CB4E96975C6A9D709DB1161C6 ___7070B0B4FC7015F4D5932976A90F2F0EAECB65EB8EA3987CC908837C6F9BB6ED;
+	__StaticArrayInitTypeSizeU3D6698_t0D3F47938117C9933B2284CC3E0B7B19A5D41D7A ___B00A969D2811CD7D1D79E01B37359142781A2FE2951BD04367B7A03B7A75571C;
+};
+struct AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_StaticFields
+{
+	bool ___enableDebugPrints;
+};
+struct Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095_StaticFields
+{
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___defaultEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___unicodeEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___bigEndianUnicode;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf7Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf8Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___utf32Encoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___asciiEncoding;
+	Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* ___latin1Encoding;
+	Dictionary_2_t87EDE08B2E48F793A22DE50D6B3CC2E7EBB2DB54* ___encodings;
+	RuntimeObject* ___s_InternalSyncObject;
+};
+struct GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields
+{
+	GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* ___theInstance;
+	GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___theConfiguration;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926_StaticFields
+{
+	TaskFactory_1_t0A909711F892E19F8AD55137B4F3B65578635A0A* ___s_defaultFactory;
+};
+struct Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2_StaticFields
+{
+	TaskFactory_1_t6F188FE70F3006B0386002E392B799D85100732B* ___s_defaultFactory;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_StaticFields
+{
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___kZero;
+};
+struct UIntPtr_t_StaticFields
+{
+	uintptr_t ___Zero;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Exception_t_StaticFields
+{
+	RuntimeObject* ___s_EDILock;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields
+{
+	HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___nullSelf;
+};
+struct Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_StaticFields
+{
+	String_t* ___UriSchemeFile;
+	String_t* ___UriSchemeFtp;
+	String_t* ___UriSchemeGopher;
+	String_t* ___UriSchemeHttp;
+	String_t* ___UriSchemeHttps;
+	String_t* ___UriSchemeWs;
+	String_t* ___UriSchemeWss;
+	String_t* ___UriSchemeMailto;
+	String_t* ___UriSchemeNews;
+	String_t* ___UriSchemeNntp;
+	String_t* ___UriSchemeNetTcp;
+	String_t* ___UriSchemeNetPipe;
+	String_t* ___SchemeDelimiter;
+	bool ___s_ConfigInitialized;
+	bool ___s_ConfigInitializing;
+	int32_t ___s_IdnScope;
+	bool ___s_IriParsing;
+	bool ___useDotNetRelativeOrAbsolute;
+	bool ___IsWindowsFileSystem;
+	RuntimeObject* ___s_initLock;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ___HexLowerChars;
+	CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB* ____WSchars;
+};
+struct SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields
+{
+	SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* ___instance;
+};
+struct UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields
+{
+	int32_t ___idleState;
+	int32_t ___locoState;
+	int32_t ___jumpState;
+	int32_t ___restState;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F  : public RuntimeArray
+{
+	ALIGN_FIELD (8) AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* m_Items[1];
+
+	inline AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2  : public RuntimeArray
+{
+	ALIGN_FIELD (8) GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* m_Items[1];
+
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88  : public RuntimeArray
+{
+	ALIGN_FIELD (8) SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* m_Items[1];
+
+	inline SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF  : public RuntimeArray
+{
+	ALIGN_FIELD (8) SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* m_Items[1];
+
+	inline SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031  : public RuntimeArray
+{
+	ALIGN_FIELD (8) uint8_t m_Items[1];
+
+	inline uint8_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, uint8_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline uint8_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline uint8_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, uint8_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Delegate_t* m_Items[1];
+
+	inline Delegate_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Delegate_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Delegate_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Delegate_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Future_1_WaitForResult_m86C7BBC0D729D1190E2DE445649A1A7280004193_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* ___0_tcs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Future_1__ctor_mFAB04EC0EED034736749BA83776F629ED33AA046_gshared (Future_1_tA71DD05DCEB77C6104765DDB3DA5A4E3484933CF* __this, RuntimeObject* ___0_impl, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+
+inline Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* GUILayout_Width_m3FADF145F37481F9FEFF0E89E8A466CF5532DCE3 (float ___0_width, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* GUILayout_Height_m5E1526C541663A21437ED06E233FDDA08A856B91 (float ___0_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayout_Box_m4CEFB7550F94CA85459CEACB810E9F99C7451456 (String_t* ___0_text, GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* ___1_options, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayout_BeginArea_m4D894562C97A0F6793450A0DF379B63F60121F64 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_screenRect, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, const RuntimeMethod* method) ;
+inline GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline (const RuntimeMethod* method)
+{
+	return ((  GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* (*) (const RuntimeMethod*))Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline)(method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUILayout_RepeatButton_m85FE00614C26B803944219FBD1D1283C1D559452 (String_t* ___0_text, GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* ___1_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_CrossFade_m9896DFE98F7DC35199C7FDEB22E6645B6F53E998 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_stateName, float ___1_normalizedTransitionDuration, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUILayout_Toggle_m59FC4209A021B0E6FBB880941B791487D359DBF7 (bool ___0_value, String_t* ___1_text, GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* ___2_options, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUILayout_EndArea_m3A9C6B4D373E8A871A71E0D8D2D9249D9F62F079 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA (int32_t ___0_button, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetLayerWeight_m06ADC732F76F22B4B1424F25525E7CBB80E6230F (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_layerIndex, float ___1_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate_ChangeFace_m2D626DC70BDF298284B35CF5CE406A079CF1458F (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, String_t* ___0_str, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetIKPositionWeight_m8C707F505FFE2A6F36BE81ED12786B941D3B990C (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_goal, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetIKRotationWeight_m5F0F5BD5A9A85912EA1CDF32917FE483E849978D (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_goal, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetIKPosition_mB7BE88C93990186D94AF75439E2F216D6ECBCDEE (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_goal, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_goalPosition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetIKRotation_m328A64AD20922F0F2A1D0CD5DBB9F01FE7675DF6 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_goal, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_goalRotation, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Toggle_m00206EA64CCCB111095390467F8894D69DCB081F (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, bool ___1_value, String_t* ___2_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* Component_GetComponentInParent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m53F08D94A1C92D126F2BB8F5EA749292FAE0EEE0 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponentInParent_TisRuntimeObject_m6746D6BB99912B1B509746C993906492F86CD119_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8 (Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_exists, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetLookAtWeight_m536B18C7EC83703CF0320924D9FE13CBD93CC752 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, float ___0_weight, float ___1_bodyWeight, float ___2_headWeight, float ___3_eyesWeight, float ___4_clampWeight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetLookAtPosition_m39A2C326BDE156360972C5EEDA1F9ACEBE34A8A6 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lookAtPosition, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetLookAtWeight_mDCC8C8792E2E23C133AF3D91A96C49BEBC828F79 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, float ___0_weight, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_layerIndex, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, String_t* ___0_methodName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_m789DB780D0567DCC23B501D15AABD4F2E3591A3F (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButton_m2F217DAE69DB3D1324FB848B3C9C84F19A80989E (String_t* ___0_buttonName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, bool ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Animator_GetBool_mBC4D952885FF7504963E5923C29481A891028FD8 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__10__ctor_mD2E94732CF3DE2C35BD27CD59E6C5BC3FA0D30CE (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* __this, float ___0_seconds, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+inline SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A (float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__11__ctor_mDD4748AA738DC29EB9B8BEE399E27DCCBE9B51AB (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* SpringBone_GetParentSpringManager_m2EF5EEAD6A918133FD9764553417AC48DFA1FFFC (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_rotation, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_point, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_direction, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_toDirection, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Lerp_m259606226726C2F46E079A5A688B9E24FF7E9A0D_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797 (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1 (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_center, float ___1_radius, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager_UpdateParameters_m6E6FA51F314E6A2A89335ECBF0A2A647956C4AFF (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringBone_UpdateSpring_m563B11D579B08B95288B55147BFD689E29AFBF57 (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager_UpdateParameter_m3FA6606799DF6E9A680B7194AB11D10875C49B64 (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, String_t* ___0_fieldName, float ___1_baseValue, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___2_curve, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_setCameraPositionFrontView_mFDD8ACC0E5C68B7AEDC0AE5125079A4AF09EC398 (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_setCameraPositionJumpView_m135FD65072B6312ED92FE90D2709038D9E4A16A8 (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_setCameraPositionNormalView_mC8C8A988A4EB4A758AD8B0D6FCC8D98CBAFB2C7C (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) ;
+inline CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* Component_GetComponent_TisCapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_mC720996E0DB5E6A502714EF651E9251726CB636E (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_FindWithTag_mDF825E000B03F4F3DE9D4F2EBABC96BFA34B62E5 (String_t* ___0_tag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float CapsuleCollider_get_height_m63A31072F296AEE6222DC9C88704882BB6A54A24 (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 CapsuleCollider_get_center_mC12CE0A66A1104CEB7D23F39596D0E45578419C2 (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62 (String_t* ___0_axisName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Animator_set_speed_m933F4D6770122BC9D8A7FF82DE1CD33D514379FC (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389 (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetButtonDown_mEF5F80C9E8F04104E807D9CBD6F70CDB98751579 (String_t* ___0_buttonName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Animator_IsInTransition_mC2BD2CC7B7A11BAAA5396F1A2DAFD98D00AA2830 (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, int32_t ___0_layerIndex, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC (Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_force, int32_t ___1_mode, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, float ___0_xAngle, float ___1_yAngle, float ___2_zAngle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody_resetCollider_mA45228FB27D49414887340E9DFD0C4CA71C11A89 (UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SendMessage_m65848D6A8F999FACBC1C21B7303660B7AFF6674E (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_methodName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Animator_GetFloat_m10B455A15EB343175518CCBEE2818C2497CC678A (Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___1_hitInfo, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_set_height_m5DAE3DC5AD851E30C5A29AC7A22F36BE1E205BBB (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void CapsuleCollider_set_center_m242D92DAEF25887C6A87A0777E4E624C0A431A2E (CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m5C137C75DDEBA99BA9B0AC253EB36C075B2E2D8B (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_status, String_t* ___1_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* GoogleSignIn_get_Configuration_m3F4FE6701C9A4214FB378DEB8728C91D04A0D414_inline (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl__ctor_m28DE8315356ABCB9AB9B96F3D635BF83278D3A3A (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___0_configuration, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn__ctor_m43C53EBCEC03FBAA1F634E76365E860595AC4D52 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* ___0_impl, const RuntimeMethod* method) ;
+inline void TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84 (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* __this, const RuntimeMethod* method)
+{
+	((  void (*) (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*, const RuntimeMethod*))TaskCompletionSource_1__ctor_mBF9A903AD14C4E9CF044B227776C532BA9C40D60_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* SignInHelperObject_get_Instance_mB289E4E5785ECA3877128A2D7E42F73DAEAA2C34 (const RuntimeMethod* method) ;
+inline RuntimeObject* Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* __this, TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* ___0_tcs, const RuntimeMethod* method)
+{
+	return ((  RuntimeObject* (*) (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*, TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*, const RuntimeMethod*))Future_1_WaitForResult_m86C7BBC0D729D1190E2DE445649A1A7280004193_gshared)(__this, ___0_tcs, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+inline Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_inline (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* __this, const RuntimeMethod* method)
+{
+	return ((  Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* (*) (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*, const RuntimeMethod*))TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m203319D1EA1274689B380A947B4ADC8445662B8F (Exception_t* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F (Exception_t* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m9BC141AAB08F47C34B7ED40C1A6C0C1ADDEC5CB3 (Exception_t* __this, String_t* ___0_message, Exception_t* ___1_innerException, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Exception__ctor_m412D5FC4D69035738F1DB88FD771ABD6B0E9E120 (Exception_t* __this, SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ___0_info, StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 ___1_context, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* __this, RuntimeObject* ___0_wrapper, intptr_t ___1_handle, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D (RuntimeObject* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162 (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* __this, String_t* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UIntPtr_Equals_m7A952F9624311E28A8F6B7D48A27E897F59E7021 (uintptr_t* __this, RuntimeObject* ___0_obj, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UIntPtr_ToUInt32_mAD7A6CD8C254052CAC60B29546BE796360E0B965 (uintptr_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GetPlayerActivity_m298AD9D9AC4EEC28D205394CDD330BC02F1DD6A4 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Create_m6C8D53A9F11B20CC884FC7E118C5854570096CBF (intptr_t ___0_data, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, intptr_t ___0_intPtr, const RuntimeMethod* method) ;
+inline void List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, RuntimeObject* ___0_collection, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, RuntimeObject*, const RuntimeMethod*))List_1_AddRange_m1F76B300133150E6046C5FED00E88B5DE0A02E17_gshared)(__this, ___0_collection, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9 (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) ;
+inline StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_ToArray_mD7E4F8E7C11C3C67CB5739FCC0A6E86106A6291F_gshared)(__this, method);
+}
+inline int32_t List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Configure_mD397232FBA115AC8CFCB48BD84FB961D0F170B9E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, bool ___1_useGameSignIn, String_t* ___2_webClientId, bool ___3_requestAuthCode, bool ___4_forceTokenRefresh, bool ___5_requestEmail, bool ___6_requestIdToken, bool ___7_hidePopups, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___8_additionalScopes, int32_t ___9_scopeCount, String_t* ___10_accountName, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_EnableDebugLogging_m21685383DEDE08D27C74A274CA26D3FEEFC033EC (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, bool ___1_flag, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignIn_m22D8DE4B14BDAAE661FFEFEF5D9BEFD5830D2175 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, intptr_t ___0_ptr, const RuntimeMethod* method) ;
+inline void Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6 (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* __this, RuntimeObject* ___0_impl, const RuntimeMethod* method)
+{
+	((  void (*) (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*, RuntimeObject*, const RuntimeMethod*))Future_1__ctor_mFAB04EC0EED034736749BA83776F629ED33AA046_gshared)(__this, ___0_impl, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignInSilently_mB9B6823FC8F062B9FA8B3A954DD2D27CB6F7B062 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Signout_mA13B93C574D80B705301DA279CB588434C256DE3 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Disconnect_m00F5736B6446CD99B21D3E58D7A6D2A48A4CA0EB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389 (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* __this, String_t* ___0_className, const RuntimeMethod* method) ;
+inline AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, String_t* ___0_fieldName, const RuntimeMethod* method)
+{
+	return ((  AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* (*) (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0*, String_t*, const RuntimeMethod*))AndroidJavaObject_GetStatic_TisRuntimeObject_m4EF4E4761A0A6E99E0A298F653E8129B1494E4C9_gshared)(__this, ___0_fieldName, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48 (AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_DisposeFuture_m28CC383A504AA5E245927D51463C4C2E53036EF9 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject_Dispose_m554F3F996634EC0E8C5C0D2212659D5FDECC582F (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Pending_mB2A55106C50985472B9CD2F983F668CE42490435 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Result_m9495EFE3047E860938A68D98AB665B08D9368BBB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m7497FAB21C83A976EB1558C8B99D253FA6DDF86A (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser__ctor_m0271D1B065D5BF40672070447A0D61EEDB88FF91 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* ___0_outStringMethod, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* __this, String_t* ___0_uriString, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleSignInImpl_GoogleSignIn_Status_m394770E3C255F4A323BC0BBCB95E17628385BF8C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetDisplayName_mA10A1F7FCDB0C0509C25C07B4879ED6C8E7AB898 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetEmail_mB5BA2AF3A3B912BC7981CCAF582C4CB0BE794569 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetFamilyName_m598696E5B17386931EDA83BBB0620473B688B6B6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetGivenName_mFFF0ABA104C06A67D5A8E2412F037E9FEB5EF8C9 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetIdToken_m8E9891422C140811C8FA3BA9366BD82E0D1DD444 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetServerAuthCode_m7C4FB4471B7287C7F835758C8B6DEACCC423F478 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetImageUrl_m96C9B6DB9DA04EA6634C71B9651966DAD62434B4 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetUserId_m4DA7FB3CF2B43ABE928AC85A24017202EBB93B43 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_target, const RuntimeMethod* method) ;
+inline SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_AddComponent_TisRuntimeObject_m69B93700FACCF372F5753371C6E8FB780800B824_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHelperObject__ctor_m049CB998CA9E1DA5929BE9CFCEA8C33EE915CDA3 (SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_FromToRotation_m4A801EE9080CD4CBCB9319FF12EB7934E885932F (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___1_toDirection, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Internal_Lerp_mB9D9E19C29CA86767758B70DCFF9DB7C65821B39 (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974* ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_Create(intptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_EnableDebugLogging(void*, int32_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL GoogleSignIn_Configure(void*, int32_t, char*, int32_t, int32_t, int32_t, int32_t, int32_t, char**, int32_t, char*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_SignIn(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_SignInSilently(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_Signout(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_Disconnect(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C void DEFAULT_CALL GoogleSignIn_DisposeFuture(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL GoogleSignIn_Pending(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C intptr_t DEFAULT_CALL GoogleSignIn_Result(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C int32_t DEFAULT_CALL GoogleSignIn_Status(void*);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetServerAuthCode(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetDisplayName(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetEmail(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetFamilyName(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetGivenName(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetIdToken(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetImageUrl(void*, uint8_t*, uintptr_t);
+#endif
+#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+IL2CPP_EXTERN_C uintptr_t DEFAULT_CALL GoogleSignIn_GetUserId(void*, uint8_t*, uintptr_t);
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91172
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate_Start_m66D2B4A45523FC93C5D0D6AC36AC440D6184D1EF (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:16>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
+		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		__this->___anim = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:17>
+		return;
+	}
+}
+// Method Definition Index: 91173
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate_OnGUI_m8AEEB0EA8FCE5DBE453072C5B70C41797A741B16 (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral240C7FDF3C9B4066B07C1B58BCA1C949CB56ABEA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral293542D9D93291B4BD2A5814172566525A7DDF57);
+		s_Il2CppMethodInitialized = true;
+	}
+	AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* V_0 = NULL;
+	int32_t V_1 = 0;
+	AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* V_2 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:21>
+		bool L_0 = __this->___isGUI;
+		if (!L_0)
+		{
+			goto IL_00c6;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:23>
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_1 = (GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2*)(GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2*)SZArrayNew(GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2_il2cpp_TypeInfo_var, (uint32_t)2);
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_2 = L_1;
+		GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* L_3;
+		L_3 = GUILayout_Width_m3FADF145F37481F9FEFF0E89E8A466CF5532DCE3((170.0f), NULL);
+		NullCheck(L_2);
+		(L_2)->SetAt(static_cast<il2cpp_array_size_t>(0), (GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14*)L_3);
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_4 = L_2;
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_5 = __this->___animations;
+		NullCheck(L_5);
+		GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14* L_6;
+		L_6 = GUILayout_Height_m5E1526C541663A21437ED06E233FDDA08A856B91(((float)((int32_t)il2cpp_codegen_multiply(((int32_t)25), ((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_5)->max_length)), 2))))), NULL);
+		NullCheck(L_4);
+		(L_4)->SetAt(static_cast<il2cpp_array_size_t>(1), (GUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14*)L_6);
+		GUILayout_Box_m4CEFB7550F94CA85459CEACB810E9F99C7451456(_stringLiteral240C7FDF3C9B4066B07C1B58BCA1C949CB56ABEA, L_4, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:24>
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_7 = __this->___animations;
+		NullCheck(L_7);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_8), (10.0f), (25.0f), (150.0f), ((float)((int32_t)il2cpp_codegen_multiply(((int32_t)25), ((int32_t)il2cpp_codegen_add(((int32_t)(((RuntimeArray*)L_7)->max_length)), 1))))), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:25>
+		GUILayout_BeginArea_m4D894562C97A0F6793450A0DF379B63F60121F64(L_8, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:26>
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_9 = __this->___animations;
+		V_0 = L_9;
+		V_1 = 0;
+		goto IL_00a0;
+	}
+
+IL_0070:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:26>
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_10 = V_0;
+		int32_t L_11 = V_1;
+		NullCheck(L_10);
+		int32_t L_12 = L_11;
+		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_13 = (L_10)->GetAt(static_cast<il2cpp_array_size_t>(L_12));
+		V_2 = L_13;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:28>
+		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_14 = V_2;
+		NullCheck(L_14);
+		String_t* L_15;
+		L_15 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_14, NULL);
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_16;
+		L_16 = Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline(Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
+		bool L_17;
+		L_17 = GUILayout_RepeatButton_m85FE00614C26B803944219FBD1D1283C1D559452(L_15, L_16, NULL);
+		if (!L_17)
+		{
+			goto IL_009c;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:30>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_18 = __this->___anim;
+		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_19 = V_2;
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_19, NULL);
+		NullCheck(L_18);
+		Animator_CrossFade_m9896DFE98F7DC35199C7FDEB22E6645B6F53E998(L_18, L_20, (0.0f), NULL);
+	}
+
+IL_009c:
+	{
+		int32_t L_21 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_21, 1));
+	}
+
+IL_00a0:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:26>
+		int32_t L_22 = V_1;
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_23 = V_0;
+		NullCheck(L_23);
+		if ((((int32_t)L_22) < ((int32_t)((int32_t)(((RuntimeArray*)L_23)->max_length)))))
+		{
+			goto IL_0070;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:33>
+		bool L_24 = __this->___isKeepFace;
+		GUILayoutOptionU5BU5D_t24AB80AB9355D784F2C65E12A4D0CC2E0C914CA2* L_25;
+		L_25 = Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_inline(Array_Empty_TisGUILayoutOption_t8B0AA056521747053A3176FCC43E9C3608940A14_mC7F345AC4C0CA86560FAA00174268F70FBBE577F_RuntimeMethod_var);
+		bool L_26;
+		L_26 = GUILayout_Toggle_m59FC4209A021B0E6FBB880941B791487D359DBF7(L_24, _stringLiteral293542D9D93291B4BD2A5814172566525A7DDF57, L_25, NULL);
+		__this->___isKeepFace = L_26;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:34>
+		GUILayout_EndArea_m3A9C6B4D373E8A871A71E0D8D2D9249D9F62F079(NULL);
+	}
+
+IL_00c6:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 91174
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate_Update_mD2109C45FBD2FA8969EA5C20A124A61C4DFB8241 (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:43>
+		bool L_0;
+		L_0 = Input_GetMouseButton_m4995DD4A2D4F916565C1B1B5AAF7DF17C126B3EA(0, NULL);
+		if (!L_0)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:44>
+		__this->___current = (1.0f);
+		goto IL_0039;
+	}
+
+IL_0015:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:45>
+		bool L_1 = __this->___isKeepFace;
+		if (L_1)
+		{
+			goto IL_0039;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:46>
+		float L_2 = __this->___current;
+		float L_3 = __this->___delayWeight;
+		float L_4;
+		L_4 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_2, (0.0f), L_3, NULL);
+		__this->___current = L_4;
+	}
+
+IL_0039:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:48>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___anim;
+		float L_6 = __this->___current;
+		NullCheck(L_5);
+		Animator_SetLayerWeight_m06ADC732F76F22B4B1424F25525E7CBB80E6230F(L_5, 1, L_6, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 91175
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate_OnCallChangeFace_m3D85121165409C46E6675B7E216417E5A3B3F1B3 (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, String_t* ___0_str, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1BED2DC0EC7095284E4DD921DFE0B428EF30564B);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* V_1 = NULL;
+	int32_t V_2 = 0;
+	AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* V_3 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:55>
+		V_0 = 0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:56>
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_0 = __this->___animations;
+		V_1 = L_0;
+		V_2 = 0;
+		goto IL_004a;
+	}
+
+IL_000d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:56>
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_1 = V_1;
+		int32_t L_2 = V_2;
+		NullCheck(L_1);
+		int32_t L_3 = L_2;
+		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_4 = (L_1)->GetAt(static_cast<il2cpp_array_size_t>(L_3));
+		V_3 = L_4;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:57>
+		String_t* L_5 = ___0_str;
+		AnimationClip_t00BD2F131D308A4AD2C6B0BF66644FC25FECE712* L_6 = V_3;
+		NullCheck(L_6);
+		String_t* L_7;
+		L_7 = Object_get_name_mAC2F6B897CF1303BA4249B4CB55271AFACBB6392(L_6, NULL);
+		bool L_8;
+		L_8 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_5, L_7, NULL);
+		if (!L_8)
+		{
+			goto IL_0027;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:58>
+		String_t* L_9 = ___0_str;
+		FaceUpdate_ChangeFace_m2D626DC70BDF298284B35CF5CE406A079CF1458F(__this, L_9, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:59>
+		return;
+	}
+
+IL_0027:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:60>
+		int32_t L_10 = V_0;
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_11 = __this->___animations;
+		NullCheck(L_11);
+		if ((((int32_t)L_10) > ((int32_t)((int32_t)(((RuntimeArray*)L_11)->max_length)))))
+		{
+			goto IL_0038;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:61>
+		int32_t L_12 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_12, 1));
+		goto IL_0046;
+	}
+
+IL_0038:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:64>
+		___0_str = _stringLiteral1BED2DC0EC7095284E4DD921DFE0B428EF30564B;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:65>
+		String_t* L_13 = ___0_str;
+		FaceUpdate_ChangeFace_m2D626DC70BDF298284B35CF5CE406A079CF1458F(__this, L_13, NULL);
+	}
+
+IL_0046:
+	{
+		int32_t L_14 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_14, 1));
+	}
+
+IL_004a:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:56>
+		int32_t L_15 = V_2;
+		AnimationClipU5BU5D_t48CE1A495BA95608745A065C735F2D5BB8DE5A0F* L_16 = V_1;
+		NullCheck(L_16);
+		if ((((int32_t)L_15) < ((int32_t)((int32_t)(((RuntimeArray*)L_16)->max_length)))))
+		{
+			goto IL_000d;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 91176
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate_ChangeFace_m2D626DC70BDF298284B35CF5CE406A079CF1458F (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, String_t* ___0_str, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:72>
+		__this->___isKeepFace = (bool)1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:73>
+		__this->___current = (1.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:74>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___anim;
+		String_t* L_1 = ___0_str;
+		NullCheck(L_0);
+		Animator_CrossFade_m9896DFE98F7DC35199C7FDEB22E6645B6F53E998(L_0, L_1, (0.0f), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:75>
+		return;
+	}
+}
+// Method Definition Index: 91177
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceUpdate__ctor_m2E3B2A289467A6D2BAAC735DB4099515BBD9D9E2 (FaceUpdate_t39A1A34B90E5D9A98A7E88515E02D32B46B4755E* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/FaceUpdate.cs:12>
+		__this->___isGUI = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91178
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKCtrlRightHand_Awake_mAD52D7D5DF21C6728A97BE2BE853287757A58E7A (IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:24>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
+		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		__this->___anim = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:25>
+		return;
+	}
+}
+// Method Definition Index: 91179
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKCtrlRightHand_Update_m39CFC7861DD9AA8551454D037C5B1E8E4D81B928 (IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:30>
+		float L_0 = __this->___mixWeight;
+		if ((!(((float)L_0) >= ((float)(1.0f)))))
+		{
+			goto IL_0019;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:31>
+		__this->___mixWeight = (1.0f);
+		return;
+	}
+
+IL_0019:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:32>
+		float L_1 = __this->___mixWeight;
+		if ((!(((float)L_1) <= ((float)(0.0f)))))
+		{
+			goto IL_0031;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:33>
+		__this->___mixWeight = (0.0f);
+	}
+
+IL_0031:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 91180
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKCtrlRightHand_OnAnimatorIK_m111A45EEBC8EA2668D5DE85AFB27B1809D479C56 (IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56* __this, int32_t ___0_layerIndex, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:38>
+		bool L_0 = __this->___isIkActive;
+		if (!L_0)
+		{
+			goto IL_005a;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:39>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___anim;
+		float L_2 = __this->___mixWeight;
+		NullCheck(L_1);
+		Animator_SetIKPositionWeight_m8C707F505FFE2A6F36BE81ED12786B941D3B990C(L_1, 3, L_2, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:40>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->___anim;
+		float L_4 = __this->___mixWeight;
+		NullCheck(L_3);
+		Animator_SetIKRotationWeight_m5F0F5BD5A9A85912EA1CDF32917FE483E849978D(L_3, 3, L_4, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:41>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___anim;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___targetObj;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_6, NULL);
+		NullCheck(L_5);
+		Animator_SetIKPosition_mB7BE88C93990186D94AF75439E2F216D6ECBCDEE(L_5, 3, L_7, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:42>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8 = __this->___anim;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___targetObj;
+		NullCheck(L_9);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10;
+		L_10 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_9, NULL);
+		NullCheck(L_8);
+		Animator_SetIKRotation_m328A64AD20922F0F2A1D0CD5DBB9F01FE7675DF6(L_8, 3, L_10, NULL);
+	}
+
+IL_005a:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:44>
+		return;
+	}
+}
+// Method Definition Index: 91181
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKCtrlRightHand_OnGUI_m5C7BC95F350401C0ED428FB7DFD60C0111D8A273 (IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAAC72435C50E2C88247E4FAE4A4F3CA3BE5418D4);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:48>
+		int32_t L_0;
+		L_0 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_0), (10.0f), ((float)((int32_t)il2cpp_codegen_subtract(L_0, ((int32_t)20)))), (400.0f), (30.0f), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:49>
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1 = V_0;
+		bool L_2 = __this->___isIkActive;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = GUI_Toggle_m00206EA64CCCB111095390467F8894D69DCB081F(L_1, L_2, _stringLiteralAAC72435C50E2C88247E4FAE4A4F3CA3BE5418D4, NULL);
+		__this->___isIkActive = L_3;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:50>
+		return;
+	}
+}
+// Method Definition Index: 91182
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKCtrlRightHand__ctor_m2D26C9CE817A7B16A242489C5EE497D9374B921E (IKCtrlRightHand_tDBAC6A4D9C68491E308974E6969FB742E75FEF56* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKCtrlRightHand.cs:20>
+		__this->___mixWeight = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91183
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKLookAt_Start_mFB41919380B0EE88461D68536C7E9537BB15BA4C (IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponentInParent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m53F08D94A1C92D126F2BB8F5EA749292FAE0EEE0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:35>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
+		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		__this->___avator = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___avator), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:36>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___lookAtObj;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0037;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:38>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___lookAtObj;
+		NullCheck(L_3);
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_4;
+		L_4 = Component_GetComponentInParent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m53F08D94A1C92D126F2BB8F5EA749292FAE0EEE0(L_3, Component_GetComponentInParent_TisMeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE_m53F08D94A1C92D126F2BB8F5EA749292FAE0EEE0_RuntimeMethod_var);
+		__this->___target = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___target), (void*)L_4);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:39>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_5 = __this->___target;
+		NullCheck(L_5);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, (bool)0, NULL);
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:42>
+		return;
+	}
+}
+// Method Definition Index: 91184
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKLookAt_OnGUI_mE9BC91BEEA7F76F26D3E3409D00D474601BD9ADF (IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEC58F4F43A8DB185B5638342E44A42F8EAB96B96);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:47>
+		bool L_0 = __this->___isGUI;
+		if (!L_0)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:49>
+		int32_t L_1;
+		L_1 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		int32_t L_2;
+		L_2 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_0), ((float)((int32_t)il2cpp_codegen_subtract(L_1, ((int32_t)120)))), ((float)((int32_t)il2cpp_codegen_subtract(L_2, ((int32_t)40)))), (100.0f), (30.0f), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:51>
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_3 = V_0;
+		bool L_4 = __this->___ikActive;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = GUI_Toggle_m00206EA64CCCB111095390467F8894D69DCB081F(L_3, L_4, _stringLiteralEC58F4F43A8DB185B5638342E44A42F8EAB96B96, NULL);
+		__this->___ikActive = L_5;
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:53>
+		return;
+	}
+}
+// Method Definition Index: 91185
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKLookAt_OnAnimatorIK_mFB8D6F03F377671655DD7B42FCDF12C0F0506EAC (IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE* __this, int32_t ___0_layorIndex, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:58>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___avator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_0093;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:60>
+		bool L_2 = __this->___ikActive;
+		if (!L_2)
+		{
+			goto IL_0083;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:62>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_3 = __this->___avator;
+		float L_4 = __this->___lookAtWeight;
+		float L_5 = __this->___bodyWeight;
+		float L_6 = __this->___headWeight;
+		float L_7 = __this->___eyesWeight;
+		float L_8 = __this->___clampWeight;
+		NullCheck(L_3);
+		Animator_SetLookAtWeight_m536B18C7EC83703CF0320924D9FE13CBD93CC752(L_3, L_4, L_5, L_6, L_7, L_8, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:63>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9 = __this->___lookAtObj;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_0072;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:65>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_11 = __this->___target;
+		NullCheck(L_11);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_11, (bool)1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:66>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_12 = __this->___avator;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13 = __this->___lookAtObj;
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_13, NULL);
+		NullCheck(L_12);
+		Animator_SetLookAtPosition_m39A2C326BDE156360972C5EEDA1F9ACEBE34A8A6(L_12, L_14, NULL);
+		return;
+	}
+
+IL_0072:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:70>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_15 = __this->___avator;
+		NullCheck(L_15);
+		Animator_SetLookAtWeight_mDCC8C8792E2E23C133AF3D91A96C49BEBC828F79(L_15, (0.0f), NULL);
+		return;
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:75>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_16 = __this->___avator;
+		NullCheck(L_16);
+		Animator_SetLookAtWeight_mDCC8C8792E2E23C133AF3D91A96C49BEBC828F79(L_16, (0.0f), NULL);
+	}
+
+IL_0093:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:78>
+		return;
+	}
+}
+// Method Definition Index: 91186
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKLookAt_Update_m28665AC5F006B59E2FC1D1EFF3087FCE76C41726 (IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:82>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0 = __this->___avator;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:84>
+		bool L_2 = __this->___ikActive;
+		if (L_2)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:86>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___lookAtObj;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:88>
+		MeshRenderer_t4B7747212F0B88244BB7790C61AE124BFC15BAAE* L_5 = __this->___target;
+		NullCheck(L_5);
+		Renderer_set_enabled_m015E6D7B825528A31182F267234CC6A925F71DA8(L_5, (bool)0, NULL);
+	}
+
+IL_002f:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:94>
+		return;
+	}
+}
+// Method Definition Index: 91187
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IKLookAt__ctor_mF168DD5077F710F1BB6267E9CD7ADD59199B826F (IKLookAt_t5B1540BBF3D9186EC57698905ED058D0BEC4B6EE* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:22>
+		__this->___lookAtWeight = (1.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:23>
+		__this->___bodyWeight = (0.300000012f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:24>
+		__this->___headWeight = (0.800000012f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:25>
+		__this->___eyesWeight = (1.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:26>
+		__this->___clampWeight = (0.5f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IKLookAt.cs:27>
+		__this->___isGUI = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91188
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IdleChanger_Start_m0CAA081A5A3F28127A2CB964E9F8A72C3FE064A1 (IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7456FF61D92F368E7DB05C258B9683B2CA9DBE5D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:35>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
+		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		__this->___anim = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:36>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_1 = __this->___anim;
+		NullCheck(L_1);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_2;
+		L_2 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_1, 0, NULL);
+		__this->___currentState = L_2;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:37>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_3 = __this->___currentState;
+		__this->___previousState = L_3;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:39>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_4;
+		L_4 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral7456FF61D92F368E7DB05C258B9683B2CA9DBE5D, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:40>
+		return;
+	}
+}
+// Method Definition Index: 91189
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IdleChanger_Update_m0699DAC36810ACE9E51000AF3E3D80FAFE30A471 (IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1B22F82E513C1BB368DFDBFDFB5FB8C1178CA305);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A261EB7E7319776625F5A015EA18053797E6890);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5379C25D8F9979AD371949D2F3201B2D326743A4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:46>
+		bool L_0;
+		L_0 = Input_GetKeyDown_m789DB780D0567DCC23B501D15AABD4F2E3591A3F(_stringLiteral1B22F82E513C1BB368DFDBFDFB5FB8C1178CA305, NULL);
+		if (L_0)
+		{
+			goto IL_0018;
+		}
+	}
+	{
+		bool L_1;
+		L_1 = Input_GetButton_m2F217DAE69DB3D1324FB848B3C9C84F19A80989E(_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C, NULL);
+		if (!L_1)
+		{
+			goto IL_0029;
+		}
+	}
+
+IL_0018:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:48>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___anim;
+		NullCheck(L_2);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_2, _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27, (bool)1, NULL);
+	}
+
+IL_0029:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:52>
+		bool L_3;
+		L_3 = Input_GetKeyDown_m789DB780D0567DCC23B501D15AABD4F2E3591A3F(_stringLiteral5379C25D8F9979AD371949D2F3201B2D326743A4, NULL);
+		if (!L_3)
+		{
+			goto IL_0046;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:54>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = __this->___anim;
+		NullCheck(L_4);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_4, _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, (bool)1, NULL);
+	}
+
+IL_0046:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:58>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_5 = __this->___anim;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = Animator_GetBool_mBC4D952885FF7504963E5923C29481A891028FD8(L_5, _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27, NULL);
+		if (!L_6)
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:60>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_7 = __this->___anim;
+		NullCheck(L_7);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_8;
+		L_8 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_7, 0, NULL);
+		__this->___currentState = L_8;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:61>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_9 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___previousState);
+		int32_t L_10;
+		L_10 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_9, NULL);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_11 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentState);
+		int32_t L_12;
+		L_12 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_11, NULL);
+		if ((((int32_t)L_10) == ((int32_t)L_12)))
+		{
+			goto IL_009f;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:62>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_13 = __this->___anim;
+		NullCheck(L_13);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_13, _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27, (bool)0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:63>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_14 = __this->___currentState;
+		__this->___previousState = L_14;
+	}
+
+IL_009f:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:68>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_15 = __this->___anim;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = Animator_GetBool_mBC4D952885FF7504963E5923C29481A891028FD8(L_15, _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, NULL);
+		if (!L_16)
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:70>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_17 = __this->___anim;
+		NullCheck(L_17);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_18;
+		L_18 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_17, 0, NULL);
+		__this->___currentState = L_18;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:71>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_19 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___previousState);
+		int32_t L_20;
+		L_20 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_19, NULL);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_21 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentState);
+		int32_t L_22;
+		L_22 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_21, NULL);
+		if ((((int32_t)L_20) == ((int32_t)L_22)))
+		{
+			goto IL_00f8;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:72>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_23 = __this->___anim;
+		NullCheck(L_23);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_23, _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, (bool)0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:73>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_24 = __this->___currentState;
+		__this->___previousState = L_24;
+	}
+
+IL_00f8:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 91190
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IdleChanger_OnGUI_m8921A6AEC405CBA054EDBE1F26B2041893EDFF59 (IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A261EB7E7319776625F5A015EA18053797E6890);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB0F3EFB34B5BB26A1D0A3D4032611129C4ECC85C);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:80>
+		bool L_0 = __this->___isGUI;
+		if (!L_0)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:82>
+		int32_t L_1;
+		L_1 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2;
+		memset((&L_2), 0, sizeof(L_2));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_2), ((float)((int32_t)il2cpp_codegen_subtract(L_1, ((int32_t)110)))), (10.0f), (100.0f), (90.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(L_2, _stringLiteralB0F3EFB34B5BB26A1D0A3D4032611129C4ECC85C, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:83>
+		int32_t L_3;
+		L_3 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_4), ((float)((int32_t)il2cpp_codegen_subtract(L_3, ((int32_t)100)))), (40.0f), (80.0f), (20.0f), NULL);
+		bool L_5;
+		L_5 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_4, _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27, NULL);
+		if (!L_5)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:84>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->___anim;
+		NullCheck(L_6);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_6, _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27, (bool)1, NULL);
+	}
+
+IL_006c:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:85>
+		int32_t L_7;
+		L_7 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_8;
+		memset((&L_8), 0, sizeof(L_8));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_8), ((float)((int32_t)il2cpp_codegen_subtract(L_7, ((int32_t)100)))), (70.0f), (80.0f), (20.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_8, _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, NULL);
+		if (!L_9)
+		{
+			goto IL_00a6;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:86>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_10 = __this->___anim;
+		NullCheck(L_10);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_10, _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, (bool)1, NULL);
+	}
+
+IL_00a6:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:88>
+		return;
+	}
+}
+// Method Definition Index: 91191
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* IdleChanger_RandomChange_mC69E77BABA02C459DD52CA109BBFA364BA1516A8 (IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* L_0 = (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509*)il2cpp_codegen_object_new(U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509_il2cpp_TypeInfo_var);
+		U3CRandomChangeU3Ed__10__ctor_mD2E94732CF3DE2C35BD27CD59E6C5BC3FA0D30CE(L_0, 0, NULL);
+		U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 91192
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void IdleChanger__ctor_mD88180FE7ADF499427318D04AE7BC7B15122CD2C (IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:24>
+		__this->____threshold = (0.5f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:25>
+		__this->____interval = (10.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:27>
+		__this->___isGUI = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91193
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__10__ctor_mD2E94732CF3DE2C35BD27CD59E6C5BC3FA0D30CE (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 91194
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__10_System_IDisposable_Dispose_mEDD0EF255D68D348E92C13EB03C19698CE13DB60 (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 91195
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRandomChangeU3Ed__10_MoveNext_m40BB93323B07C8CD6E1EF03F52FC244B250C204B (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4A261EB7E7319776625F5A015EA18053797E6890);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* V_1 = NULL;
+	float V_2 = 0.0f;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_0086;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:97>
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_4 = V_1;
+		NullCheck(L_4);
+		bool L_5 = L_4->____random;
+		if (!L_5)
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:99>
+		float L_6;
+		L_6 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (1.0f), NULL);
+		V_2 = L_6;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:100>
+		float L_7 = V_2;
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_8 = V_1;
+		NullCheck(L_8);
+		float L_9 = L_8->____threshold;
+		if ((!(((float)L_7) < ((float)L_9))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:101>
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_10 = V_1;
+		NullCheck(L_10);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_11 = L_10->___anim;
+		NullCheck(L_11);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_11, _stringLiteral4A261EB7E7319776625F5A015EA18053797E6890, (bool)1, NULL);
+		goto IL_006c;
+	}
+
+IL_0052:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:102>
+		float L_12 = V_2;
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_13 = V_1;
+		NullCheck(L_13);
+		float L_14 = L_13->____threshold;
+		if ((!(((float)L_12) >= ((float)L_14))))
+		{
+			goto IL_006c;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:103>
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_15 = V_1;
+		NullCheck(L_15);
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_16 = L_15->___anim;
+		NullCheck(L_16);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_16, _stringLiteral5A1278AB54EFEBBD1E0E03AB2677F22D39311C27, (bool)1, NULL);
+	}
+
+IL_006c:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:107>
+		IdleChanger_t48C4F7F2BFE997F9A1BC8E290B2112EB2454E594* L_17 = V_1;
+		NullCheck(L_17);
+		float L_18 = L_17->____interval;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_19 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_19, L_18, NULL);
+		__this->___U3CU3E2__current = L_19;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_19);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_0086:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/IdleChanger.cs:95>
+		goto IL_001e;
+	}
+}
+// Method Definition Index: 91196
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRandomChangeU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9D4F2975C49574227733B6E991F541076B3F26E7 (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 91197
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__10_System_Collections_IEnumerator_Reset_m1A2C5EADB65139755FFE5B13EBDB3F2C08F44DEC (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRandomChangeU3Ed__10_System_Collections_IEnumerator_Reset_m1A2C5EADB65139755FFE5B13EBDB3F2C08F44DEC_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 91198
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRandomChangeU3Ed__10_System_Collections_IEnumerator_get_Current_mAE1388C7E71A0A54797B25984DA70B5BC411830D (U3CRandomChangeU3Ed__10_tD1F7AAFD62B35FFCA77D27312FB0084B4F48F509* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91199
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomWind_Start_m2F61E0FAF9EB338F2CD6A1FFAF630288D4B9F4CE (RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7456FF61D92F368E7DB05C258B9683B2CA9DBE5D);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:34>
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_0;
+		L_0 = Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62(__this, Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62_RuntimeMethod_var);
+		NullCheck(L_0);
+		SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* L_1 = L_0->___springBones;
+		__this->___springBones = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___springBones), (void*)L_1);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:35>
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_2;
+		L_2 = MonoBehaviour_StartCoroutine_m10C4B693B96175C42B0FD00911E072701C220DB4(__this, _stringLiteral7456FF61D92F368E7DB05C258B9683B2CA9DBE5D, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 91200
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomWind_Update_mD9F2AC65857F1C1B267980CA601B1807B77A218D (RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	int32_t V_1 = 0;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:46>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_0 = L_0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:47>
+		bool L_1 = __this->___isWindActive;
+		if (!L_1)
+		{
+			goto IL_00a4;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:48>
+		bool L_2 = __this->___isMinus;
+		if (!L_2)
+		{
+			goto IL_004f;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:49>
+		float L_3;
+		L_3 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_4;
+		L_4 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(L_3, (0.0f), NULL);
+		float L_5 = __this->___windPower;
+		float L_6 = __this->___gravity;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_4, L_5)), (-0.00100000005f))), ((float)il2cpp_codegen_multiply(L_6, (-0.00100000005f))), (0.0f), NULL);
+		goto IL_0083;
+	}
+
+IL_004f:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:51>
+		float L_7;
+		L_7 = Time_get_time_m3A271BB1B20041144AC5B7863B71AB1F0150374B(NULL);
+		float L_8;
+		L_8 = Mathf_PerlinNoise_mAB0E53C29FE95469CF303364910AD0D8662A9A6A(L_7, (0.0f), NULL);
+		float L_9 = __this->___windPower;
+		float L_10 = __this->___gravity;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_0), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_8, L_9)), (0.00100000005f))), ((float)il2cpp_codegen_multiply(L_10, (-0.00100000005f))), (0.0f), NULL);
+	}
+
+IL_0083:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:54>
+		V_1 = 0;
+		goto IL_0099;
+	}
+
+IL_0087:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:55>
+		SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* L_11 = __this->___springBones;
+		int32_t L_12 = V_1;
+		NullCheck(L_11);
+		int32_t L_13 = L_12;
+		SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* L_14 = (L_11)->GetAt(static_cast<il2cpp_array_size_t>(L_13));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_0;
+		NullCheck(L_14);
+		L_14->___springForce = L_15;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:54>
+		int32_t L_16 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_16, 1));
+	}
+
+IL_0099:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:54>
+		int32_t L_17 = V_1;
+		SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* L_18 = __this->___springBones;
+		NullCheck(L_18);
+		if ((((int32_t)L_17) < ((int32_t)((int32_t)(((RuntimeArray*)L_18)->max_length)))))
+		{
+			goto IL_0087;
+		}
+	}
+
+IL_00a4:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 91201
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomWind_OnGUI_m8B5D02AA10A0A51B92F9DF2F12375780569DDF2A (RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC473046B41946A22C532AEFD1B4D486A028D183C);
+		s_Il2CppMethodInitialized = true;
+	}
+	Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:63>
+		bool L_0 = __this->___isGUI;
+		if (!L_0)
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:65>
+		int32_t L_1;
+		L_1 = Screen_get_height_m01A3102DE71EE1FBEA51D09D6B0261CF864FE8F9(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D_il2cpp_TypeInfo_var);
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&V_0), (10.0f), ((float)((int32_t)il2cpp_codegen_subtract(L_1, ((int32_t)40)))), (400.0f), (30.0f), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:66>
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_2 = V_0;
+		bool L_3 = __this->___isWindActive;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = GUI_Toggle_m00206EA64CCCB111095390467F8894D69DCB081F(L_2, L_3, _stringLiteralC473046B41946A22C532AEFD1B4D486A028D183C, NULL);
+		__this->___isWindActive = L_4;
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:68>
+		return;
+	}
+}
+// Method Definition Index: 91202
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* RandomWind_RandomChange_m238520F23BE17F4CACCCB3EB1D39EC1E04D1E86D (RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	//<source_info:<no-source>:1>
+	{
+		U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* L_0 = (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170*)il2cpp_codegen_object_new(U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170_il2cpp_TypeInfo_var);
+		U3CRandomChangeU3Ed__11__ctor_mDD4748AA738DC29EB9B8BEE399E27DCCBE9B51AB(L_0, 0, NULL);
+		U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		return L_1;
+	}
+}
+// Method Definition Index: 91203
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RandomWind__ctor_mFACA0E9867B29053A7562BB7BA4CED15D869462F (RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:24>
+		__this->___threshold = (0.5f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:25>
+		__this->___interval = (5.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:26>
+		__this->___windPower = (1.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:27>
+		__this->___gravity = (0.980000019f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:28>
+		__this->___isGUI = (bool)1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91204
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__11__ctor_mDD4748AA738DC29EB9B8BEE399E27DCCBE9B51AB (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+// Method Definition Index: 91205
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__11_System_IDisposable_Dispose_m35D9961908633C14B6F7C9EEAF8C39A9B9F1A6C7 (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+// Method Definition Index: 91206
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CRandomChangeU3Ed__11_MoveNext_mBEBB2E77BC8190F49C5FA2D154460E781F867E2A (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* V_1 = NULL;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_0017:
+	{
+		__this->___U3CU3E1__state = (-1);
+	}
+
+IL_001e:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:76>
+		float L_4;
+		L_4 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494((0.0f), (1.0f), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:78>
+		RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* L_5 = V_1;
+		NullCheck(L_5);
+		float L_6 = L_5->___threshold;
+		if ((!(((float)L_4) > ((float)L_6))))
+		{
+			goto IL_003e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:80>
+		RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* L_7 = V_1;
+		NullCheck(L_7);
+		L_7->___isMinus = (bool)1;
+		goto IL_0045;
+	}
+
+IL_003e:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:82>
+		RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* L_8 = V_1;
+		NullCheck(L_8);
+		L_8->___isMinus = (bool)0;
+	}
+
+IL_0045:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:86>
+		RandomWind_t82E37B7A3B0D246A04893F8F19037ED8FF960E76* L_9 = V_1;
+		NullCheck(L_9);
+		float L_10 = L_9->___interval;
+		WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3* L_11 = (WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3*)il2cpp_codegen_object_new(WaitForSeconds_tF179DF251655B8DF044952E70A60DF4B358A3DD3_il2cpp_TypeInfo_var);
+		WaitForSeconds__ctor_m579F95BADEDBAB4B3A7E302C6EE3995926EF2EFC(L_11, L_10, NULL);
+		__this->___U3CU3E2__current = L_11;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)L_11);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_005f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/RandomWind.cs:74>
+		goto IL_001e;
+	}
+}
+// Method Definition Index: 91207
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRandomChangeU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m599668992DDC977B9BC7F178DE61F65AB6B09A64 (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+// Method Definition Index: 91208
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CRandomChangeU3Ed__11_System_Collections_IEnumerator_Reset_mCBE9395CC0FA570F5081D38EE9DE1F5F1C1D7304 (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CRandomChangeU3Ed__11_System_Collections_IEnumerator_Reset_mCBE9395CC0FA570F5081D38EE9DE1F5F1C1D7304_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 91209
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CRandomChangeU3Ed__11_System_Collections_IEnumerator_get_Current_m239BEA83650AF7FE4A807C3F62DFEC7FEA6D7195 (U3CRandomChangeU3Ed__11_t83A4293D2868C093B81A8326A2AA735027891170* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91210
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringBone_Awake_m67C6D9BF088155D77238A11D0BFE9D4831003C5F (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:50>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		__this->___trs = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___trs), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:51>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
+		L_2 = Transform_get_localRotation_mD53D37611A5DAE93EC6C7BBCAC337408C5CACA77(L_1, NULL);
+		__this->___localRotation = L_2;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:54>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_4;
+		L_4 = SpringBone_GetParentSpringManager_m2EF5EEAD6A918133FD9764553417AC48DFA1FFFC(__this, L_3, NULL);
+		__this->___managerRef = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___managerRef), (void*)L_4);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:55>
+		return;
+	}
+}
+// Method Definition Index: 91211
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* SpringBone_GetParentSpringManager_m2EF5EEAD6A918133FD9764553417AC48DFA1FFFC (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_t, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* V_0 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:59>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_t;
+		NullCheck(L_0);
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_1;
+		L_1 = Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62(L_0, Component_GetComponent_TisSpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5_m630E6D2B49B22937724760C37F78B3E0BBED6C62_RuntimeMethod_var);
+		V_0 = L_1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:61>
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_2 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_3)
+		{
+			goto IL_0012;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:62>
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_4 = V_0;
+		return L_4;
+	}
+
+IL_0012:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:64>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = ___0_t;
+		NullCheck(L_5);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6;
+		L_6 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_5, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_6, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_7)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:65>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = ___0_t;
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Transform_get_parent_m65354E28A4C94EC00EBCF03532F7B0718380791E(L_8, NULL);
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_10;
+		L_10 = SpringBone_GetParentSpringManager_m2EF5EEAD6A918133FD9764553417AC48DFA1FFFC(__this, L_9, NULL);
+		return L_10;
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:68>
+		return (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5*)NULL;
+	}
+}
+// Method Definition Index: 91212
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringBone_Start_mD3A1B5A5741C88E5F1E5E78D1F240988C6A75FE8 (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:73>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trs;
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2 = __this->___child;
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		float L_4;
+		L_4 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_1, L_3, NULL);
+		__this->___springLength = L_4;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:74>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5 = __this->___child;
+		NullCheck(L_5);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_5, NULL);
+		__this->___currTipPos = L_6;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:75>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___child;
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		__this->___prevTipPos = L_8;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:76>
+		return;
+	}
+}
+// Method Definition Index: 91213
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringBone_UpdateSpring_m563B11D579B08B95288B55147BFD689E29AFBF57 (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	int32_t V_5 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:81>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___trs;
+		__this->___org = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___org), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:83>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___trs;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2;
+		L_2 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = __this->___localRotation;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
+		L_4 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_2, L_3, NULL);
+		NullCheck(L_1);
+		Transform_set_localRotation_mAB4A011D134BA58AB780BECC0025CA65F16185FA(L_1, L_4, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:85>
+		float L_5;
+		L_5 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_6;
+		L_6 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		V_0 = ((float)il2cpp_codegen_multiply(L_5, L_6));
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:88>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7 = __this->___trs;
+		NullCheck(L_7);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8;
+		L_8 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_7, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = __this->___boneAxis;
+		float L_10 = __this->___stiffnessForce;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_9, L_10, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Quaternion_op_Multiply_mE1EBA73F9173432B50F8F17CE8190C5A7986FB8C(L_8, L_11, NULL);
+		float L_13 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_12, L_13, NULL);
+		V_1 = L_14;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:91>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = __this->___prevTipPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = __this->___currTipPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		L_18 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_16, L_17, NULL);
+		float L_19 = __this->___dragForce;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_18, L_19, NULL);
+		float L_21 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_20, L_21, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_15, L_22, NULL);
+		V_1 = L_23;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:93>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_25 = __this->___springForce;
+		float L_26 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		L_27 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_25, L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_24, L_27, NULL);
+		V_1 = L_28;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:96>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29 = __this->___currTipPos;
+		V_2 = L_29;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:99>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = __this->___currTipPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31 = __this->___prevTipPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_30, L_31, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___currTipPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34;
+		L_34 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_32, L_33, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35 = V_1;
+		float L_36 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_35, L_36, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_34, L_37, NULL);
+		__this->___currTipPos = L_38;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:102>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39 = __this->___currTipPos;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_40 = __this->___trs;
+		NullCheck(L_40);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_40, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		L_42 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_39, L_41, NULL);
+		V_4 = L_42;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_4), NULL);
+		float L_44 = __this->___springLength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
+		L_45 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_43, L_44, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_46 = __this->___trs;
+		NullCheck(L_46);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_47;
+		L_47 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_46, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_48;
+		L_48 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_45, L_47, NULL);
+		__this->___currTipPos = L_48;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:105>
+		V_5 = 0;
+		goto IL_01f5;
+	}
+
+IL_0114:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:106>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49 = __this->___currTipPos;
+		SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* L_50 = __this->___colliders;
+		int32_t L_51 = V_5;
+		NullCheck(L_50);
+		int32_t L_52 = L_51;
+		SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* L_53 = (L_50)->GetAt(static_cast<il2cpp_array_size_t>(L_52));
+		NullCheck(L_53);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_54;
+		L_54 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_53, NULL);
+		NullCheck(L_54);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
+		L_55 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_54, NULL);
+		float L_56;
+		L_56 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_49, L_55, NULL);
+		float L_57 = __this->___radius;
+		SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* L_58 = __this->___colliders;
+		int32_t L_59 = V_5;
+		NullCheck(L_58);
+		int32_t L_60 = L_59;
+		SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* L_61 = (L_58)->GetAt(static_cast<il2cpp_array_size_t>(L_60));
+		NullCheck(L_61);
+		float L_62 = L_61->___radius;
+		if ((!(((float)L_56) <= ((float)((float)il2cpp_codegen_add(L_57, L_62))))))
+		{
+			goto IL_01ef;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:107>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63 = __this->___currTipPos;
+		SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* L_64 = __this->___colliders;
+		int32_t L_65 = V_5;
+		NullCheck(L_64);
+		int32_t L_66 = L_65;
+		SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* L_67 = (L_64)->GetAt(static_cast<il2cpp_array_size_t>(L_66));
+		NullCheck(L_67);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_68;
+		L_68 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_67, NULL);
+		NullCheck(L_68);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
+		L_69 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_68, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70;
+		L_70 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_63, L_69, NULL);
+		V_4 = L_70;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
+		L_71 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_4), NULL);
+		V_6 = L_71;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:108>
+		SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* L_72 = __this->___colliders;
+		int32_t L_73 = V_5;
+		NullCheck(L_72);
+		int32_t L_74 = L_73;
+		SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* L_75 = (L_72)->GetAt(static_cast<il2cpp_array_size_t>(L_74));
+		NullCheck(L_75);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_76;
+		L_76 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_75, NULL);
+		NullCheck(L_76);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_77;
+		L_77 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_76, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_78 = V_6;
+		float L_79 = __this->___radius;
+		SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* L_80 = __this->___colliders;
+		int32_t L_81 = V_5;
+		NullCheck(L_80);
+		int32_t L_82 = L_81;
+		SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* L_83 = (L_80)->GetAt(static_cast<il2cpp_array_size_t>(L_82));
+		NullCheck(L_83);
+		float L_84 = L_83->___radius;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_85;
+		L_85 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_78, ((float)il2cpp_codegen_add(L_79, L_84)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_86;
+		L_86 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_77, L_85, NULL);
+		__this->___currTipPos = L_86;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:109>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_87 = __this->___currTipPos;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_88 = __this->___trs;
+		NullCheck(L_88);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_89;
+		L_89 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_88, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_90;
+		L_90 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_87, L_89, NULL);
+		V_4 = L_90;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_91;
+		L_91 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&V_4), NULL);
+		float L_92 = __this->___springLength;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_93;
+		L_93 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_91, L_92, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_94 = __this->___trs;
+		NullCheck(L_94);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_95;
+		L_95 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_94, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_96;
+		L_96 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_93, L_95, NULL);
+		__this->___currTipPos = L_96;
+	}
+
+IL_01ef:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:105>
+		int32_t L_97 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_01f5:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:105>
+		int32_t L_98 = V_5;
+		SpringColliderU5BU5D_tDDB81B5370FBCD7924EFC8AA13C0B605AB35B1FF* L_99 = __this->___colliders;
+		NullCheck(L_99);
+		if ((((int32_t)L_98) < ((int32_t)((int32_t)(((RuntimeArray*)L_99)->max_length)))))
+		{
+			goto IL_0114;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:115>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_100 = V_2;
+		__this->___prevTipPos = L_100;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:118>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_101 = __this->___trs;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_102 = __this->___boneAxis;
+		NullCheck(L_101);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
+		L_103 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_101, L_102, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:119>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_104 = __this->___currTipPos;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_105 = __this->___trs;
+		NullCheck(L_105);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_106;
+		L_106 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_105, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_107;
+		L_107 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_104, L_106, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_108;
+		L_108 = Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A_inline(L_103, L_107, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:123>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_109 = __this->___trs;
+		NullCheck(L_109);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_110;
+		L_110 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_109, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_111;
+		L_111 = Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline(L_108, L_110, NULL);
+		V_3 = L_111;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:124>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_112 = __this->___trs;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_113 = __this->___org;
+		NullCheck(L_113);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_114;
+		L_114 = Transform_get_rotation_m32AF40CA0D50C797DA639A696F8EAEC7524C179C(L_113, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_115 = V_3;
+		SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* L_116 = __this->___managerRef;
+		NullCheck(L_116);
+		float L_117 = L_116->___dynamicRatio;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_118;
+		L_118 = Quaternion_Lerp_m259606226726C2F46E079A5A688B9E24FF7E9A0D_inline(L_114, L_115, L_117, NULL);
+		NullCheck(L_112);
+		Transform_set_rotation_m61340DE74726CF0F9946743A727C4D444397331D(L_112, L_118, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:125>
+		return;
+	}
+}
+// Method Definition Index: 91214
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringBone_OnDrawGizmos_m64E49BD4101A6F6ECC5B4F2911A4D7B2F8D794E4 (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:129>
+		bool L_0 = __this->___debug;
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:130>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1;
+		L_1 = Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:131>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___currTipPos;
+		float L_3 = __this->___radius;
+		Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1(L_2, L_3, NULL);
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:133>
+		return;
+	}
+}
+// Method Definition Index: 91215
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringBone__ctor_m5F7CB0E2F09C896DB710A315A08D37A5B1DB71D0 (SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:22>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_0), (-1.0f), (0.0f), (0.0f), NULL);
+		__this->___boneAxis = L_0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:23>
+		__this->___radius = (0.0500000007f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:29>
+		__this->___stiffnessForce = (0.00999999978f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:32>
+		__this->___dragForce = (0.400000006f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:33>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_1), (0.0f), (-9.99999975E-05f), (0.0f), NULL);
+		__this->___springForce = L_1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:35>
+		__this->___debug = (bool)1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringBone.cs:37>
+		__this->___threshold = (0.00999999978f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91216
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringCollider_OnDrawGizmosSelected_m63A394E92FAEBF84C28965F8FCD500D12F27D256 (SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringCollider.cs:21>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		L_0 = Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline(NULL);
+		Gizmos_set_color_m53927A2741937484180B20B55F7F20F8F60C5797(L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringCollider.cs:22>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		float L_3 = __this->___radius;
+		Gizmos_DrawWireSphere_m12C01EC9334C32425074A214C5B876271B3DDBA1(L_2, L_3, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringCollider.cs:23>
+		return;
+	}
+}
+// Method Definition Index: 91217
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringCollider__ctor_mA26CACF7A33B317BCA3499E2B294BB27EF72D625 (SpringCollider_tBA598174A8A1599C12D1DE98A7F072BFEEC28868* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringCollider.cs:17>
+		__this->___radius = (0.5f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91218
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager_Start_mD305CD11707A925B1B000E6A07141999A7C1F123 (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:32>
+		SpringManager_UpdateParameters_m6E6FA51F314E6A2A89335ECBF0A2A647956C4AFF(__this, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 91219
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager_LateUpdate_m2FE72C1CD6E59331A9C6ADCF9387D6CC07EF0523 (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:52>
+		float L_0 = __this->___dynamicRatio;
+		if ((((float)L_0) == ((float)(0.0f))))
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:53>
+		V_0 = 0;
+		goto IL_0037;
+	}
+
+IL_0011:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:54>
+		float L_1 = __this->___dynamicRatio;
+		SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* L_2 = __this->___springBones;
+		int32_t L_3 = V_0;
+		NullCheck(L_2);
+		int32_t L_4 = L_3;
+		SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* L_5 = (L_2)->GetAt(static_cast<il2cpp_array_size_t>(L_4));
+		NullCheck(L_5);
+		float L_6 = L_5->___threshold;
+		if ((!(((float)L_1) > ((float)L_6))))
+		{
+			goto IL_0033;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:55>
+		SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* L_7 = __this->___springBones;
+		int32_t L_8 = V_0;
+		NullCheck(L_7);
+		int32_t L_9 = L_8;
+		SpringBone_tD524C5444694CB667408F9A722E0630DB2D4CBA8* L_10 = (L_7)->GetAt(static_cast<il2cpp_array_size_t>(L_9));
+		NullCheck(L_10);
+		SpringBone_UpdateSpring_m563B11D579B08B95288B55147BFD689E29AFBF57(L_10, NULL);
+	}
+
+IL_0033:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:53>
+		int32_t L_11 = V_0;
+		V_0 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_0037:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:53>
+		int32_t L_12 = V_0;
+		SpringBoneU5BU5D_tADB9EFDE4F73D7652850C5D2E8EE6771DF2C1F88* L_13 = __this->___springBones;
+		NullCheck(L_13);
+		if ((((int32_t)L_12) < ((int32_t)((int32_t)(((RuntimeArray*)L_13)->max_length)))))
+		{
+			goto IL_0011;
+		}
+	}
+
+IL_0042:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:59>
+		return;
+	}
+}
+// Method Definition Index: 91220
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager_UpdateParameters_m6E6FA51F314E6A2A89335ECBF0A2A647956C4AFF (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14F93B18F4A27E31C8383B5199FB110A2DEEB66F);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF30125084BBDCC9569A0DA8872BAA0181599E988);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:63>
+		float L_0 = __this->___stiffnessForce;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_1 = __this->___stiffnessCurve;
+		SpringManager_UpdateParameter_m3FA6606799DF6E9A680B7194AB11D10875C49B64(__this, _stringLiteralF30125084BBDCC9569A0DA8872BAA0181599E988, L_0, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:64>
+		float L_2 = __this->___dragForce;
+		AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* L_3 = __this->___dragCurve;
+		SpringManager_UpdateParameter_m3FA6606799DF6E9A680B7194AB11D10875C49B64(__this, _stringLiteral14F93B18F4A27E31C8383B5199FB110A2DEEB66F, L_2, L_3, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 91221
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager_UpdateParameter_m3FA6606799DF6E9A680B7194AB11D10875C49B64 (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, String_t* ___0_fieldName, float ___1_baseValue, AnimationCurve_tCBFFAAD05CEBB35EF8D8631BD99914BE1A6BB354* ___2_curve, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:84>
+		return;
+	}
+}
+// Method Definition Index: 91222
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SpringManager__ctor_m8D72467F6ECC021FCCF1441AEAEDBCA5FA71C18A (SpringManager_tC0A916EC38C8B2A411B2C69BA01CD8D1DB4715E5* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/SpringManager.cs:21>
+		__this->___dynamicRatio = (1.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91223
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_Start_mC145FC77EFB99F20FD72DB534039C45A38E45F3E (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A20AE6F53B8FA6C15C1E5AD4DB71F3CD355EA43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBB61CD73B87847118A72F96FE50B72C6B8712F56);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralEA58F9BE54C16486B97A532CA51E3783D02B3F46);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:25>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0;
+		L_0 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralBB61CD73B87847118A72F96FE50B72C6B8712F56, NULL);
+		NullCheck(L_0);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_0, NULL);
+		__this->___standardPos = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___standardPos), (void*)L_1);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:27>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2;
+		L_2 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7A20AE6F53B8FA6C15C1E5AD4DB71F3CD355EA43, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_3;
+		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
+		if (!L_3)
+		{
+			goto IL_003b;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:28>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4;
+		L_4 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteral7A20AE6F53B8FA6C15C1E5AD4DB71F3CD355EA43, NULL);
+		NullCheck(L_4);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_5;
+		L_5 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_4, NULL);
+		__this->___frontPos = L_5;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___frontPos), (void*)L_5);
+	}
+
+IL_003b:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:30>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralEA58F9BE54C16486B97A532CA51E3783D02B3F46, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_7;
+		L_7 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_6, NULL);
+		if (!L_7)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:31>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(_stringLiteralEA58F9BE54C16486B97A532CA51E3783D02B3F46, NULL);
+		NullCheck(L_8);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_8, NULL);
+		__this->___jumpPos = L_9;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___jumpPos), (void*)L_9);
+	}
+
+IL_0061:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:34>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___standardPos;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_11, NULL);
+		NullCheck(L_10);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_10, L_12, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:35>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = __this->___standardPos;
+		NullCheck(L_14);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_14, NULL);
+		NullCheck(L_13);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_13, L_15, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:36>
+		return;
+	}
+}
+// Method Definition Index: 91224
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_FixedUpdate_m843471E5D604C4428F9F19430E31178469D74639 (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE16EFE13C5C08096A869677E0912595D5D6C1C03);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFBC1FBDF3F91C0637B6624C6C526B3718C7E46A2);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:41>
+		bool L_0;
+		L_0 = Input_GetButton_m2F217DAE69DB3D1324FB848B3C9C84F19A80989E(_stringLiteralFBC1FBDF3F91C0637B6624C6C526B3718C7E46A2, NULL);
+		if (!L_0)
+		{
+			goto IL_0013;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:43>
+		ThirdPersonCamera_setCameraPositionFrontView_mFDD8ACC0E5C68B7AEDC0AE5125079A4AF09EC398(__this, NULL);
+		return;
+	}
+
+IL_0013:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:44>
+		bool L_1;
+		L_1 = Input_GetButton_m2F217DAE69DB3D1324FB848B3C9C84F19A80989E(_stringLiteralE16EFE13C5C08096A869677E0912595D5D6C1C03, NULL);
+		if (!L_1)
+		{
+			goto IL_0026;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:46>
+		ThirdPersonCamera_setCameraPositionJumpView_m135FD65072B6312ED92FE90D2709038D9E4A16A8(__this, NULL);
+		return;
+	}
+
+IL_0026:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:49>
+		ThirdPersonCamera_setCameraPositionNormalView_mC8C8A988A4EB4A758AD8B0D6FCC8D98CBAFB2C7C(__this, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:51>
+		return;
+	}
+}
+// Method Definition Index: 91225
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_setCameraPositionNormalView_mC8C8A988A4EB4A758AD8B0D6FCC8D98CBAFB2C7C (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:55>
+		bool L_0 = __this->___bQuickSwitch;
+		if (L_0)
+		{
+			goto IL_006d;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:57>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
+		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		L_3 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_2, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___standardPos;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_4, NULL);
+		float L_6;
+		L_6 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		float L_7 = __this->___smooth;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_3, L_5, ((float)il2cpp_codegen_multiply(L_6, L_7)), NULL);
+		NullCheck(L_1);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_1, L_8, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:58>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_10;
+		L_10 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_10);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_10, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___standardPos;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_12, NULL);
+		float L_14;
+		L_14 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		float L_15 = __this->___smooth;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_11, L_13, ((float)il2cpp_codegen_multiply(L_14, L_15)), NULL);
+		NullCheck(L_9);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_9, L_16, NULL);
+		return;
+	}
+
+IL_006d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:61>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_17;
+		L_17 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_18 = __this->___standardPos;
+		NullCheck(L_18);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_18, NULL);
+		NullCheck(L_17);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_17, L_19, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:62>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_20;
+		L_20 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_21 = __this->___standardPos;
+		NullCheck(L_21);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_21, NULL);
+		NullCheck(L_20);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_20, L_22, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:63>
+		__this->___bQuickSwitch = (bool)0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:65>
+		return;
+	}
+}
+// Method Definition Index: 91226
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_setCameraPositionFrontView_mFDD8ACC0E5C68B7AEDC0AE5125079A4AF09EC398 (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:70>
+		__this->___bQuickSwitch = (bool)1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:71>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___frontPos;
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		NullCheck(L_0);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_0, L_2, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:72>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___frontPos;
+		NullCheck(L_4);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_4, NULL);
+		NullCheck(L_3);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_3, L_5, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:73>
+		return;
+	}
+}
+// Method Definition Index: 91227
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera_setCameraPositionJumpView_m135FD65072B6312ED92FE90D2709038D9E4A16A8 (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:78>
+		__this->___bQuickSwitch = (bool)0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:79>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0;
+		L_0 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3 = __this->___jumpPos;
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		float L_5;
+		L_5 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		float L_6 = __this->___smooth;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_2, L_4, ((float)il2cpp_codegen_multiply(L_5, L_6)), NULL);
+		NullCheck(L_0);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_0, L_7, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:80>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_9, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_11 = __this->___jumpPos;
+		NullCheck(L_11);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		L_12 = Transform_get_forward_mFCFACF7165FDAB21E80E384C494DF278386CEE2F(L_11, NULL);
+		float L_13;
+		L_13 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		float L_14 = __this->___smooth;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline(L_10, L_12, ((float)il2cpp_codegen_multiply(L_13, L_14)), NULL);
+		NullCheck(L_8);
+		Transform_set_forward_mA178B5CF4F0F6133F9AF8ED3A4ECD2C604C60C26(L_8, L_15, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:81>
+		return;
+	}
+}
+// Method Definition Index: 91228
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ThirdPersonCamera__ctor_m607F6A1ED608FBD724D935820BD2A37CE0A43381 (ThirdPersonCamera_tF9A1D21761B8A0EDC9E52F16D32E91867FB5026C* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/ThirdPersonCamera.cs:13>
+		__this->___smooth = (3.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91229
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody_Start_mEFE1190C2F48DBEFAE37BDBE2E9D26DC8D1F5400 (UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisCapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_mC720996E0DB5E6A502714EF651E9251726CB636E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE302AA9BECF9F1CB69CF2A3E5B33E0716BEA97F6);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:58>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_0;
+		L_0 = Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE(__this, Component_GetComponent_TisAnimator_t8A52E42AE54F76681838FE9E632683EF3952E883_m1C9FCB4BBE56BEC6BDEF6E4BA1E5DFF91614D7CE_RuntimeMethod_var);
+		__this->___anim = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___anim), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:60>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_1;
+		L_1 = Component_GetComponent_TisCapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_mC720996E0DB5E6A502714EF651E9251726CB636E(__this, Component_GetComponent_TisCapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808_mC720996E0DB5E6A502714EF651E9251726CB636E_RuntimeMethod_var);
+		__this->___col = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___col), (void*)L_1);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:61>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_2;
+		L_2 = Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8(__this, Component_GetComponent_TisRigidbody_t268697F5A994213ED97393309870968BC1C7393C_m4B5CAD64B52D153BEA96432633CA9A45FA523DD8_RuntimeMethod_var);
+		__this->___rb = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___rb), (void*)L_2);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:63>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = GameObject_FindWithTag_mDF825E000B03F4F3DE9D4F2EBABC96BFA34B62E5(_stringLiteralE302AA9BECF9F1CB69CF2A3E5B33E0716BEA97F6, NULL);
+		__this->___cameraObject = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___cameraObject), (void*)L_3);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:65>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_4 = __this->___col;
+		NullCheck(L_4);
+		float L_5;
+		L_5 = CapsuleCollider_get_height_m63A31072F296AEE6222DC9C88704882BB6A54A24(L_4, NULL);
+		__this->___orgColHight = L_5;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:66>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_6 = __this->___col;
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = CapsuleCollider_get_center_mC12CE0A66A1104CEB7D23F39596D0E45578419C2(L_6, NULL);
+		__this->___orgVectColCenter = L_7;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:67>
+		return;
+	}
+}
+// Method Definition Index: 91230
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody_FixedUpdate_mD25954A85A5A89E1381A53AC3BE7EF08511C92BD (UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4EEB44230D18B63FD2EE917847EC8588A2354785);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6142D87798990EB03763CFE5B4D7142F9FF6DB68);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral880BA69446D7C58BFFFA1A35EF2C5C9CE3C71FFE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE4B715AAAA58DCCE03CE0702B58CE77A631DE43);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF45B00322DC340FDDE1F3579CC8A6649FD735907);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	float V_4 = 0.0f;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:73>
+		float L_0;
+		L_0 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral7F8C014BD4810CC276D0F9F81A1E759C7B098B1E, NULL);
+		V_0 = L_0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:74>
+		float L_1;
+		L_1 = Input_GetAxis_m10372E6C5FF591668D2DC5F58C58D213CC598A62(_stringLiteral265E15F1F86F1C766555899D5771CF29055DE75A, NULL);
+		V_1 = L_1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:75>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_2 = __this->___anim;
+		float L_3 = V_1;
+		NullCheck(L_2);
+		Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE(L_2, _stringLiteral5D2E3D85D1C3D4F42FAE33FB35C01C48241E0B32, L_3, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:76>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_4 = __this->___anim;
+		float L_5 = V_0;
+		NullCheck(L_4);
+		Animator_SetFloat_m10C78733FAFC7AFEDBDACC48B7C66D3A35A0A7FE(L_4, _stringLiteralF45B00322DC340FDDE1F3579CC8A6649FD735907, L_5, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:77>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_6 = __this->___anim;
+		float L_7 = __this->___animSpeed;
+		NullCheck(L_6);
+		Animator_set_speed_m933F4D6770122BC9D8A7FF82DE1CD33D514379FC(L_6, L_7, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:78>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_8 = __this->___anim;
+		NullCheck(L_8);
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2 L_9;
+		L_9 = Animator_GetCurrentAnimatorStateInfo_mD5B526FA605F6CFBC31B7DE36740F6AD1E534CAD(L_8, 0, NULL);
+		__this->___currentBaseState = L_9;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:79>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_10 = __this->___rb;
+		NullCheck(L_10);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_10, (bool)1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:84>
+		float L_11 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), (0.0f), (0.0f), L_11, NULL);
+		__this->___velocity = L_12;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:86>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_13;
+		L_13 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = __this->___velocity;
+		NullCheck(L_13);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_15;
+		L_15 = Transform_TransformDirection_m9BE1261DF2D48B7A4A27D31EE24D2D97F89E7757(L_13, L_14, NULL);
+		__this->___velocity = L_15;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:88>
+		float L_16 = V_1;
+		if ((!(((double)((double)L_16)) > ((double)(0.10000000000000001)))))
+		{
+			goto IL_00ba;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:89>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_17 = __this->___velocity;
+		float L_18 = __this->___forwardSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		L_19 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_17, L_18, NULL);
+		__this->___velocity = L_19;
+		goto IL_00de;
+	}
+
+IL_00ba:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:90>
+		float L_20 = V_1;
+		if ((!(((double)((double)L_20)) < ((double)(-0.10000000000000001)))))
+		{
+			goto IL_00de;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:91>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21 = __this->___velocity;
+		float L_22 = __this->___backwardSpeed;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_21, L_22, NULL);
+		__this->___velocity = L_23;
+	}
+
+IL_00de:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:94>
+		bool L_24;
+		L_24 = Input_GetButtonDown_mEF5F80C9E8F04104E807D9CBD6F70CDB98751579(_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C, NULL);
+		if (!L_24)
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:97>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_25 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentBaseState);
+		int32_t L_26;
+		L_26 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_25, NULL);
+		il2cpp_codegen_runtime_class_init_inline(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		int32_t L_27 = ((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___locoState;
+		if ((!(((uint32_t)L_26) == ((uint32_t)L_27))))
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:99>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_28 = __this->___anim;
+		NullCheck(L_28);
+		bool L_29;
+		L_29 = Animator_IsInTransition_mC2BD2CC7B7A11BAAA5396F1A2DAFD98D00AA2830(L_28, 0, NULL);
+		if (L_29)
+		{
+			goto IL_0137;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:100>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_30 = __this->___rb;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_32 = __this->___jumpPower;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_31, L_32, NULL);
+		NullCheck(L_30);
+		Rigidbody_AddForce_mBDBC288D0E266BC1B62E3649B4FCE46E7EA9CCBC(L_30, L_33, 2, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:101>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_34 = __this->___anim;
+		NullCheck(L_34);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_34, _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C, (bool)1, NULL);
+	}
+
+IL_0137:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:108>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_35;
+		L_35 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_36 = L_35;
+		NullCheck(L_36);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = Transform_get_localPosition_mA9C86B990DF0685EA1061A120218993FDCC60A95(L_36, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38 = __this->___velocity;
+		float L_39;
+		L_39 = Time_get_fixedDeltaTime_m43136893D00AF5D5FE80AD05609558F6E2381381(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_38, L_39, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_37, L_40, NULL);
+		NullCheck(L_36);
+		Transform_set_localPosition_mDE1C997F7D79C0885210B7732B4BA50EE7D73134(L_36, L_41, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:111>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
+		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		float L_43 = V_0;
+		float L_44 = __this->___rotateSpeed;
+		NullCheck(L_42);
+		Transform_Rotate_m7EA47AD57F43D478CCB0523D179950EE49CDA3E2(L_42, (0.0f), ((float)il2cpp_codegen_multiply(L_43, L_44)), (0.0f), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:117>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_45 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentBaseState);
+		int32_t L_46;
+		L_46 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_45, NULL);
+		il2cpp_codegen_runtime_class_init_inline(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		int32_t L_47 = ((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___locoState;
+		if ((!(((uint32_t)L_46) == ((uint32_t)L_47))))
+		{
+			goto IL_019e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:119>
+		bool L_48 = __this->___useCurves;
+		if (!L_48)
+		{
+			goto IL_031e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:120>
+		UnityChanControlScriptWithRgidBody_resetCollider_mA45228FB27D49414887340E9DFD0C4CA71C11A89(__this, NULL);
+		return;
+	}
+
+IL_019e:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:125>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_49 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentBaseState);
+		int32_t L_50;
+		L_50 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_49, NULL);
+		il2cpp_codegen_runtime_class_init_inline(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		int32_t L_51 = ((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___jumpState;
+		if ((!(((uint32_t)L_50) == ((uint32_t)L_51))))
+		{
+			goto IL_02af;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:126>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_52 = __this->___cameraObject;
+		NullCheck(L_52);
+		GameObject_SendMessage_m65848D6A8F999FACBC1C21B7303660B7AFF6674E(L_52, _stringLiteral880BA69446D7C58BFFFA1A35EF2C5C9CE3C71FFE, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:128>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_53 = __this->___anim;
+		NullCheck(L_53);
+		bool L_54;
+		L_54 = Animator_IsInTransition_mC2BD2CC7B7A11BAAA5396F1A2DAFD98D00AA2830(L_53, 0, NULL);
+		if (L_54)
+		{
+			goto IL_031e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:131>
+		bool L_55 = __this->___useCurves;
+		if (!L_55)
+		{
+			goto IL_029d;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:135>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_56 = __this->___anim;
+		NullCheck(L_56);
+		float L_57;
+		L_57 = Animator_GetFloat_m10B455A15EB343175518CCBEE2818C2497CC678A(L_56, _stringLiteral4EEB44230D18B63FD2EE917847EC8588A2354785, NULL);
+		V_2 = L_57;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:136>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_58 = __this->___anim;
+		NullCheck(L_58);
+		float L_59;
+		L_59 = Animator_GetFloat_m10B455A15EB343175518CCBEE2818C2497CC678A(L_58, _stringLiteral6142D87798990EB03763CFE5B4D7142F9FF6DB68, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:137>
+		if ((!(((float)L_59) > ((float)(0.0f)))))
+		{
+			goto IL_0213;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:138>
+		Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* L_60 = __this->___rb;
+		NullCheck(L_60);
+		Rigidbody_set_useGravity_m1B1B22E093F9DC92D7BEEBBE6B02642B3B6C4389(L_60, (bool)0, NULL);
+	}
+
+IL_0213:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:141>
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_61;
+		L_61 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_61);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_62;
+		L_62 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_61, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
+		L_64 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_62, L_63, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_65;
+		L_65 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_66;
+		L_66 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_65, NULL);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_67;
+		memset((&L_67), 0, sizeof(L_67));
+		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&L_67), L_64, L_66, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:142>
+		il2cpp_codegen_initobj((&V_3), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:144>
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_68;
+		L_68 = Physics_Raycast_mCAC9F02A1AAB49E16B384EBC8318E2DF30F4B0E5(L_67, (&V_3), NULL);
+		if (!L_68)
+		{
+			goto IL_029d;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:145>
+		float L_69;
+		L_69 = RaycastHit_get_distance_m035194B0E9BB6229259CFC43B095A9C8E5011C78((&V_3), NULL);
+		float L_70 = __this->___useCurvesHeight;
+		if ((!(((float)L_69) > ((float)L_70))))
+		{
+			goto IL_0297;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:146>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_71 = __this->___col;
+		float L_72 = __this->___orgColHight;
+		float L_73 = V_2;
+		NullCheck(L_71);
+		CapsuleCollider_set_height_m5DAE3DC5AD851E30C5A29AC7A22F36BE1E205BBB(L_71, ((float)il2cpp_codegen_subtract(L_72, L_73)), NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:147>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_74 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___orgVectColCenter);
+		float L_75 = L_74->___y;
+		float L_76 = V_2;
+		V_4 = ((float)il2cpp_codegen_add(L_75, L_76));
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:148>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_77 = __this->___col;
+		float L_78 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79;
+		memset((&L_79), 0, sizeof(L_79));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_79), (0.0f), L_78, (0.0f), NULL);
+		NullCheck(L_77);
+		CapsuleCollider_set_center_m242D92DAEF25887C6A87A0777E4E624C0A431A2E(L_77, L_79, NULL);
+		goto IL_029d;
+	}
+
+IL_0297:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:151>
+		UnityChanControlScriptWithRgidBody_resetCollider_mA45228FB27D49414887340E9DFD0C4CA71C11A89(__this, NULL);
+	}
+
+IL_029d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:156>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_80 = __this->___anim;
+		NullCheck(L_80);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_80, _stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C, (bool)0, NULL);
+		return;
+	}
+
+IL_02af:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:161>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_81 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentBaseState);
+		int32_t L_82;
+		L_82 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_81, NULL);
+		il2cpp_codegen_runtime_class_init_inline(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		int32_t L_83 = ((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___idleState;
+		if ((!(((uint32_t)L_82) == ((uint32_t)L_83))))
+		{
+			goto IL_02ed;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:163>
+		bool L_84 = __this->___useCurves;
+		if (!L_84)
+		{
+			goto IL_02cf;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:164>
+		UnityChanControlScriptWithRgidBody_resetCollider_mA45228FB27D49414887340E9DFD0C4CA71C11A89(__this, NULL);
+	}
+
+IL_02cf:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:167>
+		bool L_85;
+		L_85 = Input_GetButtonDown_mEF5F80C9E8F04104E807D9CBD6F70CDB98751579(_stringLiteral70253F929BCE7F81DF1A5A1C0900BED744E86C9C, NULL);
+		if (!L_85)
+		{
+			goto IL_031e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:168>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_86 = __this->___anim;
+		NullCheck(L_86);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_86, _stringLiteralAE4B715AAAA58DCCE03CE0702B58CE77A631DE43, (bool)1, NULL);
+		return;
+	}
+
+IL_02ed:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:173>
+		AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2* L_87 = (AnimatorStateInfo_t1F47379289C7CE7FD588FBC3BBD79A777243B6B2*)(&__this->___currentBaseState);
+		int32_t L_88;
+		L_88 = AnimatorStateInfo_get_fullPathHash_m583FA8FAAC28BF65A65166D100949833E515210F(L_87, NULL);
+		il2cpp_codegen_runtime_class_init_inline(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		int32_t L_89 = ((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___restState;
+		if ((!(((uint32_t)L_88) == ((uint32_t)L_89))))
+		{
+			goto IL_031e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:176>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_90 = __this->___anim;
+		NullCheck(L_90);
+		bool L_91;
+		L_91 = Animator_IsInTransition_mC2BD2CC7B7A11BAAA5396F1A2DAFD98D00AA2830(L_90, 0, NULL);
+		if (L_91)
+		{
+			goto IL_031e;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:177>
+		Animator_t8A52E42AE54F76681838FE9E632683EF3952E883* L_92 = __this->___anim;
+		NullCheck(L_92);
+		Animator_SetBool_m6F8D4FAF0770CD4EC1F54406249785DE7391E42B(L_92, _stringLiteralAE4B715AAAA58DCCE03CE0702B58CE77A631DE43, (bool)0, NULL);
+	}
+
+IL_031e:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:180>
+		return;
+	}
+}
+// Method Definition Index: 91231
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody_OnGUI_m2458ECF2F24A174FADBD6842D7F164861C4F4C61 (UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0F660DC5B9C69D4A4082CBA7BCC2360B2E3958E6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0FE2959F6EBB514FAE4E483E6BFA520D29AAACDC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral78AA7A8F563BCFC24BE1F0BD20224D7B92AC7DF3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralA64BE0D74BC765ED5A679FABB1292BC185358614);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCBE1BFAC0F726D90BC3D924DF6291922C3F5104A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD5C1D07A37A3563A0E4767C281E178889D4D677E);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:184>
+		int32_t L_0;
+		L_0 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1), ((float)((int32_t)il2cpp_codegen_subtract(L_0, ((int32_t)260)))), (10.0f), (250.0f), (150.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		GUI_Box_mB47BC44807774B77DB8B2BB548D339036544ACC4(L_1, _stringLiteralAF8E649A3EF1AB74A43C9F88015FA68AC719215A, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:185>
+		int32_t L_2;
+		L_2 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_3), ((float)((int32_t)il2cpp_codegen_subtract(L_2, ((int32_t)245)))), (30.0f), (250.0f), (30.0f), NULL);
+		GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526(L_3, _stringLiteralCBE1BFAC0F726D90BC3D924DF6291922C3F5104A, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:186>
+		int32_t L_4;
+		L_4 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_5;
+		memset((&L_5), 0, sizeof(L_5));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_5), ((float)((int32_t)il2cpp_codegen_subtract(L_4, ((int32_t)245)))), (50.0f), (250.0f), (30.0f), NULL);
+		GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526(L_5, _stringLiteral0F660DC5B9C69D4A4082CBA7BCC2360B2E3958E6, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:187>
+		int32_t L_6;
+		L_6 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_7;
+		memset((&L_7), 0, sizeof(L_7));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_7), ((float)((int32_t)il2cpp_codegen_subtract(L_6, ((int32_t)245)))), (70.0f), (250.0f), (30.0f), NULL);
+		GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526(L_7, _stringLiteralD5C1D07A37A3563A0E4767C281E178889D4D677E, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:188>
+		int32_t L_8;
+		L_8 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_9), ((float)((int32_t)il2cpp_codegen_subtract(L_8, ((int32_t)245)))), (90.0f), (250.0f), (30.0f), NULL);
+		GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526(L_9, _stringLiteral78AA7A8F563BCFC24BE1F0BD20224D7B92AC7DF3, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:189>
+		int32_t L_10;
+		L_10 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_11;
+		memset((&L_11), 0, sizeof(L_11));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_11), ((float)((int32_t)il2cpp_codegen_subtract(L_10, ((int32_t)245)))), (110.0f), (250.0f), (30.0f), NULL);
+		GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526(L_11, _stringLiteralA64BE0D74BC765ED5A679FABB1292BC185358614, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:190>
+		int32_t L_12;
+		L_12 = Screen_get_width_mF608FF3252213E7EFA1F0D2F744C28110E9E5AC9(NULL);
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_13;
+		memset((&L_13), 0, sizeof(L_13));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_13), ((float)((int32_t)il2cpp_codegen_subtract(L_12, ((int32_t)245)))), (130.0f), (250.0f), (30.0f), NULL);
+		GUI_Label_m4A951E57C7DCCF95A0306240144CA2713F546526(L_13, _stringLiteral0FE2959F6EBB514FAE4E483E6BFA520D29AAACDC, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:191>
+		return;
+	}
+}
+// Method Definition Index: 91232
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody_resetCollider_mA45228FB27D49414887340E9DFD0C4CA71C11A89 (UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:198>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_0 = __this->___col;
+		float L_1 = __this->___orgColHight;
+		NullCheck(L_0);
+		CapsuleCollider_set_height_m5DAE3DC5AD851E30C5A29AC7A22F36BE1E205BBB(L_0, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:199>
+		CapsuleCollider_t3A1671C74F0836ABEF5D01A7470B5B2BE290A808* L_2 = __this->___col;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___orgVectColCenter;
+		NullCheck(L_2);
+		CapsuleCollider_set_center_m242D92DAEF25887C6A87A0777E4E624C0A431A2E(L_2, L_3, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:200>
+		return;
+	}
+}
+// Method Definition Index: 91233
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody__ctor_mA8100A5673D407D5744E7735A2B432DF11B53FD7 (UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:20>
+		__this->___animSpeed = (1.5f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:21>
+		__this->___lookSmoother = (3.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:22>
+		__this->___useCurves = (bool)1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:24>
+		__this->___useCurvesHeight = (0.5f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:28>
+		__this->___forwardSpeed = (7.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:30>
+		__this->___backwardSpeed = (2.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:32>
+		__this->___rotateSpeed = (2.0f);
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:34>
+		__this->___jumpPower = (3.0f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 91234
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityChanControlScriptWithRgidBody__cctor_m062F5C4DD902FA1EE2D5EF553E6D2E1EBFF27A96 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral04EC4F81AD07B2B6F76B2D7A56FC33E5558850A6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4F8E7863AB6F059155307444D42AD47E889F06CA);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7040FF69C8903BD258116DC869C58A972AF5E772);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE474B80F684635C9E8A2D82048BB64372275D715);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:49>
+		int32_t L_0;
+		L_0 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral4F8E7863AB6F059155307444D42AD47E889F06CA, NULL);
+		((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___idleState = L_0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:50>
+		int32_t L_1;
+		L_1 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteralE474B80F684635C9E8A2D82048BB64372275D715, NULL);
+		((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___locoState = L_1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:51>
+		int32_t L_2;
+		L_2 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral04EC4F81AD07B2B6F76B2D7A56FC33E5558850A6, NULL);
+		((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___jumpState = L_2;
+		//<source_info:C:/GitHub/NextHorizon/Assets/Resources/_Common/UnityChans/UnityChan/Scripts/UnityChanControlScriptWithRgidBody.cs:52>
+		int32_t L_3;
+		L_3 = Animator_StringToHash_mD67B872C411BE37641F49D7AA1DBD45B67F63E3A(_stringLiteral7040FF69C8903BD258116DC869C58A972AF5E772, NULL);
+		((UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_StaticFields*)il2cpp_codegen_static_fields_for(UnityChanControlScriptWithRgidBody_tA94693F459795DD7539DDC3AB34E844121A5F3BC_il2cpp_TypeInfo_var))->___restState = L_3;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91250
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_set_Configuration_m0009916D90123692747FEC684C93862607011E85 (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:69>
+		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance;
+		if (!L_0)
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2 = ___0_value;
+		if ((((RuntimeObject*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)L_1) == ((RuntimeObject*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)L_2)))
+		{
+			goto IL_0016;
+		}
+	}
+	{
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_3 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration;
+		if (L_3)
+		{
+			goto IL_001d;
+		}
+	}
+
+IL_0016:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:70>
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_4 = ___0_value;
+		((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration), (void*)L_4);
+		return;
+	}
+
+IL_001d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:72>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:73>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:74>
+		SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* L_5 = (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A_il2cpp_TypeInfo_var)));
+		SignInException__ctor_m5C137C75DDEBA99BA9B0AC253EB36C075B2E2D8B(L_5, 6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD400EB487C20E145E8637C4026A2356D9E546258)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_5, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&GoogleSignIn_set_Configuration_m0009916D90123692747FEC684C93862607011E85_RuntimeMethod_var)));
+	}
+}
+// Method Definition Index: 91251
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* GoogleSignIn_get_Configuration_m3F4FE6701C9A4214FB378DEB8728C91D04A0D414 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:79>
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration;
+		return L_0;
+	}
+}
+// Method Definition Index: 91252
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* GoogleSignIn_get_DefaultInstance_m3A7F48D5EB49BD41DF945D9A54E93BA1C5D382D8 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:89>
+		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance;
+		if (L_0)
+		{
+			goto IL_001b;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:91>
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_1;
+		L_1 = GoogleSignIn_get_Configuration_m3F4FE6701C9A4214FB378DEB8728C91D04A0D414_inline(NULL);
+		GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* L_2 = (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349*)il2cpp_codegen_object_new(GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349_il2cpp_TypeInfo_var);
+		GoogleSignInImpl__ctor_m28DE8315356ABCB9AB9B96F3D635BF83278D3A3A(L_2, L_1, NULL);
+		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_3 = (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA*)il2cpp_codegen_object_new(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
+		GoogleSignIn__ctor_m43C53EBCEC03FBAA1F634E76365E860595AC4D52(L_3, L_2, NULL);
+		((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance), (void*)L_3);
+	}
+
+IL_001b:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:99>
+		GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* L_4 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theInstance;
+		return L_4;
+	}
+}
+// Method Definition Index: 91253
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn__ctor_m43C53EBCEC03FBAA1F634E76365E860595AC4D52 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* ___0_impl, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:103>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:104>
+		GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* L_0 = ___0_impl;
+		__this->___impl = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___impl), (void*)L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:105>
+		return;
+	}
+}
+// Method Definition Index: 91254
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_EnableDebugLogging_m14A29DE697ECC64D8A0A5CBA47278ECAE9D26F29 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, bool ___0_flag, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:108>
+		RuntimeObject* L_0 = __this->___impl;
+		bool L_1 = ___0_flag;
+		NullCheck(L_0);
+		InterfaceActionInvoker1< bool >::Invoke(2, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_0, L_1);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:109>
+		return;
+	}
+}
+// Method Definition Index: 91255
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* GoogleSignIn_SignIn_mAAA8FC28D91B6CBAB324F888FE951EB9EA64E64D (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* V_0 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:118>
+		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_0 = (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*)il2cpp_codegen_object_new(TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
+		TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84(L_0, TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:119>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:120>
+		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_1;
+		L_1 = SignInHelperObject_get_Instance_mB289E4E5785ECA3877128A2D7E42F73DAEAA2C34(NULL);
+		RuntimeObject* L_2 = __this->___impl;
+		NullCheck(L_2);
+		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_3;
+		L_3 = InterfaceFuncInvoker0< Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* >::Invoke(0, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_2);
+		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_4 = V_0;
+		NullCheck(L_3);
+		RuntimeObject* L_5;
+		L_5 = Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C(L_3, L_4, Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
+		NullCheck(L_1);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
+		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_1, L_5, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:121>
+		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_7 = V_0;
+		NullCheck(L_7);
+		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_8;
+		L_8 = TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_inline(L_7, TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
+		return L_8;
+	}
+}
+// Method Definition Index: 91256
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* GoogleSignIn_SignInSilently_mA667E9AAF7FA438217844D0BACC7DF68364DF7AD (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* V_0 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:131>
+		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_0 = (TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA*)il2cpp_codegen_object_new(TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA_il2cpp_TypeInfo_var);
+		TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84(L_0, TaskCompletionSource_1__ctor_m571CAE68DC5EF5D0C25DF9803C4837A27B2FEE84_RuntimeMethod_var);
+		V_0 = L_0;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:132>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:133>
+		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_1;
+		L_1 = SignInHelperObject_get_Instance_mB289E4E5785ECA3877128A2D7E42F73DAEAA2C34(NULL);
+		RuntimeObject* L_2 = __this->___impl;
+		NullCheck(L_2);
+		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_3;
+		L_3 = InterfaceFuncInvoker0< Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* >::Invoke(1, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_2);
+		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_4 = V_0;
+		NullCheck(L_3);
+		RuntimeObject* L_5;
+		L_5 = Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C(L_3, L_4, Future_1_WaitForResult_m6C7A41837E94F91FD3B4DDEDCAD8A27C1708490C_RuntimeMethod_var);
+		NullCheck(L_1);
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_6;
+		L_6 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(L_1, L_5, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:134>
+		TaskCompletionSource_1_tBBA015D165B550DD0F588C3174B9834E376980CA* L_7 = V_0;
+		NullCheck(L_7);
+		Task_1_t038B407D42A0B18825FEA99E6A4D69C18C493926* L_8;
+		L_8 = TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_inline(L_7, TaskCompletionSource_1_get_Task_m14829A7440CBAB4CC713F0DAB4A5C7AA3D5BE10F_RuntimeMethod_var);
+		return L_8;
+	}
+}
+// Method Definition Index: 91257
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_SignOut_m1666034382C085A0EE0227035E57E5AD61FE43B6 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:144>
+		((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration = (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration), (void*)(GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8*)NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:145>
+		RuntimeObject* L_0 = __this->___impl;
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(3, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:146>
+		return;
+	}
+}
+// Method Definition Index: 91258
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignIn_Disconnect_mD97724F96462EC3BB49B29CFDC92888EB5D11D00 (GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:158>
+		RuntimeObject* L_0 = __this->___impl;
+		NullCheck(L_0);
+		InterfaceActionInvoker0::Invoke(4, ISignInImpl_t51649CFD0016E224C3292ED0F198AB05790FE63B_il2cpp_TypeInfo_var, L_0);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:159>
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91259
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_mF0A5634485EAF28ED443E3FB31248C2C1B1BE942 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_status, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:167>
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m203319D1EA1274689B380A947B4ADC8445662B8F(__this, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:168>
+		int32_t L_0 = ___0_status;
+		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:169>
+		return;
+	}
+}
+// Method Definition Index: 91260
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m5C137C75DDEBA99BA9B0AC253EB36C075B2E2D8B (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_status, String_t* ___1_message, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:172>
+		String_t* L_0 = ___1_message;
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9B2BD92CD68916245A75109105D9071C9D430E7F(__this, L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:173>
+		int32_t L_1 = ___0_status;
+		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:174>
+		return;
+	}
+}
+// Method Definition Index: 91261
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m84BD804BE5ECAFDF85A48095572AA861C1E9D931 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_status, String_t* ___1_message, Exception_t* ___2_innerException, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:177>
+		String_t* L_0 = ___1_message;
+		Exception_t* L_1 = ___2_innerException;
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m9BC141AAB08F47C34B7ED40C1A6C0C1ADDEC5CB3(__this, L_0, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:178>
+		int32_t L_2 = ___0_status;
+		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_2, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:179>
+		return;
+	}
+}
+// Method Definition Index: 91262
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException__ctor_m97D47EE86A6870059BDA9F858818670FBAFA3812 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_status, SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* ___1_info, StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 ___2_context, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:184>
+		SerializationInfo_t3C47F63E24BEB9FCE2DC6309E027F238DC5C5E37* L_0 = ___1_info;
+		StreamingContext_t56760522A751890146EE45F82F866B55B7E33677 L_1 = ___2_context;
+		il2cpp_codegen_runtime_class_init_inline(Exception_t_il2cpp_TypeInfo_var);
+		Exception__ctor_m412D5FC4D69035738F1DB88FD771ABD6B0E9E120(__this, L_0, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:185>
+		int32_t L_2 = ___0_status;
+		SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline(__this, L_2, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:186>
+		return;
+	}
+}
+// Method Definition Index: 91263
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t SignInException_get_Status_m2FBF33632A23C771EE5CEB65120E3DFEC8FF5A74 (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:189>
+		int32_t L_0 = __this->___U3CStatusU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91264
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:190>
+		int32_t L_0 = ___0_value;
+		__this->___U3CStatusU3Ek__BackingField = L_0;
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91270
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInConfiguration__ctor_m99891370EEB5D39D4F4492E576B1CB5665532589 (GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91271
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_AuthCode_m086556E7DADF3850F2A70EC022F5BF9870DAAE34 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:26>
+		String_t* L_0 = __this->___U3CAuthCodeU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91272
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:27>
+		String_t* L_0 = ___0_value;
+		__this->___U3CAuthCodeU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthCodeU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91273
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_Email_mA6E37F96BC90280CBA4D425743426CBE8D515551 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:33>
+		String_t* L_0 = __this->___U3CEmailU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91274
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:34>
+		String_t* L_0 = ___0_value;
+		__this->___U3CEmailU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CEmailU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91275
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_IdToken_m58382F225E3065502A66AFA23F70053153DEA62A (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:40>
+		String_t* L_0 = __this->___U3CIdTokenU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91276
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:41>
+		String_t* L_0 = ___0_value;
+		__this->___U3CIdTokenU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIdTokenU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91277
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_DisplayName_mC14CD83AFB1364C729D09692732781672D9CEA9C (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:46>
+		String_t* L_0 = __this->___U3CDisplayNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91278
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:47>
+		String_t* L_0 = ___0_value;
+		__this->___U3CDisplayNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDisplayNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91279
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_GivenName_m1955EAFF719827C4118F9B7D2DF30E490F6A6797 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:52>
+		String_t* L_0 = __this->___U3CGivenNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91280
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:53>
+		String_t* L_0 = ___0_value;
+		__this->___U3CGivenNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGivenNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91281
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_FamilyName_mB8E944CF7D941E7F823C079410D45071ECE203A7 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:58>
+		String_t* L_0 = __this->___U3CFamilyNameU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91282
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:59>
+		String_t* L_0 = ___0_value;
+		__this->___U3CFamilyNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CFamilyNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91283
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* GoogleSignInUser_get_ImageUrl_m81F36356F02F01B392A614BD17F639499FB5EDA4 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:66>
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = __this->___U3CImageUrlU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91284
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:67>
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___0_value;
+		__this->___U3CImageUrlU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CImageUrlU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91285
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GoogleSignInUser_get_UserId_mCBF326EFC373DEF983AB1E87082AF49D81D1082E (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:72>
+		String_t* L_0 = __this->___U3CUserIdU3Ek__BackingField;
+		return L_0;
+	}
+}
+// Method Definition Index: 91286
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:73>
+		String_t* L_0 = ___0_value;
+		__this->___U3CUserIdU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91287
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInUser__ctor_m0271D1B065D5BF40672070447A0D61EEDB88FF91 (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91288
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, intptr_t ___0_intPtr, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:32>
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:33>
+		intptr_t L_0 = ___0_intPtr;
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_1;
+		memset((&L_1), 0, sizeof(L_1));
+		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_1), __this, L_0, NULL);
+		__this->___selfHandleRef = L_1;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___selfHandleRef))->____wrapper), (void*)NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:34>
+		return;
+	}
+}
+// Method Definition Index: 91289
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9 (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:37>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F* L_0 = (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F*)(&__this->___selfHandleRef);
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_1 = ((BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields*)il2cpp_codegen_static_fields_for(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var))->___nullSelf;
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_2 = L_1;
+		RuntimeObject* L_3 = Box(HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var, &L_2);
+		Il2CppFakeBox<HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F> L_4(HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F_il2cpp_TypeInfo_var, L_0);
+		bool L_5;
+		L_5 = ValueType_Equals_mCA5344597A8055EC544855AD60A983B10E0EE67D((ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F*)(&L_4), L_3, NULL);
+		if (!L_5)
+		{
+			goto IL_0028;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:38>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:39>
+		InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB* L_6 = (InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&InvalidOperationException_t5DDE4D49B7405FAAB1E4576F4715A42A3FAD4BAB_il2cpp_TypeInfo_var)));
+		InvalidOperationException__ctor_mE4CB6F4712AB6D99A2358FBAE2E052B3EE976162(L_6, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralD6AEB00E2908EDBFDB9EF7E0BC9A94A5D2742E6C)), NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_6, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9_RuntimeMethod_var)));
+	}
+
+IL_0028:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:41>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_7 = __this->___selfHandleRef;
+		return L_7;
+	}
+}
+// Method Definition Index: 91290
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject_Dispose_m554F3F996634EC0E8C5C0D2212659D5FDECC582F (BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:45>
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = ((BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_StaticFields*)il2cpp_codegen_static_fields_for(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var))->___nullSelf;
+		__this->___selfHandleRef = L_0;
+		Il2CppCodeGenWriteBarrier((void**)&(((&__this->___selfHandleRef))->____wrapper), (void*)NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:46>
+		return;
+	}
+}
+// Method Definition Index: 91291
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* ___0_outStringMethod, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	uintptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	String_t* V_1 = NULL;
+	ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* V_2 = NULL;
+	Exception_t* V_3 = NULL;
+	il2cpp::utils::ExceptionSupportStack<RuntimeObject*, 1> __active_exceptions;
+	Exception_t* G_B6_0 = NULL;
+	String_t* G_B6_1 = NULL;
+	Exception_t* G_B5_0 = NULL;
+	String_t* G_B5_1 = NULL;
+	String_t* G_B7_0 = NULL;
+	String_t* G_B7_1 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:52>
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_0 = ___0_outStringMethod;
+		NullCheck(L_0);
+		uintptr_t L_1;
+		L_1 = OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline(L_0, (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)NULL, 0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:53>
+		uintptr_t L_2 = 0;
+		RuntimeObject* L_3 = Box(il2cpp_defaults.uint_class, &L_2);
+		bool L_4;
+		L_4 = UIntPtr_Equals_m7A952F9624311E28A8F6B7D48A27E897F59E7021((&V_0), L_3, NULL);
+		if (!L_4)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:54>
+		return (String_t*)NULL;
+	}
+
+IL_0022:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:57>
+		V_1 = (String_t*)NULL;
+	}
+	try
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:59>
+		uint32_t L_5;
+		L_5 = UIntPtr_ToUInt32_mAD7A6CD8C254052CAC60B29546BE796360E0B965((&V_0), NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_6 = (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*)SZArrayNew(ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031_il2cpp_TypeInfo_var, (uint32_t)L_5);
+		V_2 = L_6;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:60>
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_7 = ___0_outStringMethod;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_8 = V_2;
+		uintptr_t L_9 = V_0;
+		NullCheck(L_7);
+		uintptr_t L_10;
+		L_10 = OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline(L_7, L_8, L_9, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:61>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:62>
+		Encoding_t65CDEF28CF20A7B8C92E85A4E808920C2465F095* L_11;
+		L_11 = Encoding_get_UTF8_m9FA98A53CE96FD6D02982625C5246DD36C1235C9(NULL);
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12 = V_2;
+		uint32_t L_13;
+		L_13 = UIntPtr_ToUInt32_mAD7A6CD8C254052CAC60B29546BE796360E0B965((&V_0), NULL);
+		NullCheck(L_11);
+		String_t* L_14;
+		L_14 = VirtualFuncInvoker3< String_t*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, int32_t, int32_t >::Invoke(35, L_11, L_12, 0, ((int32_t)il2cpp_codegen_subtract((int32_t)L_13, 1)));
+		V_1 = L_14;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:63>
+		goto IL_0077;
+	}
+	catch(Il2CppExceptionWrapper& e)
+	{
+		if(il2cpp_codegen_class_is_assignable_from (((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Exception_t_il2cpp_TypeInfo_var)), il2cpp_codegen_object_class(e.ex)))
+		{
+			IL2CPP_PUSH_ACTIVE_EXCEPTION(e.ex);
+			goto CATCH_0052;
+		}
+		throw e;
+	}
+
+CATCH_0052:
+	{
+		{
+			Exception_t* L_15 = ((Exception_t*)IL2CPP_GET_ACTIVE_EXCEPTION(Exception_t*));;
+			//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:63>
+			V_3 = L_15;
+			//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:64>
+			Exception_t* L_16 = V_3;
+			Exception_t* L_17 = L_16;
+			if (L_17)
+			{
+				G_B6_0 = L_17;
+				G_B6_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral79098B9D29578596CA3BA3FCEDAFB6AF622D9AFD));
+				goto IL_0060;
+			}
+			G_B5_0 = L_17;
+			G_B5_1 = ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral79098B9D29578596CA3BA3FCEDAFB6AF622D9AFD));
+		}
+		{
+			G_B7_0 = ((String_t*)(NULL));
+			G_B7_1 = G_B5_1;
+			goto IL_0065;
+		}
+
+IL_0060:
+		{
+			NullCheck(G_B6_0);
+			String_t* L_18;
+			L_18 = VirtualFuncInvoker0< String_t* >::Invoke(3, G_B6_0);
+			G_B7_0 = L_18;
+			G_B7_1 = G_B6_1;
+		}
+
+IL_0065:
+		{
+			String_t* L_19;
+			L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B7_1, G_B7_0, NULL);
+			il2cpp_codegen_runtime_class_init_inline(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var)));
+			Debug_LogError_mB00B2B4468EF3CAF041B038D840820FB84C924B2(L_19, NULL);
+			//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:65>
+			String_t* L_20 = ((String_t_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_defaults.string_class))->___Empty;
+			V_1 = L_20;
+			//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:66>
+			IL2CPP_POP_ACTIVE_EXCEPTION(Exception_t*);
+			goto IL_0077;
+		}
+	}
+
+IL_0077:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/BaseObject.cs:67>
+		String_t* L_21 = V_1;
+		return L_21;
+	}
+}
+// Method Definition Index: 91292
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BaseObject__cctor_m37F36BB0C1EEF39D0197935D9E0A90BAC16FF1FB (const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_Multicast(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method)
+{
+	il2cpp_array_size_t length = __this->___delegates->max_length;
+	Delegate_t** delegatesToInvoke = reinterpret_cast<Delegate_t**>(__this->___delegates->GetAddressAtUnchecked(0));
+	uintptr_t retVal;
+	memset((&retVal), 0, sizeof(retVal));
+	for (il2cpp_array_size_t i = 0; i < length; i++)
+	{
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* currentDelegate = reinterpret_cast<OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*>(delegatesToInvoke[i]);
+		typedef uintptr_t (*FunctionPointerType) (RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
+		retVal = ((FunctionPointerType)currentDelegate->___invoke_impl)((Il2CppObject*)currentDelegate->___method_code, ___0_out_bytes, ___1_out_size, reinterpret_cast<RuntimeMethod*>(currentDelegate->___method));
+	}
+	return retVal;
+}
+uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenInst(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method)
+{
+	NullCheck(___0_out_bytes);
+	typedef uintptr_t (*FunctionPointerType) (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___method_ptr)(___0_out_bytes, ___1_out_size, method);
+}
+uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenStatic(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method)
+{
+	typedef uintptr_t (*FunctionPointerType) (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___method_ptr)(___0_out_bytes, ___1_out_size, method);
+}
+IL2CPP_EXTERN_C  uintptr_t DelegatePInvokeWrapper_OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5 (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method)
+{
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc)(uint8_t*, uintptr_t);
+	PInvokeFunc il2cppPInvokeFunc = reinterpret_cast<PInvokeFunc>(il2cpp_codegen_get_reverse_pinvoke_function_ptr(__this));
+	uint8_t* ____0_out_bytes_marshaled = NULL;
+	if (___0_out_bytes != NULL)
+	{
+		____0_out_bytes_marshaled = reinterpret_cast<uint8_t*>((___0_out_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_out_bytes_marshaled, ___1_out_size);
+
+	return returnValue;
+}
+// Method Definition Index: 91293
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	__this->___method_ptr = (intptr_t)il2cpp_codegen_get_method_pointer((RuntimeMethod*)___1_method);
+	__this->___method = ___1_method;
+	__this->___m_target = ___0_object;
+	Il2CppCodeGenWriteBarrier((void**)(&__this->___m_target), (void*)___0_object);
+	int parameterCount = il2cpp_codegen_method_parameter_count((RuntimeMethod*)___1_method);
+	__this->___method_code = (intptr_t)__this;
+	if (MethodIsStatic((RuntimeMethod*)___1_method))
+	{
+		bool isOpen = parameterCount == 2;
+		if (isOpen)
+			__this->___invoke_impl = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenStatic;
+		else
+			{
+				__this->___invoke_impl = __this->___method_ptr;
+				__this->___method_code = (intptr_t)__this->___m_target;
+			}
+	}
+	else
+	{
+		bool isOpen = parameterCount == 1;
+		if (isOpen)
+		{
+			__this->___invoke_impl = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_OpenInst;
+		}
+		else
+		{
+			if (___0_object == NULL)
+				il2cpp_codegen_raise_exception(il2cpp_codegen_get_argument_exception(NULL, "Delegate to an instance method cannot have null 'this'."), NULL);
+			__this->___invoke_impl = __this->___method_ptr;
+			__this->___method_code = (intptr_t)__this->___m_target;
+		}
+	}
+	__this->___extra_arg = (intptr_t)&OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_Multicast;
+}
+// Method Definition Index: 91294
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (*FunctionPointerType) (RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_out_bytes, ___1_out_size, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 91295
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* OutStringMethod_BeginInvoke_m608A23F502DE02D618CCA39D6D865C7D18CDFDF7 (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, AsyncCallback_t7FEF460CBDCFB9C5FA2EF776984778B9A4145F4C* ___2_callback, RuntimeObject* ___3_object, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	void *__d_args[3] = {0};
+	__d_args[0] = ___0_out_bytes;
+	__d_args[1] = Box(il2cpp_defaults.uint_class, &___1_out_size);
+	return (RuntimeObject*)il2cpp_codegen_delegate_begin_invoke((RuntimeDelegate*)__this, __d_args, (RuntimeDelegate*)___2_callback, (RuntimeObject*)___3_object);
+}
+// Method Definition Index: 91296
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_EndInvoke_m1559888E67A55BCBDCFA90C6873D68C33E8AFE2A (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, RuntimeObject* ___0_result, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	RuntimeObject *__result = il2cpp_codegen_delegate_end_invoke((Il2CppAsyncResult*) ___0_result, 0);
+	return *(uintptr_t*)UnBox ((RuntimeObject*)__result);
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91297
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl__ctor_m28DE8315356ABCB9AB9B96F3D635BF83278D3A3A (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* ___0_configuration, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* V_0 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:31>
+		intptr_t L_0;
+		L_0 = GoogleSignInImpl_GetPlayerActivity_m298AD9D9AC4EEC28D205394CDD330BC02F1DD6A4(NULL);
+		intptr_t L_1;
+		L_1 = GoogleSignInImpl_GoogleSignIn_Create_m6C8D53A9F11B20CC884FC7E118C5854570096CBF(L_0, NULL);
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A(__this, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:33>
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_2 = ___0_configuration;
+		if (!L_2)
+		{
+			goto IL_0075;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:34>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_3 = (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*)il2cpp_codegen_object_new(List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_il2cpp_TypeInfo_var);
+		List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E(L_3, List_1__ctor_mCA8DD57EAC70C2B5923DBB9D5A77CEAC22E7068E_RuntimeMethod_var);
+		V_0 = L_3;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:35>
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_4 = ___0_configuration;
+		NullCheck(L_4);
+		RuntimeObject* L_5 = L_4->___AdditionalScopes;
+		if (!L_5)
+		{
+			goto IL_002d;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:36>
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_6 = V_0;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_7 = ___0_configuration;
+		NullCheck(L_7);
+		RuntimeObject* L_8 = L_7->___AdditionalScopes;
+		NullCheck(L_6);
+		List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E(L_6, L_8, List_1_AddRange_m157DD7AD4D25423F82A21E533BC4686C83770D5E_RuntimeMethod_var);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:38>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:39>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:40>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:41>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:42>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:43>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:44>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:45>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:46>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:47>
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_9;
+		L_9 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_10 = ___0_configuration;
+		NullCheck(L_10);
+		bool L_11 = L_10->___UseGameSignIn;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_12 = ___0_configuration;
+		NullCheck(L_12);
+		String_t* L_13 = L_12->___WebClientId;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_14 = ___0_configuration;
+		NullCheck(L_14);
+		bool L_15 = L_14->___RequestAuthCode;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_16 = ___0_configuration;
+		NullCheck(L_16);
+		bool L_17 = L_16->___ForceTokenRefresh;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_18 = ___0_configuration;
+		NullCheck(L_18);
+		bool L_19 = L_18->___RequestEmail;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_20 = ___0_configuration;
+		NullCheck(L_20);
+		bool L_21 = L_20->___RequestIdToken;
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_22 = ___0_configuration;
+		NullCheck(L_22);
+		bool L_23 = L_22->___HidePopups;
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_24 = V_0;
+		NullCheck(L_24);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_25;
+		L_25 = List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A(L_24, List_1_ToArray_m2C402D882AA60FC1D5C7C09A129BE7779F833B4A_RuntimeMethod_var);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_26 = V_0;
+		NullCheck(L_26);
+		int32_t L_27;
+		L_27 = List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_inline(L_26, List_1_get_Count_mB63183A9151F4345A9DD444A7CBE0D6E03F77C7C_RuntimeMethod_var);
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_28 = ___0_configuration;
+		NullCheck(L_28);
+		String_t* L_29 = L_28->___AccountName;
+		bool L_30;
+		L_30 = GoogleSignInImpl_GoogleSignIn_Configure_mD397232FBA115AC8CFCB48BD84FB961D0F170B9E(L_9, L_11, L_13, L_15, L_17, L_19, L_21, L_23, L_25, L_27, L_29, NULL);
+	}
+
+IL_0075:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:49>
+		return;
+	}
+}
+// Method Definition Index: 91298
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_EnableDebugLogging_m527A8F7AAE6B947A8EC6DC25E23E661D2B6E117F (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, bool ___0_flag, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:53>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		bool L_1 = ___0_flag;
+		GoogleSignInImpl_GoogleSignIn_EnableDebugLogging_m21685383DEDE08D27C74A274CA26D3FEEFC033EC(L_0, L_1, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:54>
+		return;
+	}
+}
+// Method Definition Index: 91299
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* GoogleSignInImpl_SignIn_m859A15256A86DF1873867F49B79B69163EAB9BE8 (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:65>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		intptr_t L_1;
+		L_1 = GoogleSignInImpl_GoogleSignIn_SignIn_m22D8DE4B14BDAAE661FFEFEF5D9BEFD5830D2175(L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:66>
+		NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* L_2 = (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F*)il2cpp_codegen_object_new(NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
+		NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC(L_2, L_1, NULL);
+		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_3 = (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*)il2cpp_codegen_object_new(Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
+		Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6(L_3, L_2, Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
+		return L_3;
+	}
+}
+// Method Definition Index: 91300
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* GoogleSignInImpl_SignInSilently_mE92B6CCBDA838381A21703691FB9C5F461A477F8 (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:78>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		intptr_t L_1;
+		L_1 = GoogleSignInImpl_GoogleSignIn_SignInSilently_mB9B6823FC8F062B9FA8B3A954DD2D27CB6F7B062(L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:79>
+		NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* L_2 = (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F*)il2cpp_codegen_object_new(NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F_il2cpp_TypeInfo_var);
+		NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC(L_2, L_1, NULL);
+		Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B* L_3 = (Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B*)il2cpp_codegen_object_new(Future_1_tFEEFD979DB77DC86FB4B0E5DB8777D7B1251603B_il2cpp_TypeInfo_var);
+		Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6(L_3, L_2, Future_1__ctor_m0C753DE706871E42916A5D1BF9AB1DF7A563DAE6_RuntimeMethod_var);
+		return L_3;
+	}
+}
+// Method Definition Index: 91301
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_SignOut_m88FED0CCBAA20F403B838BAA20FBD5FC5CC2416B (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:86>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		GoogleSignInImpl_GoogleSignIn_Signout_mA13B93C574D80B705301DA279CB588434C256DE3(L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:87>
+		return;
+	}
+}
+// Method Definition Index: 91302
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_Disconnect_m136F2268A549DA9A13D7BBB198BE4B286380ECA1 (GoogleSignInImpl_t39FF1F7B86D03EA26FD263D550A7030703EFA349* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:93>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		GoogleSignInImpl_GoogleSignIn_Disconnect_m00F5736B6446CD99B21D3E58D7A6D2A48A4CA0EB(L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:94>
+		return;
+	}
+}
+// Method Definition Index: 91303
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Create_m6C8D53A9F11B20CC884FC7E118C5854570096CBF (intptr_t ___0_data, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (intptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(intptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Create", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Create)(___0_data);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(___0_data);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91304
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_EnableDebugLogging_m21685383DEDE08D27C74A274CA26D3FEEFC033EC (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, bool ___1_flag, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*, int32_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + 4;
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_EnableDebugLogging", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	reinterpret_cast<PInvokeFunc>(GoogleSignIn_EnableDebugLogging)(____0_self_marshaled, static_cast<int32_t>(___1_flag));
+	#else
+	il2cppPInvokeFunc(____0_self_marshaled, static_cast<int32_t>(___1_flag));
+	#endif
+
+}
+// Method Definition Index: 91305
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Configure_mD397232FBA115AC8CFCB48BD84FB961D0F170B9E (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, bool ___1_useGameSignIn, String_t* ___2_webClientId, bool ___3_requestAuthCode, bool ___4_forceTokenRefresh, bool ___5_requestEmail, bool ___6_requestIdToken, bool ___7_hidePopups, StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___8_additionalScopes, int32_t ___9_scopeCount, String_t* ___10_accountName, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*, int32_t, char*, int32_t, int32_t, int32_t, int32_t, int32_t, char**, int32_t, char*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + 4 + sizeof(char*) + 4 + 4 + 4 + 4 + 4 + sizeof(void*) + sizeof(int32_t) + sizeof(char*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Configure", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	char* ____2_webClientId_marshaled = NULL;
+	____2_webClientId_marshaled = il2cpp_codegen_marshal_string(___2_webClientId);
+
+	char** ____8_additionalScopes_marshaled = NULL;
+	if (___8_additionalScopes != NULL)
+	{
+		il2cpp_array_size_t ____8_additionalScopes_Length = (___8_additionalScopes)->max_length;
+		____8_additionalScopes_marshaled = il2cpp_codegen_marshal_allocate_array<char*>(____8_additionalScopes_Length + 1);
+		(____8_additionalScopes_marshaled)[____8_additionalScopes_Length] = NULL;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____8_additionalScopes_Length); i++)
+		{
+			(____8_additionalScopes_marshaled)[i] = il2cpp_codegen_marshal_string((___8_additionalScopes)->GetAtUnchecked(static_cast<il2cpp_array_size_t>(i)));
+		}
+	}
+	else
+	{
+		____8_additionalScopes_marshaled = NULL;
+	}
+
+	char* ____10_accountName_marshaled = NULL;
+	____10_accountName_marshaled = il2cpp_codegen_marshal_string(___10_accountName);
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Configure)(____0_self_marshaled, static_cast<int32_t>(___1_useGameSignIn), ____2_webClientId_marshaled, static_cast<int32_t>(___3_requestAuthCode), static_cast<int32_t>(___4_forceTokenRefresh), static_cast<int32_t>(___5_requestEmail), static_cast<int32_t>(___6_requestIdToken), static_cast<int32_t>(___7_hidePopups), ____8_additionalScopes_marshaled, ___9_scopeCount, ____10_accountName_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, static_cast<int32_t>(___1_useGameSignIn), ____2_webClientId_marshaled, static_cast<int32_t>(___3_requestAuthCode), static_cast<int32_t>(___4_forceTokenRefresh), static_cast<int32_t>(___5_requestEmail), static_cast<int32_t>(___6_requestIdToken), static_cast<int32_t>(___7_hidePopups), ____8_additionalScopes_marshaled, ___9_scopeCount, ____10_accountName_marshaled);
+	#endif
+
+	il2cpp_codegen_marshal_free(____2_webClientId_marshaled);
+	____2_webClientId_marshaled = NULL;
+
+	if (____8_additionalScopes_marshaled != NULL)
+	{
+		const il2cpp_array_size_t ____8_additionalScopes_marshaled_CleanupLoopCount = (___8_additionalScopes != NULL) ? (___8_additionalScopes)->max_length : 0;
+		for (int32_t i = 0; i < ARRAY_LENGTH_AS_INT32(____8_additionalScopes_marshaled_CleanupLoopCount); i++)
+		{
+			il2cpp_codegen_marshal_free((____8_additionalScopes_marshaled)[i]);
+			(____8_additionalScopes_marshaled)[i] = NULL;
+		}
+		il2cpp_codegen_marshal_free(____8_additionalScopes_marshaled);
+		____8_additionalScopes_marshaled = NULL;
+	}
+
+	il2cpp_codegen_marshal_free(____10_accountName_marshaled);
+	____10_accountName_marshaled = NULL;
+
+	return static_cast<bool>(returnValue);
+}
+// Method Definition Index: 91306
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignIn_m22D8DE4B14BDAAE661FFEFEF5D9BEFD5830D2175 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_SignIn", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_SignIn)(____0_self_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91307
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_SignInSilently_mB9B6823FC8F062B9FA8B3A954DD2D27CB6F7B062 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_SignInSilently", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_SignInSilently)(____0_self_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91308
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Signout_mA13B93C574D80B705301DA279CB588434C256DE3 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Signout", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	reinterpret_cast<PInvokeFunc>(GoogleSignIn_Signout)(____0_self_marshaled);
+	#else
+	il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+}
+// Method Definition Index: 91309
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_Disconnect_m00F5736B6446CD99B21D3E58D7A6D2A48A4CA0EB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Disconnect", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	reinterpret_cast<PInvokeFunc>(GoogleSignIn_Disconnect)(____0_self_marshaled);
+	#else
+	il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+}
+// Method Definition Index: 91310
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GoogleSignInImpl_GoogleSignIn_DisposeFuture_m28CC383A504AA5E245927D51463C4C2E53036EF9 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef void (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_DisposeFuture", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	reinterpret_cast<PInvokeFunc>(GoogleSignIn_DisposeFuture)(____0_self_marshaled);
+	#else
+	il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+}
+// Method Definition Index: 91311
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GoogleSignInImpl_GoogleSignIn_Pending_mB2A55106C50985472B9CD2F983F668CE42490435 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Pending", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Pending)(____0_self_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+	return static_cast<bool>(returnValue);
+}
+// Method Definition Index: 91312
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GoogleSignIn_Result_m9495EFE3047E860938A68D98AB665B08D9368BBB (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef intptr_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Result", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	intptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Result)(____0_self_marshaled);
+	#else
+	intptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91313
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GoogleSignInImpl_GoogleSignIn_Status_m394770E3C255F4A323BC0BBCB95E17628385BF8C (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (void*);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_Status", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_Status)(____0_self_marshaled);
+	#else
+	int32_t returnValue = il2cppPInvokeFunc(____0_self_marshaled);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91314
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetServerAuthCode_m7C4FB4471B7287C7F835758C8B6DEACCC423F478 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetServerAuthCode", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetServerAuthCode)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91315
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetDisplayName_mA10A1F7FCDB0C0509C25C07B4879ED6C8E7AB898 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetDisplayName", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetDisplayName)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91316
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetEmail_mB5BA2AF3A3B912BC7981CCAF582C4CB0BE794569 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetEmail", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetEmail)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91317
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetFamilyName_m598696E5B17386931EDA83BBB0620473B688B6B6 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetFamilyName", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetFamilyName)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91318
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetGivenName_mFFF0ABA104C06A67D5A8E2412F037E9FEB5EF8C9 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetGivenName", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetGivenName)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91319
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetIdToken_m8E9891422C140811C8FA3BA9366BD82E0D1DD444 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetIdToken", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetIdToken)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91320
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetImageUrl_m96C9B6DB9DA04EA6634C71B9651966DAD62434B4 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetImageUrl", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetImageUrl)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91321
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t GoogleSignInImpl_GoogleSignIn_GetUserId_m4DA7FB3CF2B43ABE928AC85A24017202EBB93B43 (HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F ___0_self, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___1_bytes, uintptr_t ___2_len, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (DEFAULT_CALL *PInvokeFunc) (void*, uint8_t*, uintptr_t);
+	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_native_googlesignin_INTERNAL
+	static PInvokeFunc il2cppPInvokeFunc;
+	if (il2cppPInvokeFunc == NULL)
+	{
+		int parameterSize = sizeof(void*) + sizeof(void*) + sizeof(uintptr_t);
+		il2cppPInvokeFunc = il2cpp_codegen_resolve_pinvoke<PInvokeFunc>(IL2CPP_NATIVE_STRING("native-googlesignin"), "GoogleSignIn_GetUserId", IL2CPP_CALL_DEFAULT, CHARSET_NOT_SPECIFIED, parameterSize, false);
+		IL2CPP_ASSERT(il2cppPInvokeFunc != NULL);
+	}
+	#endif
+
+	void* ____0_self_marshaled = NULL;
+	____0_self_marshaled = (void*)___0_self.____handle;
+
+	uint8_t* ____1_bytes_marshaled = NULL;
+	if (___1_bytes != NULL)
+	{
+		____1_bytes_marshaled = reinterpret_cast<uint8_t*>((___1_bytes)->GetAddressAtUnchecked(0));
+	}
+
+	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_native_googlesignin_INTERNAL
+	uintptr_t returnValue = reinterpret_cast<PInvokeFunc>(GoogleSignIn_GetUserId)(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#else
+	uintptr_t returnValue = il2cppPInvokeFunc(____0_self_marshaled, ____1_bytes_marshaled, ___2_len);
+	#endif
+
+	return returnValue;
+}
+// Method Definition Index: 91322
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR intptr_t GoogleSignInImpl_GetPlayerActivity_m298AD9D9AC4EEC28D205394CDD330BC02F1DD6A4 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:178>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:179>
+		AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03* L_0 = (AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03*)il2cpp_codegen_object_new(AndroidJavaClass_tE6296B30CC4BF84434A9B765267F3FD0DD8DDB03_il2cpp_TypeInfo_var);
+		AndroidJavaClass__ctor_mB5466169E1151B8CC44C8FED234D79984B431389(L_0, _stringLiteral4D613657609485AE586A3379BA0E3FC13C1E1078, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:180>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/GoogleSignInImpl.cs:181>
+		NullCheck(L_0);
+		AndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0* L_1;
+		L_1 = AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD(L_0, _stringLiteralFB4AE4F77150C3A8E8E4F8B23E734E0C7277B7D9, AndroidJavaObject_GetStatic_TisAndroidJavaObject_t8FFB930F335C1178405B82AC2BF512BB1EEF9EB0_mD7D192A35EB2B2DA3775FAB081958B72088251DD_RuntimeMethod_var);
+		NullCheck(L_1);
+		intptr_t L_2;
+		L_2 = AndroidJavaObject_GetRawObject_m536F043B5CE2C21369FF6173C9D2A9A62136BC48(L_1, NULL);
+		return L_2;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91323
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeFuture__ctor_mBCE15D32B70A331E0A78785E89D695988FE027DC (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, intptr_t ___0_ptr, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:27>
+		intptr_t L_0 = ___0_ptr;
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		BaseObject__ctor_mDB4E06DEC48DC3204680E87119B46480BCECCB7A(__this, L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:28>
+		return;
+	}
+}
+// Method Definition Index: 91324
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NativeFuture_Dispose_m86BBFC01575F8083B39FAEFDD779267FE212C669 (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:31>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		GoogleSignInImpl_GoogleSignIn_DisposeFuture_m28CC383A504AA5E245927D51463C4C2E53036EF9(L_0, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:32>
+		BaseObject_Dispose_m554F3F996634EC0E8C5C0D2212659D5FDECC582F(__this, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 91325
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool NativeFuture_get_Pending_mF70898B348D8019990176CA0B7D46936E7EDA741 (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:37>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		bool L_1;
+		L_1 = GoogleSignInImpl_GoogleSignIn_Pending_mB2A55106C50985472B9CD2F983F668CE42490435(L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 91326
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* NativeFuture_get_Result_m9A5DF2B826B14BC6D847C0CB12ACC2F5549B1A2A (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	intptr_t V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* V_1 = NULL;
+	GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* V_2 = NULL;
+	String_t* V_3 = NULL;
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:43>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		intptr_t L_1;
+		L_1 = GoogleSignInImpl_GoogleSignIn_Result_m9495EFE3047E860938A68D98AB665B08D9368BBB(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:44>
+		intptr_t L_2 = V_0;
+		bool L_3;
+		L_3 = IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline(L_2, 0, NULL);
+		if (!L_3)
+		{
+			goto IL_00ff;
+		}
+	}
+	{
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_4 = (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08_il2cpp_TypeInfo_var);
+		U3CU3Ec__DisplayClass5_0__ctor_m7497FAB21C83A976EB1558C8B99D253FA6DDF86A(L_4, NULL);
+		V_1 = L_4;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:45>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_5 = (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA*)il2cpp_codegen_object_new(GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA_il2cpp_TypeInfo_var);
+		GoogleSignInUser__ctor_m0271D1B065D5BF40672070447A0D61EEDB88FF91(L_5, NULL);
+		V_2 = L_5;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:46>
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_6 = V_1;
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_7 = V_2;
+		intptr_t L_8 = V_0;
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		HandleRef__ctor_m0298D55E5F35F77B6A6CCA75C8E828C3F3127DE7((&L_9), L_7, L_8, NULL);
+		NullCheck(L_6);
+		L_6->___userPtr = L_9;
+		Il2CppCodeGenWriteBarrier((void**)&(((&L_6->___userPtr))->____wrapper), (void*)NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:48>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:49>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:50>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:51>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_10 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_11 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_12 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_12, L_11, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		String_t* L_13;
+		L_13 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_12, NULL);
+		NullCheck(L_10);
+		GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B_inline(L_10, L_13, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:52>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:53>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:54>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_14 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_15 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_16 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_16, L_15, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946_RuntimeMethod_var), NULL);
+		String_t* L_17;
+		L_17 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_16, NULL);
+		NullCheck(L_14);
+		GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C_inline(L_14, L_17, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:56>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:57>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:58>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_18 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_19 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_20 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_20, L_19, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5_RuntimeMethod_var), NULL);
+		String_t* L_21;
+		L_21 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_20, NULL);
+		NullCheck(L_18);
+		GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9_inline(L_18, L_21, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:60>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:61>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:62>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_22 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_23 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_24 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_24, L_23, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7_RuntimeMethod_var), NULL);
+		String_t* L_25;
+		L_25 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_24, NULL);
+		NullCheck(L_22);
+		GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D_inline(L_22, L_25, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:64>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:65>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:66>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_26 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_27 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_28 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_28, L_27, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147_RuntimeMethod_var), NULL);
+		String_t* L_29;
+		L_29 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_28, NULL);
+		NullCheck(L_26);
+		GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3_inline(L_26, L_29, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:68>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:69>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:70>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_30 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_31 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_32 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_32, L_31, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C_RuntimeMethod_var), NULL);
+		String_t* L_33;
+		L_33 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_32, NULL);
+		NullCheck(L_30);
+		GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7_inline(L_30, L_33, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:72>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:73>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:74>
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_34 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_35 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_35, L_34, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5_RuntimeMethod_var), NULL);
+		String_t* L_36;
+		L_36 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_35, NULL);
+		V_3 = L_36;
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:75>
+		String_t* L_37 = V_3;
+		NullCheck(L_37);
+		int32_t L_38;
+		L_38 = String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline(L_37, NULL);
+		if ((((int32_t)L_38) <= ((int32_t)0)))
+		{
+			goto IL_00e6;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:76>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_39 = V_2;
+		String_t* L_40 = V_3;
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_41 = (Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E*)il2cpp_codegen_object_new(Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E_il2cpp_TypeInfo_var);
+		Uri__ctor_m6CA436E6AD2768A121FA851CBEEFA3623E849D3A(L_41, L_40, NULL);
+		NullCheck(L_39);
+		GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45_inline(L_39, L_41, NULL);
+	}
+
+IL_00e6:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:79>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:80>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:81>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_42 = V_2;
+		U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* L_43 = V_1;
+		OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* L_44 = (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5*)il2cpp_codegen_object_new(OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5_il2cpp_TypeInfo_var);
+		OutStringMethod__ctor_m93CB7F9A3D356B00AE9305EF2660D1584D76725D(L_44, L_43, (intptr_t)((void*)U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA_RuntimeMethod_var), NULL);
+		il2cpp_codegen_runtime_class_init_inline(BaseObject_tAAD9B5F3B9535C3F400B35F8B9C1E15E67A67D6C_il2cpp_TypeInfo_var);
+		String_t* L_45;
+		L_45 = BaseObject_OutParamsToString_mA2D2E392386AEA31AC1E0E2AF64E9ABD8A20028B(L_44, NULL);
+		NullCheck(L_42);
+		GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270_inline(L_42, L_45, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:82>
+		GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* L_46 = V_2;
+		return L_46;
+	}
+
+IL_00ff:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:84>
+		return (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA*)NULL;
+	}
+}
+// Method Definition Index: 91327
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t NativeFuture_get_Status_mC727AD36BDCDD64E381FA4991E58694ABA9561F4 (NativeFuture_t1ED3CC41C0E80028A913E88E861BCF1CE062309F* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:97>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:98>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0;
+		L_0 = BaseObject_SelfPtr_mDBED15363454DA2D988075EB23C4BD15B8ED49D9(__this, NULL);
+		int32_t L_1;
+		L_1 = GoogleSignInImpl_GoogleSignIn_Status_m394770E3C255F4A323BC0BBCB95E17628385BF8C(L_0, NULL);
+		return (int32_t)(L_1);
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91328
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__DisplayClass5_0__ctor_m7497FAB21C83A976EB1558C8B99D253FA6DDF86A (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		return;
+	}
+}
+// Method Definition Index: 91329
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__0_mAB7700145D3F1F675831CDCE9BEACC834D4BF96E (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:49>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:50>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:51>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetDisplayName_mA10A1F7FCDB0C0509C25C07B4879ED6C8E7AB898(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91330
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__1_m370A13175EEDCF49601E661321C8DD88FF6A1946 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:53>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:54>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetEmail_mB5BA2AF3A3B912BC7981CCAF582C4CB0BE794569(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91331
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__2_m8D0E1DF9DE52B683EF57BD1A25567E701CD782B5 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:57>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:58>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetFamilyName_m598696E5B17386931EDA83BBB0620473B688B6B6(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91332
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__3_m49F63C5CB22AC3D69146172A0DF82EAAC45ACCD7 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:61>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:62>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetGivenName_mFFF0ABA104C06A67D5A8E2412F037E9FEB5EF8C9(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91333
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__4_mFABC6CF05697AC3A309FDF438B8AF5D6CED62147 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:65>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:66>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetIdToken_m8E9891422C140811C8FA3BA9366BD82E0D1DD444(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91334
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__5_mC2AB488643100B8EF8939922F768AB85AD2D284C (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:69>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:70>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetServerAuthCode_m7C4FB4471B7287C7F835758C8B6DEACCC423F478(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91335
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__6_m9DDEF005B688BBCB60877AC369DD209AA023D5B5 (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:73>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:74>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetImageUrl_m96C9B6DB9DA04EA6634C71B9651966DAD62434B4(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+// Method Definition Index: 91336
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uintptr_t U3CU3Ec__DisplayClass5_0_U3Cget_ResultU3Eb__7_mD0783088AA1B5B1F825807F640392ABFC3A3E5CA (U3CU3Ec__DisplayClass5_0_tAC4E291D6286B6F85E225E29FB47C2A6E513BE08* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_string, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:80>
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/NativeFuture.cs:81>
+		HandleRef_t4B05E32B68797F702257D4E838B85A976313F08F L_0 = __this->___userPtr;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_out_string;
+		uintptr_t L_2 = ___1_out_size;
+		uintptr_t L_3;
+		L_3 = GoogleSignInImpl_GoogleSignIn_GetUserId_m4DA7FB3CF2B43ABE928AC85A24017202EBB93B43(L_0, L_1, L_2, NULL);
+		return L_3;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// Method Definition Index: 91337
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* SignInHelperObject_get_Instance_mB289E4E5785ECA3877128A2D7E42F73DAEAA2C34 (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAFAF1BA7E22CC639E69C44B0308455A786E3D91);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/SignInHelperObject.cs:30>
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_0;
+		L_0 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_0)
+		{
+			goto IL_0023;
+		}
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/SignInHelperObject.cs:32>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)il2cpp_codegen_object_new(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F_il2cpp_TypeInfo_var);
+		GameObject__ctor_m37D512B05D292F954792225E6C6EEE95293A9B88(L_1, _stringLiteralDAFAF1BA7E22CC639E69C44B0308455A786E3D91, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/SignInHelperObject.cs:33>
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = L_1;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DontDestroyOnLoad_m4B70C3AEF886C176543D1295507B6455C9DCAEA7(L_2, NULL);
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/SignInHelperObject.cs:34>
+		NullCheck(L_2);
+		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_3;
+		L_3 = GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF(L_2, GameObject_AddComponent_TisSignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_m8DAAB2B6376C79FA30A3F2BCF3DB4DB73BBA61BF_RuntimeMethod_var);
+		((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance), (void*)L_3);
+		goto IL_002d;
+	}
+
+IL_0023:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/SignInHelperObject.cs:36>
+		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_4 = (SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B*)il2cpp_codegen_object_new(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var);
+		SignInHelperObject__ctor_m049CB998CA9E1DA5929BE9CFCEA8C33EE915CDA3(L_4, NULL);
+		((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance = L_4;
+		Il2CppCodeGenWriteBarrier((void**)(&((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance), (void*)L_4);
+	}
+
+IL_002d:
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/Impl/SignInHelperObject.cs:38>
+		SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* L_5 = ((SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_StaticFields*)il2cpp_codegen_static_fields_for(SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B_il2cpp_TypeInfo_var))->___instance;
+		return L_5;
+	}
+}
+// Method Definition Index: 91338
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SignInHelperObject__ctor_m049CB998CA9E1DA5929BE9CFCEA8C33EE915CDA3 (SignInHelperObject_t52D2626E21DAFA422F9A13C90D29B5ECBC31A35B* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+// Method Definition Index: 43315
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Rect.cs:29>
+		float L_0 = ___0_x;
+		__this->___m_XMin = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Rect.cs:30>
+		float L_1 = ___1_y;
+		__this->___m_YMin = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Rect.cs:31>
+		float L_2 = ___2_width;
+		__this->___m_Width = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Rect.cs:32>
+		float L_3 = ___3_height;
+		__this->___m_Height = L_3;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Rect.cs:33>
+		return;
+	}
+}
+// Method Definition Index: 45373
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:332>
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:333>
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+// Method Definition Index: 45270
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:721>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 45244
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:330>
+		return;
+	}
+}
+// Method Definition Index: 45262
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:598>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:599>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:600>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:601>
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:602>
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+// Method Definition Index: 45307
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:75>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		return L_0;
+	}
+}
+// Method Definition Index: 45308
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_op_Multiply_mCB375FCCC12A2EC8F9EB824A1BFB4453B58C2012_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_lhs, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_rhs, const RuntimeMethod* method) 
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Quaternion.cs:80>
+		il2cpp_codegen_initobj((&V_0), sizeof(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_lhs;
+		float L_1 = L_0.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4 = ___0_lhs;
+		float L_5 = L_4.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_6 = ___1_rhs;
+		float L_7 = L_6.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_8 = ___0_lhs;
+		float L_9 = L_8.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_12 = ___0_lhs;
+		float L_13 = L_12.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_14 = ___1_rhs;
+		float L_15 = L_14.___y;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11)))), ((float)il2cpp_codegen_multiply(L_13, L_15))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_16 = ___0_lhs;
+		float L_17 = L_16.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_18 = ___1_rhs;
+		float L_19 = L_18.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_20 = ___0_lhs;
+		float L_21 = L_20.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_22 = ___1_rhs;
+		float L_23 = L_22.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_24 = ___0_lhs;
+		float L_25 = L_24.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_26 = ___1_rhs;
+		float L_27 = L_26.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28 = ___0_lhs;
+		float L_29 = L_28.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_30 = ___1_rhs;
+		float L_31 = L_30.___z;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_17, L_19)), ((float)il2cpp_codegen_multiply(L_21, L_23)))), ((float)il2cpp_codegen_multiply(L_25, L_27)))), ((float)il2cpp_codegen_multiply(L_29, L_31))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_32 = ___0_lhs;
+		float L_33 = L_32.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_34 = ___1_rhs;
+		float L_35 = L_34.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_36 = ___0_lhs;
+		float L_37 = L_36.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_38 = ___1_rhs;
+		float L_39 = L_38.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_40 = ___0_lhs;
+		float L_41 = L_40.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42 = ___1_rhs;
+		float L_43 = L_42.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_44 = ___0_lhs;
+		float L_45 = L_44.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_46 = ___1_rhs;
+		float L_47 = L_46.___x;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_33, L_35)), ((float)il2cpp_codegen_multiply(L_37, L_39)))), ((float)il2cpp_codegen_multiply(L_41, L_43)))), ((float)il2cpp_codegen_multiply(L_45, L_47))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_48 = ___0_lhs;
+		float L_49 = L_48.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_50 = ___1_rhs;
+		float L_51 = L_50.___w;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_52 = ___0_lhs;
+		float L_53 = L_52.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_54 = ___1_rhs;
+		float L_55 = L_54.___x;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_56 = ___0_lhs;
+		float L_57 = L_56.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_58 = ___1_rhs;
+		float L_59 = L_58.___y;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_60 = ___0_lhs;
+		float L_61 = L_60.___z;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_62 = ___1_rhs;
+		float L_63 = L_62.___z;
+		(&V_0)->___w = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_multiply(L_49, L_51)), ((float)il2cpp_codegen_multiply(L_53, L_55)))), ((float)il2cpp_codegen_multiply(L_57, L_59)))), ((float)il2cpp_codegen_multiply(L_61, L_63))));
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_64 = V_0;
+		return L_64;
+	}
+}
+// Method Definition Index: 45281
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:786>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)il2cpp_codegen_multiply(L_1, L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)il2cpp_codegen_multiply(L_4, L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)il2cpp_codegen_multiply(L_7, L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 45283
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:792>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		(&V_0)->___x = ((float)(L_1/L_2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		(&V_0)->___y = ((float)(L_4/L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		(&V_0)->___z = ((float)(L_7/L_8));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = V_0;
+		return L_9;
+	}
+}
+// Method Definition Index: 45279
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:780>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 45278
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:777>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_9, L_11));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_0;
+		return L_12;
+	}
+}
+// Method Definition Index: 45256
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:455>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline(__this, NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 45290
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_FromToRotation_mCB3100F93637E72455388B901C36EF8A25DFDB9A_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_fromDirection, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_toDirection, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Math.bindings.cs:135>
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0;
+		L_0 = Quaternion_Internal_FromToRotation_m4A801EE9080CD4CBCB9319FF12EB7934E885932F((&___0_fromDirection), (&___1_toDirection), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 45296
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_Lerp_m259606226726C2F46E079A5A688B9E24FF7E9A0D_inline (Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_a, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Math.bindings.cs:155>
+		float L_0 = ___2_t;
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
+		L_1 = Quaternion_Internal_Lerp_mB9D9E19C29CA86767758B70DCFF9DB7C65821B39((&___0_a), (&___1_b), L_0, NULL);
+		return L_1;
+	}
+}
+// Method Definition Index: 45130
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_yellow_m66637FA14383E8D74F24AE256B577CE1D55D469F_inline (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:1020>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (1.0f), (0.921568632f), (0.0156862754f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 45126
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Color_get_green_mEB001F2CD8C68C6BBAEF9101990B779D3AA2A6EF_inline (const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:738>
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_0), (0.0f), (1.0f), (0.0f), (1.0f), NULL);
+		return L_0;
+	}
+}
+// Method Definition Index: 45240
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Lerp_m3A906D0530A94FAABB94F0F905E84D99BE85C3F8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:36>
+		float L_0 = ___2_t;
+		float L_1;
+		L_1 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_0, NULL);
+		___2_t = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:39>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___1_b;
+		float L_5 = L_4.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___x;
+		float L_8 = ___2_t;
+		(&V_0)->___x = ((float)il2cpp_codegen_add(L_3, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_5, L_7)), L_8))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:40>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_a;
+		float L_10 = L_9.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = ___1_b;
+		float L_12 = L_11.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = ___0_a;
+		float L_14 = L_13.___y;
+		float L_15 = ___2_t;
+		(&V_0)->___y = ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_12, L_14)), L_15))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:41>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16 = ___0_a;
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18 = ___1_b;
+		float L_19 = L_18.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20 = ___0_a;
+		float L_21 = L_20.___z;
+		float L_22 = ___2_t;
+		(&V_0)->___z = ((float)il2cpp_codegen_add(L_17, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_19, L_21)), L_22))));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:42>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23 = V_0;
+		V_1 = L_23;
+		goto IL_0064;
+	}
+
+IL_0064:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:43>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_24 = V_1;
+		return L_24;
+	}
+}
+// Method Definition Index: 45274
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:744>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		return L_0;
+	}
+}
+// Method Definition Index: 45280
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:783>
+		il2cpp_codegen_initobj((&V_0), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		(&V_0)->___x = ((-L_1));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		(&V_0)->___y = ((-L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___z;
+		(&V_0)->___z = ((-L_5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = V_0;
+		return L_6;
+	}
+}
+// Method Definition Index: 43308
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Ray.cs:17>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_origin;
+		__this->___m_Origin = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Ray.cs:18>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_direction;
+		__this->___m_Direction = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Ray.cs:19>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_2 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___m_Direction);
+		Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline(L_2, NULL);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Geometry/Ray.cs:20>
+		return;
+	}
+}
+// Method Definition Index: 91251
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* GoogleSignIn_get_Configuration_m3F4FE6701C9A4214FB378DEB8728C91D04A0D414_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:79>
+		GoogleSignInConfiguration_t110B6AB193E13CD17D291DE9488F52C72B43D5C8* L_0 = ((GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_StaticFields*)il2cpp_codegen_static_fields_for(GoogleSignIn_t037713008A618281BF66E9FFA5445171A2653EDA_il2cpp_TypeInfo_var))->___theConfiguration;
+		return L_0;
+	}
+}
+// Method Definition Index: 91264
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SignInException_set_Status_mC05194B06E64770DBD32F23D17A74DF3BE17103A_inline (SignInException_tDFC805105F3CDF67D0A6CEB1AAC53D44B4BDF29A* __this, int32_t ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignIn.cs:190>
+		int32_t L_0 = ___0_value;
+		__this->___U3CStatusU3Ek__BackingField = L_0;
+		return;
+	}
+}
+// Method Definition Index: 91294
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uintptr_t OutStringMethod_Invoke_m909527ED2EAEB8800EAC42F9C70EAD590C3F977C_inline (OutStringMethod_t0B97CBEE878FDF4DD25AA5AFA9478B378424ECC5* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_out_bytes, uintptr_t ___1_out_size, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	typedef uintptr_t (*FunctionPointerType) (RuntimeObject*, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031*, uintptr_t, const RuntimeMethod*);
+	return ((FunctionPointerType)__this->___invoke_impl)((Il2CppObject*)__this->___method_code, ___0_out_bytes, ___1_out_size, reinterpret_cast<RuntimeMethod*>(__this->___method));
+}
+// Method Definition Index: 3919
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool IntPtr_op_Inequality_m90EFC9C4CAD9A33E309F2DDF98EE4E1DD253637B_inline (intptr_t ___0_value1, intptr_t ___1_value2, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		intptr_t L_0 = ___0_value1;
+		intptr_t L_1 = ___1_value2;
+		return (bool)((((int32_t)((((intptr_t)L_0) == ((intptr_t)L_1))? 1 : 0)) == ((int32_t)0))? 1 : 0);
+	}
+}
+// Method Definition Index: 91278
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_DisplayName_m33092BFF9954A242BCE80DF4A243C20FD583315B_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:47>
+		String_t* L_0 = ___0_value;
+		__this->___U3CDisplayNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CDisplayNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91274
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_Email_m2036BD483DA25F84B60FCCEF63BBC20A5F1D5F9C_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:34>
+		String_t* L_0 = ___0_value;
+		__this->___U3CEmailU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CEmailU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91282
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_FamilyName_m23A309A857743C07F1CA856EA0ADCFB3B122A5A9_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:59>
+		String_t* L_0 = ___0_value;
+		__this->___U3CFamilyNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CFamilyNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91280
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_GivenName_m22A6A6824200A97844AF62E12A29D32EC8215E7D_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:53>
+		String_t* L_0 = ___0_value;
+		__this->___U3CGivenNameU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CGivenNameU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91276
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_IdToken_m9F8F42353CFF4647151698F50CD241BF4E405EC3_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:41>
+		String_t* L_0 = ___0_value;
+		__this->___U3CIdTokenU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CIdTokenU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91272
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_AuthCode_mFD2ACD2178A1E33BA97EE4DA65503CAFFAF595F7_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:27>
+		String_t* L_0 = ___0_value;
+		__this->___U3CAuthCodeU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CAuthCodeU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 700
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t String_get_Length_m42625D67623FA5CC7A44D47425CE86FB946542D2_inline (String_t* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____stringLength;
+		return L_0;
+	}
+}
+// Method Definition Index: 91284
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_ImageUrl_m757A1FC5F8E85B18081AD882F73F317DF6DEFE45_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:67>
+		Uri_t1500A52B5F71A04F5D05C0852D0F2A0941842A0E* L_0 = ___0_value;
+		__this->___U3CImageUrlU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CImageUrlU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 91286
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void GoogleSignInUser_set_UserId_m6311A410F1636E122903BF4F8A50E0421DF20270_inline (GoogleSignInUser_t8464B366331D4FFEBB10A3AF7E102CB0B4FE34EA* __this, String_t* ___0_value, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:C:/GitHub/NextHorizon/Assets/GoogleSignIn/GoogleSignInUser.cs:73>
+		String_t* L_0 = ___0_value;
+		__this->___U3CUserIdU3Ek__BackingField = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CUserIdU3Ek__BackingField), (void*)L_0);
+		return;
+	}
+}
+// Method Definition Index: 3286
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* Array_Empty_TisRuntimeObject_mFB8A63D602BB6974D31E20300D9EB89C6FE7C278_gshared_inline (const RuntimeMethod* method) 
+{
+	il2cpp_rgctx_method_init(method);
+	//<source_info:<no-source>:1>
+	{
+		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->rgctx_data, 2));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_0 = ((EmptyArray_1_tDF0DD7256B115243AA6BD5558417387A734240EE_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->rgctx_data, 2)))->___Value;
+		return L_0;
+	}
+}
+// Method Definition Index: 4895
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* TaskCompletionSource_1_get_Task_mF44990297C25C7DBE1E65241C03D0120CB551552_gshared_inline (TaskCompletionSource_1_tB4EF81F69CCF7C4F0D956F9B26127C0634A24A37* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		Task_1_t0C4CD3A5BB93A184420D73218644C56C70FDA7E2* L_0 = __this->____task;
+		return L_0;
+	}
+}
+// Method Definition Index: 11278
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	//<source_info:<no-source>:1>
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+// Method Definition Index: 45372
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:318>
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:319>
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:320>
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:321>
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:323>
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Mathf.cs:324>
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+// Method Definition Index: 45254
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_m1DE89849FE2019B6AA0031306896F3B800849399_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* ___0_value, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 G_B3_0;
+	memset((&G_B3_0), 0, sizeof(G_B3_0));
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:428>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(L_0, NULL);
+		V_0 = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:429>
+		float L_2 = V_0;
+		if ((((float)L_2) > ((float)(9.99999975E-06f))))
+		{
+			goto IL_0017;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		G_B3_0 = L_3;
+		goto IL_004d;
+	}
+
+IL_0017:
+	{
+		il2cpp_codegen_initobj((&V_1), sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_4 = ___0_value;
+		float L_5 = L_4->___x;
+		float L_6 = V_0;
+		(&V_1)->___x = ((float)(L_5/L_6));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_7 = ___0_value;
+		float L_8 = L_7->___y;
+		float L_9 = V_0;
+		(&V_1)->___y = ((float)(L_8/L_9));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_10 = ___0_value;
+		float L_11 = L_10->___z;
+		float L_12 = V_0;
+		(&V_1)->___z = ((float)(L_11/L_12));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_1;
+		G_B3_0 = L_13;
+	}
+
+IL_004d:
+	{
+		V_2 = G_B3_0;
+		goto IL_0050;
+	}
+
+IL_0050:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:430>
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14 = V_2;
+		return L_14;
+	}
+}
+// Method Definition Index: 45100
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* __this, float ___0_r, float ___1_g, float ___2_b, float ___3_a, const RuntimeMethod* method) 
+{
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_0 = ___0_r;
+		__this->___r = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_1 = ___1_g;
+		__this->___g = L_1;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_2 = ___2_b;
+		__this->___b = L_2;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:38>
+		float L_3 = ___3_a;
+		__this->___a = L_3;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Color.cs:39>
+		return;
+	}
+}
+// Method Definition Index: 45255
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3_Normalize_mC749B887A4C74BA0A2E13E6377F17CCAEB0AADA8_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:436>
+		float L_0;
+		L_0 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline(__this, NULL);
+		V_0 = L_0;
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:437>
+		float L_1 = V_0;
+		V_1 = (bool)((((float)L_1) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_2 = V_1;
+		if (!L_2)
+		{
+			goto IL_0042;
+		}
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:439>
+		float L_3 = __this->___x;
+		float L_4 = V_0;
+		__this->___x = ((float)(L_3/L_4));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:440>
+		float L_5 = __this->___y;
+		float L_6 = V_0;
+		__this->___y = ((float)(L_5/L_6));
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:441>
+		float L_7 = __this->___z;
+		float L_8 = V_0;
+		__this->___z = ((float)(L_7/L_8));
+		goto IL_0065;
+	}
+
+IL_0042:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:445>
+		__this->___x = (0.0f);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:446>
+		__this->___y = (0.0f);
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:447>
+		__this->___z = (0.0f);
+	}
+
+IL_0065:
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:449>
+		return;
+	}
+}
+// Method Definition Index: 45263
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		//<source_info:/home/bokken/build/output/unity/unity/Runtime/Export/Math/Vector3.cs:672>
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		return ((float)L_6);
+	}
+}

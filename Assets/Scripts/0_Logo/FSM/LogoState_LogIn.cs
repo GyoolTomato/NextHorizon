@@ -86,7 +86,7 @@ public class LogoState_LogIn : LogoState
 
             if (req.result != UnityWebRequest.Result.Success)
             {
-                Manager_UI.Instance.ShowMessageBox("유저 데이터 요청 실패", Panel_MessageBox.EType.OK, ()=>
+                Manager_UI.Instance.ShowMessageBox(Manager_UI.Instance.GetTextSystem(9990005), Manager_UI.Instance.GetTextSystem(9990006), Panel_MessageBox.EType.OK, ()=>
                 {
                     panel.pComLogin.SetState(panel.pComLogin.GetCurrentLogInType());
                 });

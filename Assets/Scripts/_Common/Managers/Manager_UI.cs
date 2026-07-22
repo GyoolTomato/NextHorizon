@@ -195,6 +195,25 @@ public class Manager_UI : Singleton<Manager_UI>
     /// </summary>
     /// <param name="key"></param>
     /// <returns></returns>
+    public string GetTextSystem(int key)
+    {
+        var temp = _999_TextSystem.GetItem(key);
+        if (temp == null)
+            return string.Empty;
+
+        switch (_language)
+        {
+            case ELanguage.Korean: return temp.korean;
+            case ELanguage.Japanese: return temp.japanese;
+            default: return temp.english;
+        }
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="key"></param>
+    /// <returns></returns>
     public string GetTextCharacter(int key)
     {
         var temp = _901_TextCharacter.GetItem(key);
@@ -388,13 +407,23 @@ public class Manager_UI : Singleton<Manager_UI>
     /// <summary>
     /// 
     /// </summary>
+    /// <param name="byteSize"></param>
+    /// <returns></returns>
+    public double GetFileSize(double byteSize)
+    {
+        return Math.Round(byteSize / (1024d * 1024d), 1);
+    }
+
+    /// <summary>
+    /// 
+    /// </summary>
     /// <param name="messageKey"></param>
     /// <param name="type"></param>
     /// <param name="onConfirm"></param>
     /// <param name="onCancel"></param>
-    public void ShowMessageBox(string message, Panel_MessageBox.EType type, Action onConfirm = null, Action onCancel = null)
+    public void ShowMessageBox(string title, string message, Panel_MessageBox.EType type, Action onConfirm = null, Action onCancel = null)
     {
         var panel = ShowPanel(EPanelType.MessageBox) as Panel_MessageBox;
-        panel.Init(message, type, onConfirm, onCancel);
+        panel.Init(title, message, type, onConfirm, onCancel);
     }
 }

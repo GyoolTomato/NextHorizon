@@ -19,5 +19,4 @@ MonoBehaviour:
   m_Settings: {fileID: 11400000, guid: 98d89834d6d677a49bd422bce76838d9, type: 2}
   m_SchemaSet:
     m_Schemas:
-    - {fileID: 11400000, guid: 6cb39f0b13351e041a33e68d0b04b893, type: 2}
-    - {fileID: 11400000, guid: 0f9507aa2a042884b9010b118797cf76, type: 2}
+    - {fileID: 11400000, guid: d085571596cb5ea47ab2a40616469fc2, type: 2}
